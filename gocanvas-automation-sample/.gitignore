@@ -1,0 +1,44 @@
+/bin/
+/target/
+/logs/
+/test-output/
+*target*
+*.jar
+*.war
+*.ear
+*.class
+
+# eclipse specific git ignore
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+FETCH_HEAD
+report/
+src/main/resources/Screenshots/*
+src/main/resources/report_output.csv
+src/main/resources/report_outputNew.csv
+test-ouput/
+src/main/resources/beta_smoke.csv
+src/main/resources/betaqrt_smoke.csv
+src/main/resources/dev_smoke.csv
+src/main/resources/devqrt_smoke.csv
+src/main/resources/betaqrt_smoke.csv
+src/main/resources/demox_smoke.csv
+

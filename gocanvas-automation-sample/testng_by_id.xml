@@ -1,0 +1,4155 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite
+	name="Test suite for Canvas App Builder and PDF designer Test Suite">
+
+	<listeners>
+		<listener class-name="com.canvas.qa.listner.SuitListner" />
+		<listener
+			class-name="com.canvas.qa.listner.CustomSuitListener" />
+		<listener class-name="com.canvas.qa.listner.ListenerTest" />
+	</listeners>
+
+	<parameter name="browser" value="chromeheadless" />
+
+	<test name="TC7541"> <!-- Get App: Non-Department -->
+
+		<parameter name="browser" value="chromeheadless" />
+
+		<classes>
+			<class name="com.canvas.qa.test.CommonTest">
+				<methods>
+					<include name="openBrowser">
+					</include>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class
+				name="com.canvas.qa.test.BETAQRT.GetAppNonDepartmentTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Get App: Non-Department" />
+					<include name="adminAddApplication">
+						<parameter name="step" value="1"></parameter>
+
+					</include>
+					<include name="verifyEmailOptions">
+						<parameter name="step" value="2"></parameter>
+
+					</include>
+					<include name="designerAddApplication">
+						<parameter name="step" value="3"></parameter>
+
+					</include>
+					<include name="postConditions">
+						<parameter name="step" value="4"></parameter>
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC7547"> <!-- Upload Dispatch File -->
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTest">
+				<methods>
+					<include name="openBrowser">
+					</include>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.UploadDispatchFile">
+				<methods>
+					<parameter name="testdescription"
+						value="Upload Dispatch File" />
+					<include name="uploadNonCSVDispatchFile">
+						<parameter name="step" value="1"></parameter>
+					</include>
+					<include name="uploadCSVDispatchFile">
+						<parameter name="step" value="2"></parameter>
+					</include>
+					<include name="secondDepartment">
+						<parameter name="step" value="3"></parameter>
+					</include>
+					<include name="diffDepartment">
+						<parameter name="step" value="4"></parameter>
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC7551">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTest">
+				<methods>
+					<include name="openBrowser">
+					</include>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+
+
+			<class name="com.canvas.qa.test.BETAQRT.CanvasLoginTest">
+				<methods>
+					<include name="verifyBlankLogin">
+						<parameter name="step" value="1"></parameter>
+					</include>
+					<include name="verifyInvalidLogin">
+						<parameter name="step" value="2"></parameter>
+					</include>
+
+					<include name="verifyInvalidLogin2">
+						<parameter name="step" value="3"></parameter>
+					</include>
+
+					<include name="verifyValidLogin">
+						<parameter name="step" value="4"></parameter>
+					</include>
+
+				</methods>
+			</class>
+
+		</classes>
+	</test>
+
+	<test name="TC7563">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTest">
+				<methods>
+					<include name="openBrowser">
+					</include>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<!-- <class name="com.canvas.qa.test.CanvasLoginTest"> <methods> <include 
+				name="verifyValidLogin1"> <parameter name="step" value="1"></parameter> </include> 
+				</methods> </class> -->
+			<class name="com.canvas.qa.test.BETAQRT.OpenCreateDispatchTest">
+				<methods>
+					<include name="verifyWorkflowDispatchLink">
+						<parameter name="step" value="1"></parameter>
+						<parameter name="testdescription"
+							value="Create Dispatch (1 of 3)" />
+					</include>
+					<include name="verifyCreateDispatchLink">
+						<parameter name="step" value="2"></parameter>
+						<parameter name="testdescription"
+							value="Create Dispatch (1 of 3)" />
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.CreateDispatchTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Create Dispatch (1 of 3)" />
+					<include name="AppsInDropDown">
+						<parameter name="step" value="3"></parameter>
+					</include>
+					<include name="verifysortingOrder">
+						<parameter name="step" value="4"></parameter>
+					</include>
+
+					<include name="selectValueFromDropDown">
+						<parameter name="step" value="5"></parameter>
+					</include>
+					<include name="selectDispatchType">
+						<parameter name="step" value="6"></parameter>
+					</include>
+					<include name="timeDiffrence">
+						<parameter name="step" value="7"></parameter>
+					</include>
+					<include name="ReminderDropDownNotDisplay">
+						<parameter name="step" value="8"></parameter>
+					</include>
+					<include name="ReminderDropDownDisplay">
+						<parameter name="step" value="9"></parameter>
+					</include>
+					<include name="Allfields">
+						<parameter name="step" value="10"></parameter>
+					</include>
+
+					<include name="SaveDispatch">
+						<parameter name="step" value="11"></parameter>
+					</include>
+					<include name="SaveDispatchData">
+						<parameter name="step" value="12"></parameter>
+					</include>
+					<!-- <include name="enterDataInDispatchFields"> -->
+					<!-- <parameter name="step" value="6"></parameter> -->
+					<!-- </include> -->
+					<!-- <include name="AssignDispatchTo"> -->
+					<!-- <parameter name="step" value="7"></parameter> -->
+					<!-- </include> -->
+				</methods>
+			</class>
+
+		</classes>
+	</test>
+
+	<test name="TC7564">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTest">
+				<methods>
+					<include name="openBrowser">
+					</include>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.CanvasLoginTest">
+				<methods>
+					<include name="verifyValidLoginPermission">
+						<parameter name="step" value="1"></parameter>
+						<parameter name="testdescription"
+							value="Dispatch Item Detail (1 of 2)" />
+						<parameter name="value" value="2"></parameter>
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.DispatchItemDetailTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Dispatch Item Detail (1 of 2)" />
+					<include name="verifyCUserFirstdesignerDispatchData">
+						<parameter name="step" value="2"></parameter>
+					</include>
+					<include name="verifyEditButtonOfFirst">
+						<parameter name="step" value="3"></parameter>
+					</include>
+					<include name="verifyCUserSeconddesignerDispatchData">
+						<parameter name="step" value="4"></parameter>
+					</include>
+					<include name="verifyEditButtonOfSecond">
+						<parameter name="step" value="5"></parameter>
+					</include>
+					<include name="EditReceiveDispatch">
+						<parameter name="step" value="6"></parameter>
+					</include>
+
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC7565"> <!-- Edit Dispatch (1 of 2) -->
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTest">
+				<methods>
+					<include name="openBrowser">
+					</include>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.EditDispatch">
+				<methods>
+					<parameter name="testdescription"
+						value="Edit Dispatch (1 of 2)" />
+					<include name="updatesAppear">
+						<parameter name="step" value="1"></parameter>
+					</include>
+					<include name="verifyUpdatedDispatchData">
+						<parameter name="step" value="2"></parameter>
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC7575">
+		<parameter name="browser" value="chromeheadless" />
+
+		<classes>
+
+			<class name="com.canvas.qa.test.CommonTest">
+				<methods>
+					<include name="openBrowser">
+					</include>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.CanvasLoginTest">
+				<methods>
+					<include name="verifyValidLoginPermission">
+						<parameter name="step" value="1"></parameter>
+						<parameter name="testdescription"
+							value="Company Admin: Weekly (2 of 2)" />
+						<parameter name="value" value="1"></parameter>
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.CompanyWeekly2of2Test">
+				<methods>
+					<parameter name="testdescription"
+						value="Company Admin: Weekly (2 of 2)" />
+					<include name="verifySubmissionScreenLink">
+						<parameter name="step" value="2"></parameter>
+					</include>
+					<include name="verifyAddUserScreenLink">
+						<parameter name="step" value="3"></parameter>
+					</include>
+					<include name="verifyAppScreenLink">
+						<parameter name="step" value="4"></parameter>
+					</include>
+					<include name="verifyROIScreenLink">
+						<parameter name="step" value="5"></parameter>
+					</include>
+				</methods>
+			</class>
+
+		</classes>
+	</test>
+
+	<test name="TC7578">
+		<parameter name="browser" value="chromeheadless" />
+
+		<classes>
+
+			<class name="com.canvas.qa.test.CommonTest">
+				<methods>
+					<include name="openBrowser">
+					</include>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.CanvasLoginTest">
+				<methods>
+					<include name="verifyValidLoginPermission">
+						<parameter name="step" value="1"></parameter>
+						<parameter name="value" value="1"></parameter>
+						<parameter name="testdescription"
+							value="Submission Search" />
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.SubmissionSearchTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Submission Search" />
+					<include name="verifyInvalidSubmissionsearch">
+						<parameter name="step" value="2"></parameter>
+					</include>
+					<include name="verifyValidSerach">
+						<parameter name="step" value="3"></parameter>
+					</include>
+					<include name="verifySearchSubmissionID">
+						<parameter name="step" value="4"></parameter>
+					</include>
+					<include name="verifyViewLink">
+						<parameter name="step" value="5"></parameter>
+					</include>
+					<include name="verifyDownloadLink">
+						<parameter name="step" value="6"></parameter>
+					</include>
+					<!-- <include name="verifyROIScreenLink"> -->
+					<!-- <parameter name="step" value="5"></parameter> -->
+					<!-- </include> -->
+				</methods>
+			</class>
+
+		</classes>
+	</test>
+
+	<test name="TC7580"> <!-- Export Submission -->
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTest">
+				<methods>
+					<include name="openBrowser">
+					</include>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.ExportSubmissionTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Exported Submissions via CSV and XML" />
+					<include name="unableToExport">
+						<parameter name="step" value="1"></parameter>
+					</include>
+					<include name="exportCSV">
+						<parameter name="step" value="2"></parameter>
+					</include>
+					<include name="exportXML">
+						<parameter name="step" value="3"></parameter>
+					</include>
+					<include name="noneInDateRange">
+						<parameter name="step" value="4"></parameter>
+					</include>
+				</methods>
+			</class>
+
+
+		</classes>
+	</test>
+
+	<test name="TC7593"> <!-- Dispatch Manager other than Search -->
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTest">
+				<methods>
+					<include name="openBrowser">
+					</include>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.DispatchManagerTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Dispatch Manager other than Search Advanced Search (3 of 3)" />
+					<include name="verifyCalendarFilterView">
+						<parameter name="step" value="1"></parameter>
+					</include>
+					<include name="verifyCopyDispatchButton">
+						<parameter name="step" value="2"></parameter>
+					</include>
+					<include name="verifyUnAssignDispatchButton">
+						<parameter name="step" value="3"></parameter>
+					</include>
+					<include name="verifyDeleteDispatchButton">
+						<parameter name="step" value="4"></parameter>
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC7601"> <!-- Profile Information (Edit) -->
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTest">
+				<methods>
+					<include name="openBrowser">
+					</include>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.EditInformationTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Profile Information (Edit)" />
+					<include name="loginChangeEmail">
+						<parameter name="step" value="1"></parameter>
+					</include>
+					<include name="loginChangeTimeZone">
+						<parameter name="step" value="2"></parameter>
+					</include>
+					<include name="loginChangeLocation">
+						<parameter name="step" value="3"></parameter>
+					</include>
+					<include name="loginChangeCountry">
+						<parameter name="step" value="4"></parameter>
+					</include>
+					<include name="loginChangeFirstName">
+						<parameter name="step" value="5"></parameter>
+					</include>
+					<include name="postConditions">
+						<parameter name="step" value="6"></parameter>
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC7602"> <!-- Change Password -->
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTest">
+				<methods>
+					<include name="openBrowser">
+					</include>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.ChangePasswordTest">
+				<methods>
+					<parameter name="testdescription" value="Change Password" />
+					<include name="changePassword">
+						<parameter name="step" value="1"></parameter>
+					</include>
+					<include name="changePasswordAndVerify">
+						<parameter name="step" value="2"></parameter>
+					</include>
+					<include name="reverifyPasswordChange">
+						<parameter name="step" value="3"></parameter>
+					</include>
+					<!-- <include name="verifyBlankPassword"> <parameter name="step" value="4"></parameter> 
+						</include> -->
+					<include name="postCondition">
+						<parameter name="step" value="5"></parameter>
+					</include>
+				</methods>
+			</class>
+
+		</classes>
+	</test>
+
+	<test name="TC7603"> <!-- App Assignments -->
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTest">
+				<methods>
+					<include name="openBrowser">
+					</include>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.AppAssignmentsTest">
+				<methods>
+					<parameter name="testdescription" value="App Assignments" />
+					<include name="userAccess">
+						<parameter name="step" value="1"></parameter>
+					</include>
+					<include name="adminAccess">
+						<parameter name="step" value="2"></parameter>
+					</include>
+					<include name="verifyNewGroup">
+						<parameter name="step" value="3"></parameter>
+					</include>
+					<include name="verifyNewApp">
+						<parameter name="step" value="4"></parameter>
+					</include>
+					<include name="verifyAssignment">
+						<parameter name="step" value="5"></parameter>
+					</include>
+					<include name="remindUserToCheckMobile">
+						<parameter name="step" value="6"></parameter>
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC7604"> <!-- My Account -->
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTest">
+				<methods>
+					<include name="openBrowser">
+					</include>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.MyAccountTest">
+				<methods>
+					<include name="adminAccountAccess">
+						<parameter name="step" value="1"></parameter>
+					</include>
+					<include name="adminManageUsersAccess">
+						<parameter name="step" value="2"></parameter>
+					</include>
+					<include name="loginNonAdmin">
+						<parameter name="step" value="3"></parameter>
+					</include>
+				</methods>
+			</class>
+
+
+		</classes>
+	</test>
+	<test name="TC7674"> <!-- Workflow Manager (1 of 2) -->
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTest">
+				<methods>
+					<include name="openBrowser">
+					</include>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.WorkflowManager1Test">
+				<methods>
+					<parameter name="testdescription"
+						value="Workflow Manager (1 of 2)" />
+					<include name="verifyStatusDDL">
+						<parameter name="step" value="1"></parameter>
+					</include>
+					<include name="verifyStatusSearch">
+						<parameter name="step" value="2"></parameter>
+					</include>
+					<include name="unassignWorkflow">
+						<parameter name="step" value="3"></parameter>
+					</include>
+					<include name="verifyToValues">
+						<parameter name="step" value="4"></parameter>
+					</include>
+					<include name="reassignWorkflow">
+						<parameter name="step" value="5"></parameter>
+					</include>
+					<include name="postconditions">
+						<parameter name="step" value="6"></parameter>
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC7680">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="openBrowser">
+					</include>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class
+				name="com.canvas.qa.test.BETAQRT.UserPermissionsBusinessTest">
+				<methods>
+					<parameter name="testdescription"
+						value="User Permissions Business" />
+					<parameter name="rallylink"
+						value="https://rally1.rallydev.com/#/180879202332d/detail/testcase/116671067136" />
+					<include name="UserPermissionsBusiness">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC7681">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class
+				name="com.canvas.qa.test.BETAQRT.UserPermissionsProfessionalTest">
+				<methods>
+					<parameter name="testdescription"
+						value="User Permissions professional" />
+					<parameter name="rallylink"
+						value="https://rally1.rallydev.com/#/180879202332d/detail/testcase/116725477508" />
+					<include name="UserPermissionsProfessional">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC7687"> <!-- Change Plans on User Level -->
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class
+				name="com.canvas.qa.test.BETAQRT.ChangePlanUserLevelTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Change Plans on User level" />
+					<include name="changePlansonUserlevel">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC7689"> <!-- FTUX - Explore on Own -->
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTest">
+				<methods>
+					<include name="openBrowser">
+					</include>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class
+				name="com.canvas.qa.test.BETAQRT.FTUXExploreOnYourOwnTest">
+				<methods>
+					<parameter name="testdescription"
+						value="FTUX - Explore on Own" />
+					<include name="signUpTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC7691"> <!-- Verifying Correct Plans/Expired Plans -->
+		<parameter name="browser" value="chromeheadless" />
+		<parameter name="testdescription"
+			value="Verify Correct Plans/Expired Plans" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.VerifyCorrectPlansTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Verify Correct Plans/Expired Plans" />
+					<include name="VerifyCorrectPlansExpiredPlans">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC7692"> <!-- Disable User -->
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTest">
+				<methods>
+					<include name="openBrowser">
+					</include>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.DisableUserTest">
+				<methods>
+					<parameter name="testdescription" value="Disable User" />
+					<include name="clickDisableCancel">
+						<parameter name="step" value="1"></parameter>
+					</include>
+					<include name="clickDisable">
+						<parameter name="step" value="2"></parameter>
+					</include>
+					<include name="enableCompanyUser">
+						<parameter name="step" value="3"></parameter>
+					</include>
+					<include name="verifyUserEnabled">
+						<parameter name="step" value="4"></parameter>
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC7693"> <!-- Setting Up and Modifying Payment - Professional -->
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTest">
+				<methods>
+					<include name="openBrowser">
+					</include>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.SetUpModifyPaymentTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Setting Up and Modifying Payment - Professional" />
+					<include name="noDiscount">
+						<parameter name="step" value="1"></parameter>
+					</include>
+					<include name="formSubDisplays">
+						<parameter name="step" value="2"></parameter>
+					</include>
+					<include name="verifyRates">
+						<parameter name="step" value="3"></parameter>
+					</include>
+					<include name="changeRate">
+						<parameter name="step" value="4"></parameter>
+					</include>
+					<include name="verifyChangedRates">
+						<parameter name="step" value="5"></parameter>
+					</include>
+					<include name="addUser">
+						<parameter name="step" value="6"></parameter>
+					</include>
+					<include name="postConditions">
+						<parameter name="step" value="7"></parameter>
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC7781"> <!-- Add User -->
+		<parameter name="browser" value="chromeheadless" />
+		<parameter name="testdescription" value="Add User" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTest">
+				<methods>
+					<include name="openBrowser">
+					</include>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.AddUserTest">
+				<methods>
+					<include name="addUserDefaults">
+						<parameter name="step" value="1"></parameter>
+					</include>
+					<include name="addUserCancel">
+						<parameter name="step" value="2"></parameter>
+					</include>
+					<include name="blankError">
+						<parameter name="step" value="3"></parameter>
+					</include>
+					<include name="invalidEmailError">
+						<parameter name="step" value="4"></parameter>
+					</include>
+					<include name="invalidPasswordError">
+						<parameter name="step" value="5"></parameter>
+					</include>
+					<!-- <include name="emailsSent"> <parameter name="step" value="6"></parameter> 
+						</include> <include name="add3Users"> <parameter name="step" value="7"></parameter> 
+						</include> <include name="add20Users"> <parameter name="step" value="8"></parameter> 
+						</include> -->
+					<!-- <include name="postConditions"> <parameter name="step" value="9"></parameter> 
+						</include> -->
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC7784"> <!-- Create/Publish/Assign -->
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTest">
+				<methods>
+					<include name="openBrowser">
+					</include>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class
+				name="com.canvas.qa.test.BETAQRT.CreatePublishAssignTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Create/Publish/ assign" />
+					<include name="templateScreen">
+						<parameter name="step" value="1"></parameter>
+					</include>
+					<include name="prepopulatedScreens">
+						<parameter name="step" value="2"></parameter>
+					</include>
+					<include name="featureOptions">
+						<parameter name="step" value="3"></parameter>
+					</include>
+					<include name="correctUsers">
+						<parameter name="step" value="4"></parameter>
+					</include>
+					<include name="publishMessage">
+						<parameter name="step" value="5"></parameter>
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC8632"> <!-- Create/Assign Department -->
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTest">
+				<methods>
+					<include name="openBrowser">
+					</include>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class
+				name="com.canvas.qa.test.BETAQRT.CreateAssignDepartmentTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Create/Assign Department" />
+					<include name="enableDepartmentalFunctionality">
+						<parameter name="step" value="1"></parameter>
+					</include>
+					<include name="createDepartment">
+						<parameter name="step" value="2"></parameter>
+					</include>
+					<include name="verifyNoApp">
+						<parameter name="step" value="3"></parameter>
+					</include>
+					<include name="createApp">
+						<parameter name="step" value="4"></parameter>
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC7577"> <!-- Submission View -->
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTest">
+				<methods>
+					<include name="openBrowser">
+					</include>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.SubmissionViewTest">
+				<methods>
+					<parameter name="testdescription" value="Submission View" />
+					<include name="verifyAppNames">
+						<parameter name="step" value="1"></parameter>
+					</include>
+					<include name="verifyAppDetails">
+						<parameter name="step" value="2"></parameter>
+					</include>
+					<include name="verifyExportIcons">
+						<parameter name="step" value="3"></parameter>
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC7675"> <!-- Get App: Non-Department -->
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTest">
+				<methods>
+					<include name="openBrowser">
+					</include>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.SubmissionDetailsTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Submission Details" />
+					<include name="verifySubmissionDetails">
+						<parameter name="step" value="1"></parameter>
+					</include>
+					<include name="verifyEditSubmissionDetails">
+						<parameter name="step" value="2"></parameter>
+					</include>
+					<include name="verifyCancelEditDetails">
+						<parameter name="step" value="3"></parameter>
+					</include>
+					<include name="verifyBreadcrumb">
+						<parameter name="step" value="4"></parameter>
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC10424">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class
+				name="com.canvas.qa.test.BETAQRT.CreateDispatchCalendarTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Create dispatch from calendar in Month view" />
+					<include name="createDispatchCalendarMonthViewTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC10425">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class
+				name="com.canvas.qa.test.BETAQRT.CreateDispatchCalendarTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Create dispatch from calendar in Week view" />
+					<include name="createDispatchCalendarWeekViewTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC10427">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class
+				name="com.canvas.qa.test.BETAQRT.CreateDispatchCalendarTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Create dispatch from calendar in Day view" />
+					<include name="createDispatchCalendarDayViewTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC10428">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.AppBuilderTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Create app with multiple screens" />
+					<include name="createAppWithMultipleScreens">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC10429">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.AppBuilderTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Create app with loop screen" />
+					<include name="createAppWithLoopScreen">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC10430">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.AppBuilderTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Create app with advanced screen" />
+					<include name="createAppWithAdvancedScreen">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC10527">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.AppBuilderTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Create App with screen and field condition" />
+					<include name="createAppWithFieldAndScreenConditions">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC10546">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.AppBuilderTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Create App with reference data" />
+					<include name="createAppWithReferenceData">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC10941">
+
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.AppBuilderTest">
+				<methods>
+
+					<parameter name="testdescription"
+						value="Create app to verify default screen when user create new App" />
+					<include name="createAppToVerifyDefaultScreen">
+
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC10582">
+
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.AppBuilderTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Create App with selecting existing Template with publishing the App" />
+					<include name="createAppexistingTemplate">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC7708">
+
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.AppBuilderTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Add edit and delete submission" />
+					<include name="verifySubmission">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC10942">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.PDFDesignerTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Create a layout for me with save,PDF Preview and closed App" />
+					<include name="createPDFDesignerFromCreateALayout">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC10905">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.PDFDesignerTest">
+				<methods>
+					<parameter name="testdescription"
+						value="PDF designer with selecting Start from scratch for ONE Normal Screen" />
+					<include name="createPDFDesignerFromScratchTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<test name="TC7715">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.AppOptionsTests">
+				<methods>
+					<parameter name="testdescription"
+						value="Create/Destroy app. Verify it no longer exists." />
+					<include name="createAndDestroyAppTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC7713">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+
+			<class name="com.canvas.qa.test.BETAFRT.AppOptionsTests">
+				<methods>
+					<parameter name="testdescription"
+						value="Test to Retire an app." />
+					<include name="retireAppTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC7703">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+
+			<class name="com.canvas.qa.test.BETAFRT.AppOptionsTests">
+				<methods>
+					<parameter name="testdescription"
+						value="Test E-mail Options" />
+					<include name="emailOptionsTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC7704">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+
+			<class name="com.canvas.qa.test.BETAFRT.PDFTests">
+				<methods>
+					<parameter name="testdescription"
+						value="Verifies PDF Options" />
+					<include name="verifyPDFOptions">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC3678">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.FRTTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Copy App (1 of 2)" />
+					<include name="copyAPPTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC3980">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.FRTTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Submission Numbering" />
+					<include name="submissionNumberingTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC7562">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.FRTDispatchTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Export Dispatches" />
+					<include name="exportDispatchesTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC7590">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.FRTDispatchTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Create Dispatch (3 of 3)" />
+					<include name="createDispatchTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC7572">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.FRTDispatchManagerTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Dispatch Manager: Search (1 of 4)" />
+					<include name="dispatchManagerSearchTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC7606">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.FRTDispatchManagerTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Dispatch Manager: Search (3 of 4)" />
+					<include name="dispatchManagerAdvanceSearchTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC7591">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.FRTDispatchTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Edit Dispatch (2 of 2)" />
+					<include name="editDispatchTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC7592">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.FRTDispatchManagerTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Dispatch Manager other than Search, Advanced Search (2 of 3)" />
+					<include name="dispatchManagerOtherSearchTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC10535">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.AppBuilderTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Edit publish app with creating new version" />
+					<include name="editPublishAppWithCreatingNewVersion">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC7709">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.DownloadAndPdfViewTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Preview and download the Pdf" />
+					<include name="verifyPdfPreview">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC7705">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.AppOptionsTests">
+				<methods>
+					<parameter name="testdescription"
+						value="Integration Options" />
+					<include name="integrationOptionsTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC7700">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.RememberAndRecallTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Remember and Recall" />
+					<include name="verifyRememberRecall">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC3913">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.AppTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Publish Pending Version" />
+					<include name="publishPendingVersionTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC7697">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.FRTDispatchTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Enable and disable the dispatch " />
+					<include name="enableDisableDispatchTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC7542">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.NoAccessTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Verify Workflow and Dispatch link accessible or not for diffrent users " />
+					<include name="verifyNoAccess">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC7701">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+
+			<class name="com.canvas.qa.test.BETAFRT.EditAndViewTest">
+				<methods>
+					<parameter name="testdescription" value="Edit and View " />
+					<include name="verifyEditAndView">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC9737">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.AppTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Copy App (2 of 2)" />
+					<include name="copyAppTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC7707">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.AppTest">
+				<methods>
+					<parameter name="testdescription" value="Compression" />
+					<include name="compressionTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC7672">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.FRTDispatchManagerTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Dispatch Manager: Advanced Search (1 of 2)" />
+					<include name="DispatchManagerAdvancedSearch1of2">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC3686">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.RetiringAppsTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Retiring the Apps" />
+					<include name="verifyRetireApps">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC3906">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.AppTest">
+				<methods>
+					<parameter name="testdescription" value="Create Template" />
+					<include name="createTemplateTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC3887">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.AppTest">
+				<methods>
+					<parameter name="testdescription" value="Payment" />
+					<include name="paymentTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC3687">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.AppTest">
+				<methods>
+					<parameter name="testdescription" value="Destroy app" />
+					<include name="destroyAppTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC7673">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.FRTDispatchManagerTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Dispatch Manager: Advanced Search (2 of 2)" />
+					<include name="dispatchManagerAdvancedSearch2of2">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC7912">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.FRTDispatchManagerTest">
+				<methods>
+					<parameter name="testdescription"
+						value=" Workflow: Search (1 of 2)" />
+					<include name="workflowSearch1of2Test">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC7544">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.WorkFlowTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Access Workflow Dispatch" />
+					<include name="accessWorkflowDispatchTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC7543">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.WorkFlowTest">
+				<methods>
+					<parameter name="testdescription" value="Access Dispatch" />
+					<include name="accessDispatchTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC7634">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.FRTDispatchManagerTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Dispatch Manager: Search (4 of 4)" />
+					<include name="dispatchManagerDispatchSearchTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC7597">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.FRTDispatchManagerTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Dispatch Item Detail (2 of 2)" />
+					<include name="dispatchItemDetailTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC4007">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.WorkFlowTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Options on App Show Page" />
+					<include name="workflowAppShowTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC7943">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.FRTDispatchManagerTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Workflow: Search (2 of 2)" />
+					<include name="workflowSearch2of2Test">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC7698">
+
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+
+			<class name="com.canvas.qa.test.BETAFRT.WorkFlowTest">
+				<methods>
+					<parameter name="testdescription" value="Workflow" />
+					<include name="verifyWorkflowTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC3914">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.AppTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Edit Pending Version" />
+					<include name="editPendingVersionTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC5881">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.AppTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Folder Functionality" />
+					<include name="folderFunctionalityTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC7702">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.AppBuilderTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Submission Numbering" />
+					<include name="verifySubmissionNo">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC7546">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.FRTDispatchTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Sample Dispatches file" />
+					<include name="sampleDispatchFile">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC7605">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.FRTDispatchManagerTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Dispatch Manager: Search (2 of 4)" />
+					<include name="dispatchManagerSearch2Of4Test">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC7676">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.FRTDispatchManagerTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Workflow Manager (2 of 2)" />
+					<include name="workflowManager2Of2Test">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC7916">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.FRTDispatchManagerTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Workflow: Advanced Search" />
+					<include name="workflowAdvanceSearchTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC7571">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.FRTDispatchManagerTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Dispatch Manager other than Search, Advanced Search (1 of 3)" />
+					<include name="dispatchManagerAdvanceSearch1Of3Test">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC7530">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.ApplicationStoreTest">
+				<methods>
+					<parameter name="testdescription"
+						value="No Access: User, Reporter" />
+					<include name="noAccessTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC7540">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.ApplicationStoreTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Get App: Department" />
+					<include name="getAppTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC7486">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.DashboardTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Company Designer" />
+					<include name="dispatchManagerSearchTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC7583">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.DashboardTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Company Admin: Monthly" />
+					<include name="companyAdminMonthlyTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC7584">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.DashboardTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Company Admin: Yearly" />
+					<include name="companyAdminYearlyTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC4151">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.AdminTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Bulk Upload Users (Admin Only)" />
+					<include name="bulkUploadUserTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC9215">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.SignUpTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Using Google Auto Fill /Third Party tool(Key Pass)" />
+					<include name="googleAutoFillTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC7711">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.AppBuilderTest">
+				<methods>
+					<parameter name="testdescription" value="Copy App" />
+					<include name="copyApp">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC4006">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.SubmissionDetailsTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Company Reporter and Company User " />
+					<include name="verifyAllEditingOptionsWeb">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC7487">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.AppBuilderTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Company Reporter and Company User " />
+					<include name="companyReporterCompanyUser">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC7531">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.ApplicationStoreTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Search/Filter in Application Store" />
+					<parameter name="rallylink"
+						value="https://rally1.rallydev.com/#/28244099907d/detail/testcase/114990157024" />
+					<include name="searchFilterTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC8071">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.AdminTest">
+				<methods>
+					<parameter name="testdescription"
+						value="To verify Admin is able to view 'Disable All' button on a user's 'My Account' page." />
+					<include name="adminDisableTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC7599">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.ReportsTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Users, Groups and Apps Report" />
+					<include name="userGroupsAppsReportsTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC11044">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.SignUpTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Sign Up and Error Validation" />
+					<include name="errorValidationTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC7595">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.ReportTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Mobile Client Version Report" />
+					<include name="mobileClientVersionReport">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC7598">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.ReportTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Return on Investment" />
+					<include name="roiReport">
+
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC7579">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.SubmissionsTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Advanced Search feature on the Submissions Page." />
+					<include name="advanceSearchTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC8070">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.SubmissionDetailsTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Un-destroy for Submissions" />
+					<include name="unDestroyforSubmissions">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC7600">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.MyProfileTest">
+				<methods>
+					<parameter name="testdescription"
+						value="My Profile- Get Canvas Client" />
+					<include name="getCanvasClientTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC4169">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.MyProfileTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Click on Username and taken to Profile Screen" />
+					<include name="myAccountTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC4165">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.AdminTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Search for users (Admin Only)" />
+					<include name="searchUsersTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC4168">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.MyAccountTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Filter Users (In Account)" />
+					<include name="filterUsersTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC7699">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.AppOptionsTests">
+				<methods>
+					<parameter name="testdescription"
+						value="Table Of Contents" />
+					<include name="tableOfContentsTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC7594">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.ReportTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Inactive User Report" />
+					<include name="inactiveUserReport">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC4177">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.AdminTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Admin User MORE dropdown in user list" />
+					<include name="moreOptionsTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC8069">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.AppBuilderTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Un-destroy for apps" />
+					<include name="unDestroyforApps">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC7682">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.UserPermissionsTest">
+				<methods>
+					<parameter name="testdescription"
+						value="User Permissions - Account Admin and Account Reporter" />
+					<include name="accountAdminAndReporterTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC7683">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.UserPermissionsTest">
+				<methods>
+					<parameter name="testdescription"
+						value="User Permissions - Department Admin, Reporter, Designer, User" />
+					<include name="departmentAdminReporterUserDesignerTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC11505">
+
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.AppTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Test App description" />
+					<include name="editDescriptionApp">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<test name="TC3891">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.AppBuilderTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Delete pending version" />
+					<include name="deletePendingVersion">
+
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC7688">
+
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.CompanyPlanTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Company Plan/Balance/Billing Cycle Show Properly" />
+					<include name="billingCycleTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC4164">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.MyAccountTest">
+				<methods>
+					<parameter name="testdescription" value="Manage Users" />
+					<include name="manageUsersTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC4150">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.MyAccountTest">
+				<methods>
+					<parameter name="testdescription" value="Customize" />
+					<parameter name="rallylink"
+						value="https://rally1.rallydev.com/#/28244099907d/detail/testcase/50342837789" />
+					<include name="customizeTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC10635">
+		<parameter name="browser" value="chromeheadless" />
+		<parameter name="testdescription"
+			value="Delete Screen and Fields from existing App" />
+		<parameter name="rallylink"
+			value="https://rally1.rallydev.com/#/180879202332d/detail/testcase/206810683208" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.AppBuilderTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Delete Screen and Fields from existing App" />
+					<parameter name="rallylink"
+						value="https://rally1.rallydev.com/#/180879202332d/detail/testcase/206810683208" />
+					<include name="deleteScreenAndFieldsTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC10634">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.AppBuilderTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Create App with Grid Screen with publishing the App" />
+					<parameter name="rallylink"
+						value="https://rally1.rallydev.com/#/180879202332d/detail/testcase/206802117896" />
+					<include name="appWithGridScreenTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<test name="TC7679">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class
+				name="com.canvas.qa.test.BETAQRT.UserPermissionsStartupTest">
+				<methods>
+					<parameter name="testdescription"
+						value="User Permissions Startup" />
+					<parameter name="rallylink"
+						value="https://rally1.rallydev.com/#/180879202332d/detail/testcase/116671067136" />
+					<include name="UserPermissionsStartup">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TC7846">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.SubmissionDetailsTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Submission revision" />
+					<include name="submissionRevisions">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC7791">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class
+				name="com.canvas.qa.test.BETAQRT.FTUXExploreOnYourOwnTest">
+				<methods>
+					<parameter name="testdescription"
+						value="FTUX - Skip Flow" />
+					<parameter name="rallylink"
+						value="https://rally1.rallydev.com/#/28244099907d/detail/testcase/117774746772" />
+					<include name="skipFlowTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC7576">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.ReportsTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Active User Report" />
+					<parameter name="rallylink"
+						value="https://rally1.rallydev.com/#/28244099907d/detail/testcase/115844486832" />
+					<include name="activeUserReportTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC10636">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.AppBuilderTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Create App and Copied Screen and fields" />
+					<parameter name="rallylink"
+						value="https://rally1.rallydev.com/#/35357314332d/detail/testcase/206823805348" />
+					<include name="copyScreenAndFieldsTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="US7606">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class
+				name="com.canvas.qa.test.BETAFRT.SiteMapScreenCaptureTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Entire sitemap screen capture for Rails upgrade" />
+					<parameter name="rallylink"
+						value="https://rally1.rallydev.com/#/180879202332d/detail/userstory/249546313088" />
+					<parameter name="mode" value="All" />
+					<parameter name="rowCount" value="259" />
+					<include name="screenCaptureTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC10642">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.AppBuilderTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Create New App with field Setting for fields (Short text,Number)" />
+					<parameter name="rallylink"
+						value="https://rally1.rallydev.com/#/28244099907d/detail/testcase/208337517308?fdp=true" />
+					<include name="fieldSettingsTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC7788">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.SignUpTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Two Step Sign Up App Store" />
+					<parameter name="rallylink"
+						value="https://rally1.rallydev.com/#/180879202332d/detail/testcase/117730629264?fdp=true" />
+					<include name="twoStepSignUpTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC7782">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.GlobeSprintTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Adding users to the Canvas environment for Globe, Sprint" />
+					<parameter name="rallylink"
+						value="https://rally1.rallydev.com/#/180879202332d/detail/testcase/117072134528?fdp=true" />
+					<include name="addUserTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC7589">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.FRTDispatchTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Create Dispatch (2 of 3)" />
+					<parameter name="rallylink"
+						value="https://rally1.rallydev.com/#/180879202332d/detail/testcase/116059170772?fdp=true" />
+					<include name="createDispatch2Of3Test">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC11508">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.ElasticSearchTest">
+				<methods>
+					<parameter name="testdescription" value="Elastic Search" />
+					<parameter name="rallylink"
+						value="https://rally1.rallydev.com/#/180879202332d/detail/testcase/246006030704?fdp=true" />
+					<include name="submissionsElasticSearchTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="US7052">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.AnalyticsTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Analytics And Page Reroute Verification" />
+					<parameter name="rallylink"
+						value="https://rally1.rallydev.com/#/180879202332d/detail/userstory/221577378644" />
+					<include name="analyticsPageRerouteVerificationTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="US7758">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.AppRetireTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Analytics And Page Reroute Verification" />
+					<parameter name="rallylink"
+						value="https://rally1.rallydev.com/#/180879202332d/detail/userstory/221577378644" />
+					<include name="apiTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="US7735">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.SignUpTest">
+				<methods>
+					<parameter name="testdescription"
+						value="New User Signup Automated test" />
+					<parameter name="rallylink"
+						value="https://rally1.rallydev.com/#/180879202332d/detail/userstory/255513266904" />
+					<include name="newUserSignUpTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC11639">
+		<parameter name="browser" value="chromeheadless" />
+		<parameter name="testdescription"
+			value="App Builder Loading" />
+		<parameter name="rallylink"
+			value="https://rally1.rallydev.com/#/180879202332d/detail/testcase/259499491524?fdp=true" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.AppBuilderTest">
+				<methods>
+					<parameter name="testdescription"
+						value="App Builder Loading" />
+					<parameter name="rallylink"
+						value="https://rally1.rallydev.com/#/180879202332d/detail/testcase/259499491524?fdp=true" />
+					<include name="appBuilderLoadingTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="QA51">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class
+				name="com.canvas.qa.test.BETAFRT.SiteMapScreenCaptureTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Entire sitemap screen capture for Rails upgrade" />
+					<parameter name="rallylink"
+						value="https://gocanvas.atlassian.net/browse/QA-51" />
+					<parameter name="mode" value="NotAll" />
+					<include name="javascriptErrorCaptureTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="TC9565">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.SignUpTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Sign up with LinkedIn" />
+					<parameter name="rallylink"
+						value="https://rally1.rallydev.com/#/28244099907d/detail/testcase/172113313332?fdp=true" />
+					<include name="linkedinSignUpTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="QA-52">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.AppBuilderTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Create reference data with normal screen from dispatch manager" />
+					<include
+						name="createReferenceDataWithNormalScreenFromDispatchManager">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="QA-77">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.AppBuilderTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Allow duplicate Entries with Reference Data in dispatch manager" />
+					<include name="referenceDataWithAllowDuplicate">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="QA-78">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.AppBuilderTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Allow duplicate Entries with Reference Data in dispatch manager" />
+					<include name="editablevalueswithreferencedata">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<test name="QA-98">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.AppBuilderTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Create app with normal screens with Calculation and apply field and constant" />
+					<include name="appWithCalculationWithNumberAndConstant">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="QA-276">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.AppBuilderTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Allow duplicate Entries with Reference Data in dispatch manager" />
+					<include name="noneditablevalueswithreferencedata">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="QA-101">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.AppBuilderTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Create app with normal screens with Calculation and add new fields and operator" />
+					<include name="appWithCalculationWithNumberAndOperator">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="QA-154">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class
+				name="com.canvas.qa.test.BETAFRT.ViewGeneratedPDFLinkFromEmailTest">
+				<methods>
+					<parameter name="testdescription"
+						value="PDF Link From E-mail" />
+					<include name="viewPDFLinkTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="QA-355">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.ZuoraTest">
+				<methods>
+					<parameter name="testdescription"
+						value="First Time Purchase (Business/Annual)" />
+
+					<parameter name="testdescription"
+						value="First Time Purchase (Business/Annual)e" />
+					<include name="firstTimePurchaseBusinessAnnual">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="QA-394">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.ZuoraTest">
+				<methods>
+					<parameter name="testdescription"
+						value="First Time Purchase (Business/Monthly)" />
+					<include name="firstTimePurchaseBusinessMonthly">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="QA-393">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.ZuoraTest">
+				<methods>
+					<parameter name="testdescription"
+						value="First Time Purchase (Professional/Annualy)" />
+					<include name="firstTimePurchaseProfessionalAnnual">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="QA-395">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.ZuoraTest">
+				<methods>
+					<parameter name="testdescription"
+						value="First Time Purchase (Professional/Monthly)" />
+					<include name="firstTimePurchaseProfessionalMonthly">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="QA-396">
+
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+
+			<class name="com.canvas.qa.test.BETAQRT.AppBuilderTest">
+				<methods>
+					<parameter name="testdescription"
+						value="verify Static Photo Non Supported File" />
+					<include name="verifyStaticPhotoNonSupportedFile">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="QA-415">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.ZuoraTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Zuora - Add user after adding new license" />
+					<include name="zuoraAddUser">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="QA-307">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.AppBuilderTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Create app with Static Photo" />
+					<include name="uploadStaticPhoto">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="QA-414">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.AppBuilderTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Verify Calculation Validations Message" />
+					<include name="verifyCalculationValidationsMessage">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="QA-427">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.AppBuilderTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Verify Calculation Validations Message" />
+					<include name="veriySummaryPaymentValidationErrorMessage">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="QA-423">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.ZuoraTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Zuora - First Time Purchase - Sales Tax" />
+					<include name="zuoraSalesTax">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="QA-416">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.ZuoraTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Zuora- Disable user after adding though new license" />
+					<include name="zuoraDisableUser">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="QA-453">
+
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.AppBuilderTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Verify Payment field allow additional data to be sent on Payment Fields" />
+					<include name="veriyAllowAdditionalDataOnPayment">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="QA-417">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.ZuoraTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Zuora- Add More Licenses after adding consuming all existing users" />
+					<include name="zuoraAddLicenses">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="QA-456">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.PDFDesignerTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Verify Column Setting of Normal Screen in Designer" />
+					<include name="verifyColumnSettingInDesignerTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="QA-5185">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.PDFDesignerTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Verify Loop Setting In Designer" />
+					<include name="verifyLoopSettingInDesigner">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="QA-139">
+
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.AppOptionsTests">
+				<methods>
+					<parameter name="testdescription"
+						value="Verify apps can be shared between departments" />
+					<include name="shareAppBetweenDepartmentsTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="QA-425">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.ZuoraTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Zuora - Company Admin - Reduce Licenses (First Time Cancel)" />
+					<include name="reduceLicenses">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="QA-428">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.ZuoraTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Zuora - Company Admin - Display Pending Orders When User Reduces Licenses" />
+					<include name="displayPendingOrders">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="GOC-5557">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.FindBrokenImagesTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Validate img response for each page and static images and PDF designer" />
+					<include name="verifyImgsResponseWhenCreateAppAndPDF">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="GOC-5781">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.AppBuilderTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Verify user able to edit the reference data test" />
+					<include name="editsReferenceDataTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="QA-478">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.ZuoraTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Zuora - Company Admin - Upgrade to paid from Individual" />
+					<include name="upgradeToPaidFromIndividual">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="QA-477">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.ZuoraTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Zuora - Company Admin - Downgrade to Individual from paid" />
+					<include name="downgradeToIndividualFromPaid">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="GOC-5870">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.AppBuilderTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Verify MultiChoce/DropDown With Typing Choice/Start With Common List Test" />
+					<include name="multiChoiceDropDownFieldsTest">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="QA-5509">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.ZuoraTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Zuora - Sales User - Billing Options - Rates And Discounts" />
+					<include name="billingRateAndDiscounts">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="QA-3557">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.ZuoraTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Zuora - Company Admin - Cancel Account" />
+					<include name="companyAdminCancelAccount">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="GOC-6129">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAQRT.AppBuilderTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Create app with Advanced List(4 level)" />
+					<include name="veriyAppWithMultiLoops">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="QA-5501">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.ZuoraTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Zuora - Company Admin - User can update shipping address via Billing Info" />
+					<include name="updateAddressViaBillingInfo">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="GOC-6055">
+		<parameter name="browser" value="chromeheadless" />
+		<classes>
+			<class name="com.canvas.qa.test.CommonTestNEW">
+				<methods>
+					<include name="startTest">
+					</include>
+					<include name="closeBrowser">
+					</include>
+				</methods>
+			</class>
+			<class name="com.canvas.qa.test.BETAFRT.ZuoraTest">
+				<methods>
+					<parameter name="testdescription"
+						value="Zuora - Add Seats in department" />
+					<include name="zuoraAddSeatsIndDepartment">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> <!-- Suite -->

@@ -1,0 +1,3891 @@
+TC7580:
+  username: buttar222@outlook.com
+  password: canvas
+  step1App: TC7675
+  step1Version: Version 1 (26 submissions)
+  beginDate: Oct;9;2017
+  endDate: Oct;9;2017
+  step2App: Landscaping Work Order - Deluxe 6570
+  step3App: Landscaping Work Order - Deluxe 6570
+  invalidBeginDate: Nov;28;2017
+  invalidEndDate: Nov;28;2017
+  invalidDateMsg: No submissions exist for the specified date range
+   
+TC7551: 
+   username_valid: kailashlarry1@rediff.com
+   password_valid: Tpg@1234567
+   username_valid: kailashlarry@rediff.com
+   password_empty: 
+   username_empty: 
+   password_empty:
+      
+TC7602: 
+   username: qa+jhfuyfyc@gocanvas.com
+   password: canvas
+   newpassword: canvas1
+   admin: Admin
+   adminpwd: Admin89!
+   
+TC7601:
+   admin_username: dannybut70@yahoo.com
+   admin_password: canvas
+   newemail: dannybut70@gocanvas.com
+   user_username: dannyuser@yahoo.com
+   user_password: canvas
+   originaltimezone: (GMT+00:00) UTC
+   timezone: (GMT-04:00) Atlantic Time (Canada)
+   originallocation: Dashboard
+   defaultlocation: Submissions
+   originalcountry: United States of America
+   country: Phillipines
+   originalname: danny
+   firstname: Queen
+   admin: Admin
+   adminpwd: Admin89!
+   
+TC7600:
+   username: admin
+   password: Admin89!
+   useremail: abc@gmail.com123456789012345678
+   timezone: (GMT-05:00) Lima
+   defaultlocation: Submissions
+   country: Australia
+   firstname: Queen
+   
+TC7603:
+   user_username: dannyuser@yahoo.com
+   user_password: canvas
+   admin_username: dannybut70@yahoo.com
+   admin_password: canvas
+   appName: TC7603App_1233
+   groupName: TC7603Group_1233
+   admin: Admin
+   adminpwd: Admin89!
+   
+TC7692:
+   user: taukeer.ahmad+1@3pillarglobal.com
+   password: abc@123
+   firstname: Taukeer
+   lastname: Ahmad
+   useremail: taukeer.ahmad+2@3pillarglobal.com
+   disableduseremail: taukeer.ahmad+2@3pillarglobal.com
+   disableduserpassword: abc@123
+   admin: Admin
+   adminpwd: Admin89!
+   
+TC7604:
+   admin_username: dannybut70@yahoo.com
+   admin_password: canvas
+   user_username: dannyuser@yahoo.com
+   user_password: canvas
+   designer_username: dannyme@yahoo.com
+   designer_password: canvas
+   reporter_username: dannyreporter@yahoo.com
+   reporter_password: canvas
+   
+TC7547:
+  designeruser: betadesigner2017@outlook.com
+  designerpassword: canvas
+  step2dispatchname: D Name
+  step2dispatchdesc: D Desc
+  step2dispatchtime: 08/02/2017 17:59 UTC
+  departmentuser: admin@prodepts.com
+  departmentpassword: canvas
+  step3dispatchdesc: Dis Desc
+  
+TC7593:
+   account_admin: kailashmorgan@rediff.com
+   account_admin_pass: Canvas@321
+   date: January 1, 2018
+   options: Download;Copy;Re-assign;Un-assign;Delete
+   toastmsgcopy: Dispatch item successfully duplicated
+   toastmsgunassign: 1 dispatch item successfully un-assigned
+   toastmsgdelete: 1 dispatch item successfully deleted.
+
+TC7564: 
+  username_2: betadesigner2017@outlook.com
+  password_2: canvas
+  dispatch_values1: "App Beta App;Description FOR QRT, TC7564 step 1;Status Un-assigned;Creation Date 09/09/2017 02:04 UTC;Scheduled At 09/09/2017 02:03 UTC;Duration 2.0 Hours;Dispatch Entries;New Short Text Hello;New Long Text Hello;Integer 5;Decimal 5.2;Drop Down: A, B, C A;Radio Button 1;New Date 09/08/2017;New Time 21:04;New Barcode 01234567891234;Button, msn.com www.msn.com;New Drop Down, A, B, C, or D B;Integer 12"
+  dispatch_values2: "App Beta App;Description QRT, TC7564, step 2 DO NOT UPDATE;Status Assigned;Assigned To Beta Designer;Creation Date 10/04/2017 15:48 UTC;Scheduled At 08/02/2017 17:59 UTC;Duration 2.0 Hours;Dispatch Entries;New Short Text W;New Long Text L"
+  edit_button_text: Edit
+
+TC7565:
+   designeruser: kailash.pathak+beta1@3pillarglobal.com
+   designerpassword: Go@12345
+   dispatchname:  3551 Kailah This is updated value of dispath name
+   dispatchdesc : 8817 Kailah This is updated description of dispath
+   newshorttext: 600 Kailah This is updated short text value
+   newlongtext: 144 Kailah Updated this dispatch
+   assignto: Kailash Beta New
+   dispatchtype: Schedule Dispatch
+   integer: "1234"
+   decimal: "314.33"
+   newbar: "333456"
+   newmsn: www.yahoo.com
+   fieldloopnew: "10764"
+   dropDown: Choice C
+   radioOption: Choice B
+   field2Loop: "4439"
+   update_dispatch_text: Your dispatch was successfully updated.
+   updated_data: "App Edit dispatch Description 8817 Kailah This is updated description of dispath Status Assigned Assigned To Kailash Beta New Creation Date 20/11/2017 02:24 PST Scheduled At 20/11/2017 02:23 PST Duration 2.0 Hours New Short Text 600 Kailah This is updated short text value New Long Text 144 Kailah Updated this dispatch Integer 1234 Decimal 314.33 Drop Down: A, B, C Choice C Radio Button Choice B New Date 20/11/2017 New Time 15:54 New Barcode 333456 Button, msn.com www.yahoo.com New Drop Down, A, B, C, or D Choice B Integer 4439"
+   
+TC8632:
+   companyadmin: mk23@gmail.com
+   companyadminpassword: Go@12345
+   companyadminname: Cook, Tom
+   adminrole: Department Admin
+   departmentname: My_Department
+   departmentdesc: Description_G890HF
+   designerrole: Department Designer
+   designername: fdqf, fdd2f
+   admin: Admin
+   adminpwd: Admin89!
+
+TC7563: 
+  username: betadesigner2017@outlook.com
+  password: canvas
+  username2: kailash.pathak+123@3pillarglobal.com
+  password2: Tpg@1234567
+  username_valid: kailash.pathak+123@3pillarglobal.com
+  password_empty: 
+  username_empty: 
+  password_empty:
+  dispatch_name: yml1 
+  dispatch_description: yhnn
+  appName: A-Painting Work Order Invoice,Beta App,pests and plants inspection form,Z Work Order 
+  dispatch_description_0: This is First dispatch description  
+  dispatch_name_1: This is Second Dispatch
+  dispatch_description_1: This is Second  dispatch description 
+  dispatch_Assign: Kailash Flemin  
+  field_name_0: This is the First Field
+  field_name_1: This is the Second Field 
+  field_name_2: This is the Third Field
+  field_name_3: This is the Fourth Field
+  fieldLabel: New Short Text;New Long Text;Integer;Decimal;Drop Down:A, B, C;Radio Button;New Checkbox;New Date;New Time;New Barcode;Button msn.com;
+  field_1: This is First field
+  field_2: This is second field
+  field_3: "188"
+  field_4: "134.5"
+  drop_down: "A"
+  radio_option: "2"
+  field_9: "33333777"
+  field_10: www.johnparker.com
+  field2Loop: "39"
+  
+TC7541: 
+   admin_username: 7541a@bogus.com
+   admin_password: canvas
+   admin_appName: Optical Order Builder
+   designer_username: 7541d@bogus.com
+   designer_password: canvas
+   designer_appName: Optical Order Builder
+   
+TC7674: 
+   username: admin2@prodepts.com
+   password: canvas
+   step1depart: Second Department
+   testApp: Workflow
+   statuses: All Statuses;Assigned;Completed;Deleted;Open;Received;Rejected;Un-assigned;Handoff 1;Handoff 2
+   app_index: "2"
+   step2status: Handoff 1
+   assignedStatus: Assigned
+   unassignedStatus: Un-assigned
+   testWorkflowID: "9"
+   users: One, User;Pro Dept, Admin2;Two, User
+   step5user: One, User
+   postconditionsUser: Two, User
+
+TC7575:   
+  username_1: chadio56@outlook.com
+  password_1: canvas
+  Submission_1: Submissions
+  Submission_detail_Red: "09/10/2017 11:26 EDT Celine Jacobs 9/10/2017 Sir00027Sir 0FA3B72D-FAFE-4C68-83C3-C357CAD9C87E BetaTestingAPP23 (version 4) User name : Red 23/08/2017 14:40 EDT Celine Jacobs 23/8/2017 Sir00025Sir 9e25070ed54711c1-1503513634420 BetaTestingAPP23 (version 4) First name : red 05/06/2015 12:08 EDT Celine Jacobs 6/5/2015 Sir00016Sir 0D35D2B2-F7DD-4CBC-B40E-23A304019273 beta testing 6/5/2015 (version 1) First name : red 05/06/2015 10:53 EDT Celine Jacobs 6/5/2015 Sir00006Sir 64255C30-D6F3-4B4B-89A2-BB4B5BED951E beta testing 6/5/2015 (version 1) First name : redskins 05/06/2015 10:50 EDT Celine Jacobs 6/5/2015 Sir00005Sir 35C7D536-EAD6-45FB-B349-D5934164959C beta testing 6/5/2015 (version 1) First name : redskins"
+
+TC7578: 
+  username_1: buttar_danny@yahoo.com
+  password_1: canvas
+  Search_text: Red
+  search_msg: "Your search did not return any results, here are some tips:"
+  search_submission_id: "Submission ID: 0FA3B72D-FAFE-4C68-83C3-C357CAD9C87E"
+  search_submission_view: View1
+  search_submission_id_1: "0FA3B72D-FAFE-4C68-83C3-C357CAD9C87E"
+  submission_detail_Red: "09/10/2017 11:26 EDT Celine Jacobs 9/10/2017 Sir00027Sir 0FA3B72D-FAFE-4C68-83C3-C357CAD9C87E BetaTestingAPP23 (version 4) User name : Red 23/08/2017 14:40 EDT Celine Jacobs 23/8/2017 Sir00025Sir 9e25070ed54711c1-1503513634420 BetaTestingAPP23 (version 4) First name : red 05/06/2015 12:08 EDT Celine Jacobs 6/5/2015 Sir00016Sir 0D35D2B2-F7DD-4CBC-B40E-23A304019273 beta testing 6/5/2015 (version 1) First name : red 05/06/2015 10:53 EDT Celine Jacobs 6/5/2015 Sir00006Sir 64255C30-D6F3-4B4B-89A2-BB4B5BED951E beta testing 6/5/2015 (version 1) First name : redskins 05/06/2015 10:50 EDT Celine Jacobs 6/5/2015 Sir00005Sir 35C7D536-EAD6-45FB-B349-D5934164959C beta testing 6/5/2015 (version 1) First name : redskins"
+  submisson_find: BetaTestingAPP23
+
+TC7784:
+    designer_username: designer@yahoo.com
+    designer_password: canvas
+    admin_username: buttar_danny@yahoo.com
+    admin_password: canvas
+    templateHeader: Choose a template
+    templates: Blank;Work Order;Invoice;Inspection;Waiver;Estimate 
+    testTemplate: Work Order   
+    screensSimple: Customer Info;Order;Job Information;Work Desc;Summary;Acknowledgement;Customer Signature
+    screensSimpleFieldCounts: 6;9;5;4;7;1;2
+    screensLoopParents: Work Details:;Labor;Materials:;
+    screensLoopParentsFieldCounts: 1;1;1
+    screensLoopChilds: Work Detail:;Labor;Materials:;
+    screensLoopChildsFieldCounts: 8;3;3     
+    appName: TC7784
+    features: App Icon;Email Options;Table of Contents   
+    groups: Beta GROUP;La Madeline;Don Pablos;Noodle and Co;Ruby Tuesday;TGIF
+    users: davidbaliey2321@gmail.com;stephcurry2324434@gmail.com;jacob76325@yahoo.com;buttar_danny@yahoo.com;lewis3422@yahoo.com;gary4243@yahoo.com  
+    publishMsg: Version 1 of the TC7784 app has been published.
+    publishMsg2: App 'TC7784' has been updated
+    
+    
+TC7687:
+    startupadmin_username: buttar27@hotmail.com
+    startupadmin_password: canvas
+    startupUser: buttar27+@hotmail.com
+    startup_users: buttar27@hotmail.com;designer@yahoo.com;buttar27+@hotmail.com;buttar27++@hotmail.com
+    startup_plans: Startup;Startup;Startup;Startup
+    username: admin
+    password: Admin89!
+    changePlanHeader: Select Per User Pricing
+    step3payment: $360.00 Paid each year
+    changeMsg: Congratulations! Your plan is now activated with GoCanvas.
+    monthlyStartupPlan: Startup Monthly
+    annualStartupPlan: Startup Annual
+    profadmin_username: buttar222@outlook.com
+    profadmin_password: canvas
+    profUser: d87@gmail.com
+    step4payment: $62.00 Paid each month
+    monthlyProfPlan: Professional Monthly
+    busadmin_username: buttar_danny@yahoo.com
+    busadmin_password: canvas
+    busUser: stephcurry2324434@gmail.com
+    step5payment: $51.00 Paid each month
+    monthlyBusPlan: Business Monthly
+    
+TC7693:
+    username: admin
+    password: Admin89!
+    companyAdmin: chadio27@outlook.com
+    formSub: Form Submission
+    noDiscountAnnual: $
+    noDiscountMonthly: $
+    step4AnnualRate: Annual $180
+    step4MonthlyRate: Monthly $7.50
+    newRateAnnual: $
+    newRateMonthly: $
+    firstName: Anna
+    lastName: Marek
+    email: newemail@email.fakeema
+    originalAnnualRate: Form Submission
+    originalMonthlyRate: Canvas Subscription
+    
+TC7781:
+    trial_email: qa+TC7781-2@gocanvas.com
+    trial_password: canvas
+    default_userCount: "1"
+    default_lastName: ""
+    default_firstName: ""
+    default_email: ""
+    default_role: Company User
+    invalidEmail: w
+    invalidPassword: "12345"
+    blankErrorMsg: Email cannot be blank, First name cannot be blank, Last name cannot be blank
+    emailErrorMsg: Email has an improper format
+    passwordErrorMsg: Password has to be 6 characters or more
+    firstName: Anna
+    lastName: Marek
+    firstValidEmail: test113017@1.cafe
+    firstPassword: canvas
+    secondValidEmail: qa+TC7781-3@gocanvas.com
+    secondUserRole: Company Designer
+    addedMsg: You have created an account for 'Anna Marek'. Anna will receive an email at 'fake10@email.fake' to create their password.
+    user: admin
+    password: Admin89!
+    trial_numUsers: "3"
+    business_username: qa+TC7781@gocanvas.com
+    business_password: canvas
+    business_numUsersMore: 10+
+    business_numUsers: "20"
+
+TC7679: 
+  company_admin_username: chadio40@outlook.com
+  company_admin_password: canvas
+  company_designer_username: chadio41@bogus.com
+  company_designer_password: canvas
+  company_reporter_username: chadio42@bogus.com
+  company_reporter_password: canvas
+  company_user_username: chadio43@bogus.com
+  company_user_password: canvas 
+  dashboard_link: Dashboard
+  apps_link: Apps
+  submission_link: Submissions
+  workflowDispatch_link: Workflow & Dispatch 
+  refimage_link: Reference Data & Images
+  profile_link: Profile
+  links: Users;Groups;Billing Info;Reports;Account Settings
+  links_CDesigner: Dashboard;Apps;Submissions;Reference Data & Images;Reports;Profile;
+  links_CReporter: Submissions;Reference Data & Images;Reports;Profile;
+  links_CUser: Submissions;Reports;Profile;
+  accountsublink: Users;Groups;Billing Info;Reports;Account Settings
+  reports_links: Active User Report;Inactive User Report;Mobile Client Version Report;Reference Data Report;Return On Investment;Users, Groups, and Apps Report;
+  reports_links_CDesigner: Active User Report;Mobile Client Version Report;
+  reports_links_CReporter: Active User Report;Mobile Client Version Report;
+  reports_links_CUser: Active User Report;
+  
+TC7680: 
+  company_admin_username: chadio37@outlook.com
+  company_admin_password: canvas
+  company_designer_username: chadio38@outlook.com
+  company_designer_password: canvas
+  company_reporter_username: chadio39@outlook.com
+  company_reporter_password: canvas
+  company_user_username: chadio39@bogus.com
+  company_user_password: canvas
+  dashboard_link: Dashboard
+  apps_link: Apps
+  submission_link: Submissions
+  Dispatch _link: Dispatch 
+  refimage_link: Reference Data & Images
+  profile_link: Profile
+  links_Admin: Users;Groups;Billing Info;Reports;Account Settings
+  links_CDesigner: Dashboard;Apps;Submissions;Dispatch;Reference Data & Images;Reports;Profile;
+  links_CReporter: Submissions;Reference Data & Images;Reports;Profile;
+  links_CUser: Submissions;Reports;Profile;
+  accountsublink: Users;Groups;Billing Info;Reports;Account Settings
+  reports_links: Active User Report;Inactive User Report;Mobile Client Version Report;Reference Data Report;Return On Investment;Users, Groups, and Apps Report;
+  reports_links_CDesigner: Active User Report;Mobile Client Version Report;
+  reports_links_CReporter: Active User Report;Mobile Client Version Report;
+  reports_links_CUser: Active User Report;
+  
+TC7689:
+  email: newemail12@email.fake
+  cname: My Company
+  phone: "3194802414"
+  password: canvas
+  activationHeader: To continue, please activate your account
+  loginHeader: Log In to Your Account
+  devicesHeader: Get your computer and mobile device
+  emailSentMsg: A new activation code has been sent to your email address.
+  activatedMsg: Account Successfully Activated
+  admin_username: admin
+  admin_password: Admin89!
+  labelidlist: user_first_name;user_last_name;user_email
+  inputlist: Beta;Test User;beta.newuser01@yopmail.com
+  text5: "Hi, Beta!"
+  text6: "Welcome to GoCanvas."
+  text7: "We'll help you get started. Ready?"
+  button3: Get Started
+  button4: Let me explore on my own
+
+TC7691:
+  startup_admin_username: buttar27@hotmail.com
+  startup_admin_password: canvas
+  startup_users: buttar27@hotmail.com;designer@yahoo.com;buttar27+@hotmail.com;buttar27++@hotmail.com
+  startup_plans: Startup;Startup;Startup;Startup
+  startupUser: buttar27+@hotmail.com
+  trial_username: chadio104a@outlook.com
+  trial_password: canvas
+  trial_expired: Trial is expired!
+  business_admin_username: buttar_danny@yahoo.com
+  prof_admin_username: buttar222@outlook.com 
+  username: admin
+  password: Admin89!
+  legacy_annual: "$17.50 Per User, Per Month*"
+  legacy_annual2: "* Billed $210.00 annually"
+  legacy_monthly: $20.00 Per User, Per Month  
+  username_1: chadio37@outlook.com
+  password_1: canvas
+  Company_Designer_username: chadio38@outlook.com
+  Company_Designer_password: canvas
+  Company_Reporter_username: chadio39@outlook.com
+  Company_Reporter_password: canvas
+  Company_User_username: chadio39@bogus.com
+  Company_User_password: canvas
+  links_Admin: Dashboard;Apps;Submissions;Dispatch;Reference Data & Images;Account;Users;Groups;Billing Info;Reports;Customize;Profile;
+  links_CDesigner: Dashboard;Apps;Submissions;Dispatch;Reference Data & Images;Reports;Profile;
+  links_CReporter: Submissions;Reference Data & Images;Reports;Profile;
+  links_CUser: Submissions;Reports;Profile;
+  accountsublink: Users;Groups;Billing Info;Reports;Customize
+  reports_links: Active User Report;Inactive User Report;Mobile Client Version Report;Reference Data Report;Return On Investment;Users, Groups, and Apps Report;
+  reports_links_CDesigner: Active User Report;Mobile Client Version Report;
+  reports_links_CReporter: Active User Report;Mobile Client Version Report;
+  reports_links_CUser: Active User Report;
+      
+TC7681:
+  company_admin_username: cmpadminbeta@yopmail.com
+  company_admin_password: canvas
+  company_designer_username: chadio33@outlook.com
+  company_designer_password: canvas
+  company_reporter_username: chadio34@outlook.com
+  company_reporter_password: canvas
+  company_user_username: chadio35@outlook.com
+  company_user_password: canvas  
+  dashboard_link: Dashboard
+  apps_link: Apps
+  submission_link: Submissions
+  workflow_Dispatch_link: Workflow & Dispatch 
+  refimage_link: Reference Data & Images
+  profile_link: Profile
+  links_Admin: Users;Groups;Billing Info;Reports;Account Settings
+  links_CDesigner: Dashboard;Apps;Submissions;Workflow & Dispatch;Reference Data & Images;Reports;Profile;
+  links_CReporter: Submissions;Reference Data & Images;Reports;Profile;
+  links_CUser: Submissions;Reports;Profile;
+  accountsublink: Users;Groups;Billing Info;Reports;Account Settings
+  reports_links: Active User Report;Inactive User Report;Mobile Client Version Report;Reference Data Report;Return On Investment;Users, Groups, and Apps Report;
+  reports_links_CDesigner: Active User Report;Mobile Client Version Report;
+  reports_links_CReporter: Active User Report;Mobile Client Version Report;
+  reports_links_CUser: Active User Report;
+ 
+TC7577:
+  admin_username: db7888@yahoo.com
+  admin_password: canvas
+  user_username: db7999@yahoo.com
+  user_password: canvas
+  apps_name: Automotive Estimate,Detailed Weekly Timesheet,Try This App First
+  apps_detail: "Automotive Estimate;08/20/2018 10:22 UTC;2,Detailed Weekly Timesheet;11/28/2017 17:21 UTC;2,Try This App First;11/28/2017 17:21 UTC;1"
+  
+TC7675:
+  company_user_username: d87@gmail.com
+  company_user_password: canvas
+  app_name: TC7675
+  submission_name: "10/24/2017 15:50 UTC"
+  screen_name: "Redskins Screen 2017" 
+  match_text_data: "Short Text Field:;Hello,Long Text:;This is the longest Test!!!!! This is the longest Test!!!! This is the longest Test!!!!!,Drop Down:;Redskins,Multiple Choice:;Choice B,Date Field :;10/24/2017,Time Field :;11:49"
+  match_image_data: "Photo Field :;true,Signature Test:;true,Drawing field:;true"
+  match_checkbox_data: Checkbox:;true
+  company_user_username1: stephcurry2324434@gmail.com
+  company_user_password1: canvas
+  app_name1: TC7576
+  submission_name1: "24/10/2017 12:02 EDT"
+  company_user_username3: stephcurry2324434@gmail.com
+  company_user_password3: canvas
+  app_name3: TC7576
+  submission_name3: "24/10/2017 12:02 EDT"
+  company_user_username5: buttar222@outlook.com
+  company_user_password5: canvas
+  app_name5: TC7675
+  submission_name5: "10/24/2017 05:50 HST"
+ 
+TC10424:
+   username: dispatchmonth@yopmail.com
+   password: canvas
+   app_dropdown_list: App for Testing dispatch calendar;Dispatch for Month View;Try This App First
+   city_dropdown_list: Choice A;Choice B;Choice C
+   multichoice_dropdown_list: Choice A;Choice B;Choice C
+   app_name: Dispatch for Month View
+   assign_item_to_list: Dispatch Month;Kailash Peter
+   reminder_ddl_selected_value: 2 hours before
+   screen_name: Test
+   screen_desc: description
+   screen_num: "123"
+   screen_city: Choice B
+   screen_weblink: www.test.com
+   screen_multichoice: Choice C
+   toast_message: Your dispatch was successfully created.
+   scheduled_at: 12:00 AM
+   scheduled_end: 02:00 AM
+   screen_day: "December 14"
+   startfrom: "15"
+   endfrom:  "23"
+   startto: "15"
+   endto:  "23"
+   create_select_year_from1: "2017"
+   create_select_month_from1: "7"
+   create_select_day_from1 : "July 17"
+   
+TC10425:
+   username: dispatchweek@yopmail.com
+   password: canvas
+   app_dropdown_list: Automotive Estimate;Detailed Weekly Timesheet;Dispatch for Week View
+   state_dropdown_list: Choice A;Choice B;Choice C
+   country_dropdown_list: Choice A;Choice B;Choice C
+   app_name: Dispatch for Week View
+   assign_item_to_list: Kailash Johanson;Dispatch Week
+   reminder_ddl_selected_value: 2 hours before
+   screen_name: Test
+   screen_desc: description
+   screen_number: "123"
+   screen_state: Choice B
+   screen_weblink: www.test.com
+   screen_country: Choice C
+   toast_message: Your dispatch was successfully created.
+   scheduled_at: 11:30 PM
+   scheduled_end: 01:30 AM
+   screen_day: "December 14"
+   startfrom: "15"
+   endfrom:  "23"
+   startto: "15"
+   endto:  "23"
+   create_select_year_from1: "2017"
+   create_select_month_from1: "7"
+   create_select_day_from1 : "July 17"
+
+   
+TC10427:
+   username: dispatchday@yopmail.com
+   password: canvas
+   app_dropdown_list: Detailed Weekly Timesheet;Dispatch for Day View;Kailash App;Try This App First
+   state_dropdown_list: Choice A;Choice B;Choice C
+   multioptions_dropdown_list: Option 1;Option 2;Option 3
+   app_name: Dispatch for Day View
+   assign_item_to_list: Dispatch Day;Andrew Kew
+   reminder_ddl_selected_value: 2 hours before
+   screen_name: Test
+   screen_last_name: george
+   screen_desc: description
+   screen_salary: "12345"
+   screen_state: Choice B
+   screen_company_url: www.test.com
+   screen_multi_options: Option 3
+   toast_message: Your dispatch was successfully created.
+   scheduled_at: 09:00 AM
+   scheduled_end: 11:00 AM
+   screen_day: "December 14"
+   startfrom: "15"
+   endfrom:  "23"
+   startto: "15"
+   endto:  "23"
+   create_select_year_from1: "2017"
+   create_select_month_from1: "7"
+   create_select_day_from1 : "July 17"
+   
+TC10428:
+   username: appmultiplescreens@yopmail.com
+   password: canvas
+   app_name: Create App with multiple screens
+   first_screen_name: First Screen App fields
+   short_text: First name
+   long_text: Description
+   static_text: I Accept
+   number: Salary
+   calculation: Total Salary
+   drop_down: City
+   multiple_choice: MultiChoice
+   checkbox: I Accept it
+   date: Date of Birth
+   time: Time of Birth
+   photo: Image 
+   signature: Sign
+   barcode: Bar-code in Product
+   gps: Location
+   drawing: Draw something
+   web_link: My URL
+   payment: Payment mode
+   first_screen_fields: Short Text;Long Text;Static Text;Number;Calculation;Drop Down;Multi Choice;Checkbox;Date;Time;Photo;Signature;Barcode;GPS;Drawing;Web Link;Payment
+   first_screen_labels: First name;Description;I Accept;Salary;Total Salary;City;MultiChoice;I Accept it;Date of Birth;Time of Birth;Image;Sign;Bar-code in Product;Location;Draw something;My URL;Payment mode
+   second_screen_name: Second Screen App fields
+   second_short_text1: First Name
+   second_short_text2: Middle Name
+   second_short_text3: Last Name
+   second_photo: My Updated Photo
+   second_date: DOB
+   second_gps: Company Location
+   second_drawing: My New Drawing
+   second_drop_down: Country
+   second_barcode: Bar-code of item
+   second_summary: Total Summary
+   second_calculation: Total Calculation of Order
+   name: Multiple, App
+   save_message: Save successful
+   app_published_message: Version 1 of the Create App with multiple screens app has been published
+   app_status: Published
+   second_screen_fields: Short Text;Short Text;Short Text;Photo;Date;GPS;Drawing;Drop Down;Barcode;Summary;Calculation
+   second_screen_labels: First Name;Middle Name;Last Name;My Updated Photo;DOB;Company Location;My New Drawing;Country;Bar-code of item;Total Summary;Total Calculation of Order
+   first_screen_place_holder: New Screen 1
+   second_screen_place_holder: New Screen 2
+   
+TC10429:
+   username: apploopscreen@yopmail.com
+   password: canvas
+   app_name: Create App with simple loop
+   first_screen_name: Loop Screen
+   first_screen_fields: Short Text;Long Text;Number;Drop Down;Multi Choice;Checkbox;Date;Time;Photo;Signature;Barcode;Drawing;GPS;Web Link
+   first_screen_labels: First name;Description;Age;State;Multi-choice (Val 1,Val2,Val 3);Select the Checbox;Select Date;Select Time;My Latest Pic;My Sign;Product barcode;Draw here something;My Current Location;My Site URL
+   name: Screen, Loop
+   first_screen_place_holder: New Screen 1
+   parent_screen_name: First name
+   parent_screen_labels: First name
+   parent_screen_fields: First name
+   app_status: Published
+   save_message: Save successful
+   app_published_message: Version 1 of the Create App with multiple screens app has been published
+   loop_screen_fields: Long Text;Number;Drop Down;Multi Choice;Checkbox;Date;Time;Photo;Signature;Barcode;Drawing;GPS;Web Link
+   loop_screen_labels: Description;Age;State;Multi-choice (Val 1,Val2,Val 3);Select the Checbox;Select Date;Select Time;My Latest Pic;My Sign;Product barcode;Draw here something;My Current Location;My Site URL
+   
+TC10430:
+   username: appadvancedscreen@yopmail.com
+   password: canvas
+   app_name: Create App with Advanced List 2 Level
+   first_screen_name: Advanced List Screen
+   first_screen_fields: Short Text;Long Text;Number;Static Text;Multi Choice;Drop Down;Date;Checkbox;Photo;Time;Signature;Barcode;Drawing;GPS;Web Link;Calculation
+   first_screen_labels: New name;Detail of Product;Emp Salary;I Accept term and condition;Select multiple options;Country;Select Today Date;Select the checkbox;My Pic;Time of Placing the Order;My Sign;Product barcode;Let Draw something;Company Location;My Company URL;Total Calculation
+   name: Advanced, App
+   first_screen_place_holder: New Screen 1
+   second_parent_screen_name: New name
+   second_parent_screen_labels: New name
+   second_parent_screen_fields: New name
+   first_parent_screen_name: Advanced List
+   first_parent_screen_labels: Advanced List
+   first_parent_screen_fields: Advanced List
+   app_status: Published
+   loop_screen_fields: Long Text;Number;Static Text;Multiple Choice;Drop Down;Date;Checkbox;Photo;Time;Signature;Barcode;Drawing;GPS;Web Link;Calculation
+   loop_screen_labels: Detail of Product;Emp Salary;I Accept term and condition;Select multiple options;Country;Select Today Date;Select the checkbox;My Pic;Time of Placing the Order;My Sign;Product barcode;Let Draw something;Company Location;My Company URL;Total Calculation
+   
+TC10527:
+   username: appduplicatefieldscreens@yopmail.com
+   password: canvas
+   app_name: Create App for field and screen condition screens
+   first_screen_name: My FIRST Screen
+   first_screen_fields: Short Text;Long Text;Static Text;Number;Calculation;Drop Down;Multi Choice;Checkbox;Date;Time;Photo;Signature;Barcode;GPS;Drawing;Web Link;Payment
+   first_screen_labels: First name;Description;I Accept;Salary;Total Salary;City;MultiChoice;I Accept it;Date of Birth;Time of Birth;Image;Sign;Bar-code in Product;Location;Draw something;My URL;Payment mode
+   second_screen_name: My SECOND Screen
+   name:  Screen, Fields, Duplicate 
+   save_message: Save successful
+   app_status: Published
+   second_screen_fields: Short Text;Short Text;Short Text;Photo;Date;GPS;Drawing;Drop Down;Barcode;Summary;Calculation
+   second_screen_labels: First Name;Middle Name;Last Name;My Updated Photo;DOB;Company Location;My New Drawing;Country;Bar-code of item;Total Summary;Total Calculation of Order
+   first_screen_place_holder: New Screen 1
+   second_screen_place_holder: New Screen 2
+   field_condition_field: Description
+   condition: = (Equal)
+   condition_value: Test
+   conditional_field: First name
+   conditional_screen_index: 1
+   screen_condition: < (Less Than)
+   screen_condition_value: 15
+   screen_conditional_field: Salary
+   screencondition_screen_field_index: 1
+   
+TC10941:
+   username: appwithdefaultscreen@yopmail.com
+   password: canvas
+   username1: appwithversionone@yopmail.com
+   password1: canvas
+   page_name : Apps
+   app_version2: version 2
+   app_version1: version 1
+   page_name: Apps
+   logOut_msg: Log In to Your Account
+   page_name_1: Dashboard
+    
+TC10582:
+   username: selectexistingtemplate@yopmail.com
+   password: canvas
+   app_name: Signature Capture for Waiver of Liability
+   ScreenName1: Customer Contact Information
+   ScreenName2: Waiver Language
+   ScreenName3: Client Signature
+   first_screen_name: Customer Contact Information
+   short_text1: First name
+   short_text2: Last Name
+   short_text3: Email Address
+   short_text4: Phone Number
+   date: Date of Validation
+   time: Time of Validation
+   first_screen_fields: Short Text;Short Text;Short Text;Short Text;Date;Time
+   first_screen_labels: First Name;Last Name;Email Address;Phone Number;Date of Validation;Time of Validation
+   second_screen_name: Waiver Language
+   static_text1: Waiver and Release Language
+   static_text2: "I agree to the following Waiver and Release: I acknowledge that this activity has inherent risks, hazards, and dangers, that cannot be eliminated. I UNDERSTAND THAT THESE RISKS, HAZARDS, AND DANGERS INCLUDE WITHOUT LIMITATION:"
+   static_text4: 2. Potential injury by others. 
+   static_text5: 3. Death or critical injury to others.
+   static_text6: I accept these risks none the less and agree to participate.  
+   name: Template, Exiting
+   save_message: Save successful
+   app_published_message: Version 1 of the Signature Capture for Waiver of Liability app has been published.
+   app_status: Published
+   second_screen_fields: Static Text;Static Text;Static Text;Static Text;Static Text;CheckBox
+   second_screen_labels: Waiver and Release Language;
+   second_screen_labels: "I agree to the following Waiver and Release: I acknowledge that this activity has inherent risks, hazards, and dangers, that cannot be eliminated. I UNDERSTAND THAT THESE RISKS, HAZARDS, AND DANGERS INCLUDE WITHOUT LIMITATION: "
+   second_screen_labels: 1. Potential injury due to falling;2. Potential injury by others.;3. Death or critical injury to others.;I accept these risks none the less and agree to participate.
+   third_screen_name: Client Signature
+   sign1: Client Signature
+   static_text1: I have read in detail the waiver and release language and accept these terms. 
+   third_screen_fields: Signature;Static Text
+   third_screen_labels: Client Signature;I have read in detail the waiver and release language and accept these terms.
+   first_screen_place_holder: New Screen 1
+   second_screen_place_holder: New Screen 2
+   
+TC7708:
+   username: g76@yahoo.com
+   password: canvas
+   app: Submission Status
+   Status: Test 1;Test 2;Test 3
+   columnText1 : Test 2
+   columnText2 : Test 1
+   Status1: Redskins Love
+   Status2: Redskins Suck
+   username1: n862@yahoo.com
+   password1: canvas
+   submission_status_text: "Submission Status:"
+   org_msg: Submission Status Options for form 'Submission Status' was successfully updated.
+   delete_msg: Submission Status Options for form 'Submission Status' was successfully updated.
+   alert_msg: Editing this value will also change the value for any past submissions. Are you sure you want to make your changes?
+   delete_indv_msg: Submission Status Options for form 'Submission Status' was disabled.
+   window_msg: Assign Replacement Option
+   submission_link: Apps
+   app_name: Dashboard
+   logOut_msg: Log In to Your Account
+   
+TC7709:
+   username: g87@yahoo.com
+   password: canvas
+   button_name: Download PDF
+   dispatch_id: "81"
+   file_path: /src/main/resources/Downloads/
+   file_name: Test_App.pdf
+   logOut_msg: Log In to Your Account
+   AppName_InPreview: Test App
+   file2: Test_App
+   user1: bj76@yahoo.com
+   password1: canvas
+   toolTips: View a blank version of the PDF
+   app_name: Apps
+   
+TC10546:
+   username: appreferencedata@yopmail.com
+   password: canvas
+   app_name: App With Reference Data in Same and Across the Screen
+   first_screen_name: Screen 1
+   first_screen_fields: Drop Down;Static Text
+   first_screen_labels: City;Data on the basis of the Selection of city
+   second_screen_name: Screen 2
+   name:  Data, Reference 
+   save_message: Save successful
+   app_status: Published
+   second_screen_fields: Static Text
+   second_screen_labels: Data on the basis of the Selection of city in Screen 1
+   reference_data_field: City
+   reference_data_name: My Ref data 
+   reference_data_description: My Ref data
+   reference_file_path: /src/main/resources/Ref-01.csv
+   first_screen_place_holder: New Screen 1
+   second_screen_place_holder: New Screen 2
+   reference_field2: Data on the basis of the Selection of city
+   second_reference_data_field: Data on the basis of the Selection of city in Screen 1
+   reference_value1: ID
+   reference_value2: Name
+   reference_value3: Age
+   screen_value1: None
+   reference_screen: string:Screen 1
+  
+TC10905:
+   username: appstartfromscratch@yopmail.com
+   password: canvas
+   app_name: Create App for PDF designer
+   first_screen_name: My First Screen
+   first_screen_fields: Short Text;Long Text;Static Text;Number;Calculation;Drop Down;Multi Choice;Checkbox;Web Link;Date;Time;Payment;Barcode;GPS;Drawing;Signature;Photo
+   first_screen_labels: First name;Description;I Accept;Salary;Total Salary;City;MultiChoice;I Accept it;My Company URL;Date of Birth;Time of Birth;Payment mode;Bar-code of item;My Current Location;Draw something here;Please do the Sign;My Latest Pic
+   section_index: 1;1;1;1;1;1;1;1;1;2;2;2;2;2;2;2;2
+   column_index: 0;0;0;1;1;1;2;2;2;0;0;0;1;1;1;2;2
+   field_index: 3;2;1;3;2;1;3;2;1;3;2;1;3;2;1;2;1
+   page_index: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+   save_message: Save successful
+   first_screen_place_holder: New Screen 1
+   active_template: Create a layout for me
+   section_count: "2"
+   column_count: "3"
+   popup_message: To have this design sent out with each submission, you need to make PDF Designer the default.
+   disabled_button: Save
+   field_value_list: First name;Description;I Accept;Total Salary;City;Salary;I Accept it;My Company URL;MultiChoice;Date of Birth;Time of Birth;Payment mode;My Current Location;Draw something here;Bar-code of item;My Latest Pic;Please do the Sign
+   
+TC10942:
+   username: appscreatelayout@yopmail.com
+   password: canvas
+   app_name: Create App for PDF designer with Create Layout for me
+   first_screen_name: My First Screen
+   first_screen_fields: Short Text;Long Text;Static Text;Number;Calculation;Drop Down;Multi Choice;Checkbox;Web Link;Date;Time;Payment;Barcode;GPS;Drawing;Signature;Photo
+   first_screen_labels: First name;Description;I Accept;Salary;Total Salary;City;New Multi Choice;I Accept it;My Company URL;Date of Birth;Time of Birth;Payment mode;Bar-code of item;My Current Location;Draw something here;Please do the Sign;My Latest Pic
+   section_index: 2;2;2;2;2;2;2;2;2;2;2;2;2;3;1;4;5
+   column_index: 0;0;0;0;0;1;1;1;1;1;2;2;2;0;0;0;0
+   field_index: 1;2;3;4;5;1;2;3;4;5;1;2;3;1;1;1;1
+   page_index: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0
+   step_number: 5.2;5.2;5.2;5.2;5.2;5.3;5.3;5.3;5.3;5.3;5.4;5.4;5.4;6.0;7.0;8.0;9.0
+   save_message: Save successful
+   first_screen_place_holder: New Screen 1
+   active_template: Create a layout for me
+  
+TC7715:
+   username: bj76@yahoo.com
+   password: canvas
+   app_name: TC7715
+   save_message: Save successful
+   username2: g87@yahoo.com
+   password2: canvas
+   pending_app_name: Pending App Test
+   new_status_app: Test App
+   
+TC7713:
+   username: bj76@yahoo.com
+   password: canvas
+   app_name: TC7713
+   save_message: Save successful
+   username2: g87@yahoo.com
+   password2: canvas
+   pending_app_name: Pending App Test
+   new_status_app: Test App
+   
+TC7703:
+   username: c8@gmail.com
+   password: canvas
+   app_name: TC7703
+   get_app_name: Electrical Work Order w/Checklist - Deluxe 6520
+   save_message: Save successful
+   username2: c6@gmail.com
+   password2: canvas
+   app_name2: Email Options Test App
+   imagetext: PDF_LOGO.JPG
+   
+TC7704:
+   username: bj76@yahoo.com
+   password: canvas
+   app_name: TC7704
+   username2: g87@yahoo.com
+   password2: canvas
+   
+TC3678:
+   username: qa+cj112717a@gocanvas.com
+   password: canvas
+   app_status: Retired
+   app1: New
+   app2: Retired
+   quick_links1: Copy;Publish
+   quick_links2: Copy;Un-Retire
+   app3: TC3678 TOC
+   quick_links3: Copy;Assign;Retire
+   app4: TC3678 TOC - Copy
+   pdf_option: Designer
+   mail_option: Can email the PDF to anyone
+   email_list: chad.jensen@gocanvas.com
+   pdflogo_file_path: /src/main/resources/PDF_LOGO.JPG
+   
+TC3980:
+   username: qa+cj112717a@gocanvas.com
+   password: canvas
+   app: TC3980
+   select_numbering1: "Each User (Each user's submissions will have a unique number, for this App)"
+   wrong_label: "12345678901"
+   wrong_length: "9"
+   wrong_prefix: P12345
+   wrong_suffix: S12345
+   error_explanation1: Oops, there was a problem
+   error_explanation2: There were problems with the following fields
+   label_error_message: Label is too long (maximum is 10 characters)
+   length_error_message: Number padding must be less than or equal to 8
+   prefix_error_message: Prefix is too long (maximum is 5 characters)
+   suffix_error_message: Suffix is too long (maximum is 5 characters) 
+   correct_label: "1234567890"
+   correct_length: "8"
+   correct_prefix: P1234
+   correct_suffix: S1234
+   submission_number: aaaaaaaa
+   next_submission_number: "Next Submission Number: "
+   next_submission_number_1: " P123400000001S1234"
+   correct_label2: CGA
+   correct_length2: "4"
+   correct_prefix2: P1
+   correct_suffix2: S2
+   submission_number2: "9876"
+   next_submission_number_2: " P19876S2"                
+
+TC7562:
+   username: betadesigner2017@outlook.com
+   password: canvas
+   app1: All Apps
+   create_select_year_from1: "2017"
+   create_select_month_from1: "10"
+   create_select_day_from1 : "October 4"
+   create_select_year_to1: "2017"
+   create_select_month_to1: "10"
+   create_select_day_to1 : "October 20"
+   create_select_year_from2: "2017"
+   create_select_month_from2: "10"
+   create_select_day_from2 : "October 1"
+   create_select_year_to2: "2017"
+   create_select_month_to2: "10"
+   create_select_day_to2 : "October 3"
+   create_select_year_from3: "2017"
+   create_select_month_from3: "8"
+   create_select_day_from3 : "August 1"
+   create_select_year_to3: "2017"
+   create_select_month_to3: "8"
+   create_select_day_to3 : "August 30"
+   create_select_year_from4: "2017"
+   create_select_month_from4: "7"
+   create_select_day_from4 : "July 1"
+   create_select_year_to4: "2017"
+   create_select_month_to4: "8"
+   create_select_day_to4 : "August 30"
+   date_range_from1: "4"
+   month_range_from1: Oct
+   year_range_from1: "2017"
+   date_range_to1: "20"
+   month_range_to1: Oct
+   year_range_to1: "2017"
+   app_file_path: /src/main/resources/Downloads/
+   file_name: AllApps.csv
+   compare_file_path: /src/main/resources/TestData/TC7562+Step+1.csv
+   app_list: All Apps;A-Painting Work Order Invoice;Beta App;pests and plants inspection form;Z Work Order
+   date_range_from_no: "1"
+   month_range_from_no: Oct
+   year_range_from_no: "2017"
+   date_range_to_no: "3"
+   month_range_to_no: Oct
+   year_range_to_no: "2017"
+   app1: All Apps
+   message: Sorry, there are no dispatches with the given filters
+   app2: Beta App
+   app_version2: Version 2
+   date_range_from2: "1"
+   month_range_from2: Aug
+   year_range_from2: "2017"
+   date_range_to2: "30"
+   month_range_to2: Aug
+   year_range_to2: "2017"
+   file_name2: Beta_App.csv
+   compare_file_path2: /src/main/resources/TestData/TC7562+Step+4.csv
+   app3: "Step 3 App - Second Department"
+   app_version3: Version 1
+   date_range_from3: "1"
+   month_range_from3: Jul
+   year_range_from3: "2017"
+   date_range_to3: "30"
+   month_range_to3: Aug
+   year_range_to3: "2017"
+   file_name3: Step_3_App___Second_Department.csv
+   compare_file_path3: /src/main/resources/TestData/TC7562+Step+5.csv
+   username2: admin@prodepts.com
+   password2: canvas
+   department: Second Department
+   type: Dispatches
+   
+TC7590:
+   username: admin@prodepts.com
+   password: canvas
+   department: Second Department
+   app_list: Another App;Step 3 App - Second Department
+   select_app: Step 3 App - Second Department
+   assign_to_list: Admin Pro-Depts;Designer Pro-Depts;Reporter Pro-Depts;User Pro-Depts
+   assign_to: Designer Pro-Depts
+   screen1_texts: New Short Text;New Long Text
+   loop_texts: New Drop Down;New Date;New Time;New Long Text
+   item_desc: TC7590 Desc
+   short_text: Short Text
+   long_text: Long Text
+   new_drop_down: Choice B
+   new_long_text: New Long Text
+   toast_message: Your dispatch was successfully created.
+   default_assignto: Select person to assign item to
+   user: Pro-Depts, Designer
+   app_name: Step 3 App - Second Department (version 2)
+   
+TC7572:
+   username: betadesigner2017@outlook.com
+   password: canvas
+   user_list: All Users;Designer, Beta;Tester2017, Beta
+   app_list: All Apps;A-Painting Work Order Invoice;Beta App;pests and plants inspection form;Z Work Order
+   status_list: All Statuses;Assigned;Completed;Deleted;Open;Received;Un-assigned
+   user: All Users
+   app: Beta App
+   status: Assigned
+   user2: Designer, Beta
+   
+TC7606:
+   username: betadesigner2017@outlook.com
+   password: canvas
+   user: All Users
+   app: Beta App
+   status: Un-assigned
+   username2: admin@prodepts.com
+   password2: canvas
+   department: Second Department
+   select_user: Pro-Depts, Admin
+   select_app: Another App
+   select_status: Received
+   search_dispatch_fields: "123"
+   create_select_year_from1: "2017"
+   create_select_month_from1: "3"
+   create_select_day_from1 : "March 14"
+   create_select_year_to1: "2019"
+   create_select_month_to1: "6"
+   create_select_day_to1 : "June 26"
+   complete_select_year_from1: "2017"
+   complete_select_month_from1: "3"
+   complete_select_day_from1 : "March 14"
+   complete_select_year_to1: "2017"
+   complete_select_month_to1: "6"
+   complete_select_day_to1 : "June 28"
+   create_date_range_to1: "26"
+   create_month_range_to1: "4"
+   create_year_range_to1: "2020"
+   complete_date_range_from1: "14"
+   complete_month_range_from1: Mar
+   complete_year_range_from1: "2017"
+   complete_date_range_to1: "28"
+   complete_month_range_to1: Jun
+   complete_year_range_to1: "2017"
+   User2: All Users
+   App2: All Apps
+   Status2: All Statuses
+   user_list: All Users;Pro-Depts, Admin;Pro-Depts, Designer;Pro-Depts, Reporter;Pro-Depts, User
+   app_list: All Apps;Another App;Step 3 App - Second Department
+   status_list: All Statuses;Assigned;Completed;Deleted;Open;Received;Rejected;Un-assigned  
+   
+TC7591:
+   username: admin@prodepts.com
+   password: canvas
+   department: Second Department
+   status: Un-assigned
+   desc: For TC7591
+   New_Short_Text: short123
+   New_Long_Text: long123
+   New_Drop_Down: Choice A
+   new_date: "11"
+   new_month: Jun
+   new_year: "2017"
+   new_hour: "03"
+   new_minute: "14"
+   New_Long_Text_loop: NLT123
+   dispatch_list: short123;long123;Choice A;07/25/2017;03:14
+   column_list: New Short Text;New Long Text;New Drop Down;New Date;New Time
+   Old_Short_Text: short
+   Old_Long_Text: long
+   Old_Drop_Down: Choice B
+   old_date: "22"
+   old_month: Nov
+   old_year: "2017"
+   old_hour: "01"
+   old_minute: "19"
+   Old_Long_Text_loop: NLT
+   desc2: For TC7591 step 2
+   new_desc: TC7591 step 2
+   desc_column: Description
+   screen_old_day: "December 14"
+   screen_new_day: "November 22"
+   create_select_year_from1: "2017"
+   create_select_month_from1: "7"
+   create_select_day_from1 : "July 25"
+   create_select_year_from2: "2017"
+   create_select_month_from2: "11"
+   create_select_day_from2 : "November 22"
+   
+TC7592:
+   username: betadesigner2017@outlook.com
+   password: canvas
+   dispatch_name: TC7592, step 1
+   dispatch_id: "81"
+   app1_file_path: /src/main/resources/Downloads/
+   file_name: dispatch_items.csv
+   dispatch_name2: TC7592, step 2
+   dispatch_id2: "82"
+   dispatch_name3: TC7592, step 3
+   dispatch_id3: "83"
+   dispatch_name_copy: TC7592, step 2 (copy)
+   user_list: Designer, Beta;Tester2017, Beta
+   user1: Designer, Beta
+   user2: Tester2017, Beta
+   
+TC10535:
+   username: appmultiplescreens@yopmail.com
+   password: canvas
+   app_name: Create and Edit App
+   name: Multiple, App 
+   first_screen_place_holder: New Screen 1
+   second_screen_place_holder: New Screen 2
+   first_screen_name: First Screen App fields
+   first_screen_fields: Short Text;Long Text;Static Text;Number;Calculation;Drop Down;Multi Choice;Checkbox;Date;Time;Photo;Signature;Barcode;GPS;Drawing;Web Link;Payment
+   first_screen_labels: First name;Description;I Accept;Salary;Total Salary;City;MultiChoice;I Accept it;Date of Birth;Time of Birth;Image;Sign;Bar-code in Product;Location;Draw something;My URL;Payment mode
+   second_screen_name: Second Screen App fields
+   second_screen_fields: Short Text;Short Text;Short Text;Photo;Date;GPS;Drawing;Drop Down;Barcode;Summary;Calculation
+   second_screen_labels: First Name;Middle Name;Last Name;My Updated Photo;DOB;Company Location;My New Drawing;Country;Bar-code of item;Total Summary;Total Calculation of Order
+   app_status: Published
+   app_version: "App Version 1"
+   extra_first_screen_fields: Short Text;Number;Date;Checkbox
+   extra_first_screen_labels: Last Name;Age;Date of Joining;Term & Condition
+   extra_second_screen_fields: Short Text;Short Text;Short Text
+   extra_second_screen_labels: Updated First Name;Updated Middle Name;Updated Last Name
+   second_app_version: "App Version 2"
+   app_builder_edit_mode_indicator: APP
+   
+TC7705:
+   username: g76@yahoo.com
+   password: canvas
+   app: Try This App First
+   options_list: Box;Dropbox;Evernote;Googledrive;Salesforce;Custom
+   message: "Box Integration was successful. Submissions will begin to appear in the designated Box folder."
+   option1: box_integrations
+   box_username: qa+test@gocanvas.com
+   box_password: GoCanvas
+   username2: n862@yahoo.com
+   password2: canvas
+   message2: "This storage Option was set up by user 'g76@yahoo.com'. Please contact them to modify it."
+   disabled_integrate_list: Dropbox;Evernote;Googledrive;Salesforce;Custom
+   
+TC7698:
+   username: dispatch12@yahoo.com
+   password: canvas
+   app1: Inventory Collection
+   username2: dispatch13@yahoo.com
+   password2: canvas
+   app2: Detailed Weekly Timesheet
+   username3: bg727@yahoo.com
+   password3: canvas
+   app3: Detailed Weekly Timesheet
+   handoff_name: Danny
+   email_list: dispatch13@yahoo.com
+   handoff_after: Employee Info
+   message1: Successfully updated Workflow.
+   message11: No Change to Workflow.
+   message2: Workflow Disabled.
+   
+TC3913:
+   username: qa+publish@gocanvas.com
+   password: canvas
+   app_name: New App
+   first_screen_name: First Screen App fields
+   second_screen_name: Second Screen App fields
+   third_screen_name: Third Screen App fields
+   first_screen_place_holder: New Screen 1
+   second_screen_place_holder: New Screen 1
+   third_screen_place_holder: New Screen 1
+   third_screen_fields: Short Text
+   third_screen_labels: Middle name
+   first_screen_fields: Short Text
+   first_screen_labels: First name
+   second_screen_fields: Short Text
+   second_screen_labels: Last Name
+   app1_status1: Published
+   app1_status2: Pending
+   app_name2: Second App
+   app1_version2: version 2
+   app1_version3: version 3
+   username2: qa+pubdes@gocanvas.com
+   password2: canvas
+
+TC7700:
+   username: b887@yahoo.com
+   password: canvas
+   app1: Inventory Collection
+   username1: dispatch13@yahoo.com
+   password1: canvas
+   app_name: Dashboard
+   app_name1: Apps
+   app2: Detailed Weekly Timesheet
+   logOut_msg: Log In to Your Account
+   disableMsg: Remember/Recall has been successfully disabled
+   enableMsg: Remember/Recall has been successfully enabled
+   username2: bg727@yahoo.com
+   password2: canvas
+   
+TC7697:
+   username: b887@yahoo.com
+   password: canvas
+   app1: Inventory Collection
+   logOut_msg: Log In to Your Account
+   username1: bg727@yahoo.com
+   password1: canvas
+   app_name: Apps
+   app_name1: Dashboard
+   appnamedropdown: Detailed Weekly Timesheet
+   username2: dispatch13@yahoo.com
+   password2: canvas
+   orgMsg: Dispatch has been successfully enabled
+   disableMsg: Dispatch has been successfully disabled
+   admin: Admin
+   adminPwd: Admin89!
+   
+TC7542:
+   username1: chadio40@outlook.com
+   password1: canvas
+   username2: chadio39@outlook.com
+   password2: canvas
+   username3: chadio35@outlook.com
+   password3: canvas
+   logOut_msg: Log In to Your Account
+   app_name1: Reports
+   app_name2: Submissions
+
+TC7701:
+   username: dispatch12@yahoo.com
+   password: canvas
+   app1: Inventory Collection
+   username1: bg727@yahoo.com
+   password1: canvas
+   app_name: Apps
+   logOut_msg: Log In to Your Account
+   saveMsg: Edit options have been successfully updated
+   
+TC7672:
+   username: betadesigner2017@outlook.com
+   password: canvas
+   first_screen_labels: User:;App:;Status:;Search Dispatch Fields:;Creation Date Range:;Completion Date Range:;
+   create_date_range_from1: "17"
+   create_month_range_from1: Jul
+   create_year_range_from1: "2017"
+   create_date_range_to1: "19"
+   create_month_range_to1: Jul
+   create_year_range_to1: "2017"
+   complete_date_range_from1: "25"
+   complete_month_range_from1: Jul
+   complete_year_range_from1: "2017"
+   complete_date_range_to1: "25"
+   complete_month_range_to1: Jul
+   complete_year_range_to1: "2017"
+   create_select_year_from1: "2017"
+   create_select_month_from1: "7"
+   create_select_day_from1 : "July 17"
+   create_select_year_to1: "2017"
+   create_select_month_to1: "7"
+   create_select_day_to1 : "July 19"
+   complete_select_year_from1: "2017"
+   complete_select_month_from1: "7"
+   complete_select_day_from1 : "July 25"
+   complete_select_year_to1: "2017"
+   complete_select_month_to1: "7"
+   complete_select_day_to1 : "July 25"
+   complete_select_year_from2: "2017"
+   complete_select_month_from2: "7"
+   complete_select_day_from2 : "July 25"
+   complete_select_year_to2: "2017"
+   complete_select_month_to2: "7"
+   complete_select_day_to2 : "July 25" 
+   create_select_year_from3: "2017"
+   create_select_month_from3: "7"
+   create_select_day_from3 : "July 17"
+   create_select_year_to3: "2017"
+   create_select_month_to3: "7"
+   create_select_day_to3 : "July 18"
+   create_select_year_from4: "2017"
+   create_select_month_from4: "7"
+   create_select_day_from4 : "July 18"
+   create_select_year_to4: "2017"
+   create_select_month_to4: "7"
+   create_select_day_to4 : "July 18"
+   user: All Users
+   app: All Apps
+   status: All Statuses
+   dispatchID: "9"
+   user1: Designer, Beta
+   app1: All Apps
+   status1: All Statuses
+   dispatchID1: "9"
+   app_list1: "9"
+   app_list2: 8;7;6;3;2
+   user2: All Users
+   app2: All Apps
+   status2: Open
+   create_date_range_from2: "17"
+   create_month_range_from2: Jul
+   create_year_range_from2: "2017"
+   create_date_range_to2: "18"
+   create_month_range_to2: Jul
+   create_year_range_to2: "2017"
+   user3: All Users
+   app3: Beta App
+   status3: All Statuses
+   create_date_range_from3: "18"
+   create_month_range_from3: Jul
+   create_year_range_from3: "2017"
+   create_date_range_to3: "18"
+   create_month_range_to3: Jul
+   create_year_range_to3: "2017"
+   app_list3: 8;7;6;5;4;3
+
+TC7673:
+   username: admin@prodepts.com
+   password: canvas
+   department: Second Department
+   dispatch_search_result: "Your search did not return any results, here are some tips:"
+   first_screen_labels: User:;App:;Status:;Search Dispatch Fields:;Creation Date Range:;Completion Date Range:;
+   create_select_year_from1: "2017"
+   create_select_month_from1: "7"
+   create_select_day_from1 : "July 25"
+   create_select_year_to1: "2017"
+   create_select_month_to1: "7"
+   create_select_day_to1 : "July 25"
+   complete_select_year_from1: "2017"
+   complete_select_month_from1: "7"
+   complete_select_day_from1 : "July 26"
+   complete_select_year_to1: "2017"
+   complete_select_month_to1: "7"
+   complete_select_day_to1 : "July 26"
+   complete_select_year_from2: "2017"
+   complete_select_month_from2: "7"
+   complete_select_day_from2 : "July 25"
+   complete_select_year_to2: "2017"
+   complete_select_month_to2: "7"
+   complete_select_day_to2 : "July 25"
+   create_select_year_from3: "2017"
+   create_select_month_from3: "7"
+   create_select_day_from3 : "July 25"
+   create_select_year_to3: "2017"
+   create_select_month_to3: "7"
+   create_select_day_to3 : "July 25"
+   complete_select_year_from3: "2017"
+   complete_select_month_from3: "7"
+   complete_select_day_from3 : "July 25"
+   complete_select_year_to3: "2017"
+   complete_select_month_to3: "7"
+   complete_select_day_to3 : "July 25"
+   create_date_range_from1: "25"
+   create_month_range_from1: Jul
+   create_year_range_from1: "2017"
+   create_date_range_to1: "25"
+   create_month_range_to1: Jul
+   create_year_range_to1: "2017"
+   complete_date_range_from1: "26"
+   complete_month_range_from1: Jul
+   complete_year_range_from1: "2017"
+   complete_date_range_to1: "26"
+   complete_month_range_to1: Jul
+   complete_year_range_to1: "2017"
+   complete_date_range_from2: "25"
+   complete_month_range_from2: Jul
+   complete_year_range_from2: "2017"
+   complete_date_range_to2: "25"
+   complete_month_range_to2: Jul
+   complete_year_range_to2: "2017"
+   user: All Users
+   app: All Apps
+   status: All Statuses
+   user1: Pro-Depts, Admin
+   app1: Step 3 App - Second Department
+   status1: Completed
+   Search dispatch fields: s
+   Search dispatch fields new: Search Dispatch Fields
+   create_date_range_from3: "25"
+   create_month_range_from3: Jul
+   create_year_range_from3: "2017"
+   create_date_range_to3: "25"
+   create_month_range_to3: Jul
+   create_year_range_to3: "2017"
+   complete_date_range_from3: "25"
+   complete_month_range_from3: Jul
+   complete_year_range_from3: "2017"
+   complete_date_range_to3: "25"
+   complete_month_range_to3: Jul
+   complete_year_range_to3: "2017"
+   app_list1: "4"
+   app_list2: 8;7;6;3;2
+   user2: All Users
+   app2: All Apps
+   status2: Open
+   create_date_range_from2: "17"
+   create_month_range_from2: Jul
+   create_year_range_from2: "2017"
+   create_date_range_to2: "18"
+   create_month_range_to2: Jul
+   create_year_range_to2: "2017"
+   user3: All Users
+   app3: Beta App
+   status3: All Statuses
+   app_list3: 8;7;6;5;4;3
+   created_at_from: ''
+   created_at_to: ''
+   completed_at_from: ''
+   completed_at_to: ''
+   placeHolder_text: Search Dispatch Fields
+
+TC7912:
+   username: sdesigner@bogus.com
+   password: canvas
+   user_list: All Users;Designer, Search;Search, Workflow;
+   app_list: All Apps;a workflow;Z Workflow
+   status_list: All Statuses;Assigned;Completed;Deleted;Open;Received;Un-assigned
+   workflow_list_size_1: "3"
+   workflow_list_size_2: "4"
+   workflow_list_size_3: "2"
+   user: All Users
+   app: Beta App
+   status: Assigned
+   user2: Designer, Beta
+   user_1: All Users
+   apps_1: Z Workflow
+   status_1: All Statuses
+   workflow_list_1: 6c024f1f7f5a2bb1-1501185636696;6c024f1f7f5a2bb1-1501185418205;6c024f1f7f5a2bb1-1501185408531
+   user_2: All Users
+   apps_2: a workflow
+   status_2: H1
+   workflow_list_2: 6c024f1f7f5a2bb1-1501185623581;6c024f1f7f5a2bb1-1501185611156;6c024f1f7f5a2bb1-1501185394835;6c024f1f7f5a2bb1-1501185380363;
+   user_3: Designer, Search
+   apps_3: a workflow
+   status_3: H1
+   workflow_list_3: 6c024f1f7f5a2bb1-1501185623581;6c024f1f7f5a2bb1-1501185394835
+   
+TC9737:
+   username: qa+cj112717a@gocanvas.com
+   password: canvas
+   app: TC3678 TOC - Copy
+   app1: TC3678 TOC
+   image_quality: Best Compression (lower image size, lower quality)
+   status: S1
+   app2: TC9737 Workflow
+   app3: TC9737 Workflow - Copy
+   
+TC7707:
+   username: g76@yahoo.com
+   password: canvas
+   app: Image Compression App
+   image_quality1: Normal Compression (larger image size, better quality)
+   image_quality2: Best Compression (lower image size, lower quality)
+   image_quality3: Better Compression (medium image size, medium quality)
+   compression_quality1: "80"
+   compression_height1: "800"
+   compression_quality2: "75"
+   compression_height2: "200"
+   message: Compression options have been successfully updated
+   username2: n862@yahoo.com
+   password2: canvas
+
+
+TC3686: 
+   username: retire223@yahoo.com
+   password: canvas
+   username1: retire12@gmail.com
+   password1: canvas
+   app_name: Dashboard
+   app_name1: Apps
+   retire_msg: Version 1 of the Retire App app has been retired and will no longer be downloaded to your client.
+   username2: retire22@yahoo.com
+   password2: canvas
+   app_staus: Retired
+   logOut_msg: Log In to Your Account
+
+   
+TC3906:
+   username2: qa+cj112717d@gocanvas.com
+   password2: canvas
+   app: TC9737 Workflow
+   action_list: Edit;Create App;Share;Delete
+   first_screen_name: New Screen 1
+   extra_first_screen_fields: Number
+   extra_first_screen_labels: Age
+   message: You are not authorized to access this page.
+   username: qa+cj112717a@gocanvas.com
+   password: canvas
+   version: New
+   Description: D
+   
+TC3887:
+   username: ng23@yahoo.com
+   password: canvas
+   app: Payment App
+   paypal_username: jamesbraun99@yahoo.com
+   paypal_password: gocanvas1
+   username2: designer21@outlook.com
+   password2: canvas
+   status: Authorization with PayPal was successful.
+   message1: Delete this integration?
+   message2: You do not have access to this page
+   
+TC3687:
+   username: destroy20@gmail.com
+   password: canvas
+   app_name: New App
+   message1: "This will delete all versions of this app AND all submissions.  Are you sure you want to destroy 'New App'?"
+   message2: "'New App' and all submissions for this app have been destroyed."
+   username2: destroyed23@yahoo.com
+   password2: canvas
+   app2: Destroyed New app
+   app3: Destroyed Pending App
+   app4: Electrical Work Order w/Checklist - Deluxe 6520
+   first_screen_name: First Screen App fields
+   first_screen_fields: Short Text
+   first_screen_labels: First name
+   first_screen_place_holder: New Screen 1
+   
+TC7544:
+   username: chadio27@outlook.com
+   password: canvas
+   username2: chadio33@outlook.com
+   username3: chadio37@outlook.com
+   username4: admin@prodepts.com   
+   username5: designer@prodepts.com
+   plan_new: Professional
+   plan_original: Business
+   
+TC7543:
+   username: chadio37@outlook.com
+   password: canvas
+   username2: chadio38@outlook.com
+   username3: chadio27@outlook.com
+   username4: chadio40@outlook.com 
+   plan_original1: Professional
+   plan_new1: Business 
+   plan_original2: Professional
+   plan_new2: Business 
+   department_new: All
+   department_original: First Department
+   
+TC7634:
+   username: admin@prodepts.com
+   password: canvas
+   department: Second Department
+   user1: Pro-Depts, Admin
+   app1: All Apps
+   status1: Assigned
+   search1: 123shortp
+   dispatchID1: "32"
+   user2: All Users
+   app2: All Apps
+   status2: All Statuses
+   search2: "1st"
+   message: "Your search did not return any results, here are some tips:"
+   search3: 123shortp
+   dispatchID3: "32"
+   user4: Pro-Depts, Admin
+   app4: Step 3 App - Second Department
+   status4: Open
+   info1: Assigned
+   info2: Received
+   
+TC7597:
+   username: admin@prodepts.com
+   password: canvas
+   department: Second Department
+   dispatch1: "34"
+   dispatch_desc1: For TC7597
+   dispatch_list1: Step 3 App - Second Department;For TC7597;Un-assigned;08/03/2017 17:20 UTC;short;nlt
+   column_list1: App;Description;Status;Creation Date;New Short Text;New Long Text
+   status2: Completed
+   dispatch2: "4"
+   dispatch_desc2: ID to be completed
+   dispatch_list2: Step 3 App - Second Department;ID to be completed;Completed;Admin Pro-Depts;07/25/2017 15:22 UTC;07/25/2017 15:22 UTC;S;L
+   column_list2: App;Description;Status;Assigned To;Creation Date;Completion Date;New Short Text;New Long Text
+   status3: Deleted
+   dispatch3: "20"
+   dispatch_desc3: Dis Desc
+   dispatch_list3: Step 3 App - Second Department;Dis Desc;Deleted;Admin Pro-Depts;09/06/2017 02:03 UTC;09/06/2017 02:22 UTC;123short
+   column_list3: App;Description;Status;Assigned To;Creation Date;Deletion Date;New Short Text
+   message: "That item can not be edited. It is in the state 'Deleted'"
+   
+TC4007:
+   username: qa+cjft@gocanvas.com
+   password: canvas
+   username2: qa+cj112717a@gocanvas.com
+   app1: TC4007
+   quickLinkMenu: Copy
+   app2: TC4007 - Copy
+   errorHeading: "Oops, there was a problem"
+   errorSubject: "Please fix the errors with the field(s) below"
+   errorMessages: Handoff Name is required;Handoff Screen is required;E-mail List or E-mail Field must be provided
+   handoff: H1&abcde
+   handoff_screen: New Screen 1;New Screen 2
+   screen: New Screen 1
+   email_field_list: Short Text Email;Short Text Number;Short Text None;Drop Down
+   email_field: Drop Down
+   handoff2: Handoff 2
+   index: "1"
+   screen2: New Screen 2
+   email_text: qa
+   email_list_size: "4"
+   email: qa+cj112717u@gocanvas.com
+   message: A Workflow Must Have At Least One Handoff
+   quickLinkMenu2: Retire
+   
+TC3914:
+   username: qa+publish@gocanvas.com
+   password: canvas
+   first_screen_name: First Screen App fields
+   first_screen_fields: Short Text
+   first_screen_labels: First name
+   first_screen_place_holder: New Screen 1
+   app_name: New App
+   second_screen_name: Second Screen App fields
+   second_screen_place_holder: New Screen 1
+   second_screen_fields: Short Text
+   second_screen_labels: Last Name
+   app1_status1: Pending
+   app1_version1: version 2
+   username2: qa+pubdes@gocanvas.com
+   password2: canvas
+   app_name2: New App2
+   app_name3: New App3
+   third_screen_place_holder: New Screen 1
+   third_screen_fields: Short Text
+   third_screen_labels: Middle name
+   third_screen_name: Third Screen App fields
+   app1_status2: Published
+   app1_version2: version 2
+   app1_version3: version 1
+   
+TC5881:
+   username: dispatch12@yahoo.com
+   password: canvas
+   username2: dispatch13@yahoo.com
+   username3: bg727@yahoo.com
+   first_screen_name: First Screen App fields
+   first_screen_fields: Short Text
+   first_screen_labels: First name
+   first_screen_place_holder: New Screen 1
+   app_name: TC5581 App
+   folder_name: TC5581 Folder
+   message1: "App ' TC5581 App ' was dropped in the folder 'TC5581 Folder'."
+   folder_rename: Renamed Folder
+   message2: "'Renamed Folder' has been successfully saved."
+   folder_name2: Test Folder
+   quick_link: Destroy
+   quick_link2: Move
+   message3: "This will permanently delete this folder"
+   message4: "'Renamed Folder' has been deleted."
+
+TC7943:
+   username: sdesigner@bogus.com
+   password: canvas
+   username1: admin2@prodepts.com
+   password1: canvas
+   app_list: All Apps;All Field Types, Loops;Workflow
+   department: Second Department
+   workflow_list_size_1: "4"
+   workflow_list_size_2: "1"
+   user_1: All Users
+   apps_1: a workflow
+   status_1: All Statuses
+   user_2: All Users
+   apps_2: Workflow
+   status_2: Handoff 1
+   user_3: Two, User
+   apps_3: Workflow
+   status_3: Handoff 1
+   search_field_1: pp
+   search_field_2: ggg
+   workflow_list_size: "1"
+   workflow_list: "33"
+   search_ message: 'Your search did not return any results, here are some tips:'
+
+TC7571:
+   username: betadesigner2017@outlook.com
+   password: canvas
+   column_list: ID;Name;Description;User;App Name;Status;Creation Date;Completion Date;Scheduled At
+   view_list: 25;50;100;200
+   icon_list: Download;Copy;Re-assign;Un-assign;Delete
+   
+TC7605:
+   username: betadesigner2017@outlook.com
+   password: canvas
+   user: "Designer, Beta"
+   app: All Apps
+   status: Completed
+   search_dispatch_fields: "33"
+   dispatch_id1: "9"
+   search_dispatch_fields12: "456"
+   message: "Your search did not return any results, here are some tips:"
+   user2: All Users 
+   app2: Beta App
+   status2: Deleted
+   search_dispatch_fields2: Short Text
+   dispatch_id2: "1"
+   user3: All Users 
+   app3: Beta App
+   status3: Open
+   status_list: Assigned;Received;Un-assigned
+   user4: All Users 
+   app4: Beta App
+   status4: Received
+   dispatch_list: 19;15;14;13;7;6;2
+   
+TC7676:
+   username: admin2@prodepts.com
+   password: canvas
+   department: Second Department
+   status1: Assigned
+   dispatch_id1: "9"
+   dispatch_id2: "24"
+   dispatch_desc2: "Workflow-24 (copy)"
+   user: "Pro Dept, Admin2"
+   status2: Deleted
+   app1_file_path: /src/main/resources/Downloads/
+   file_name: dispatch_items.csv
+   user2: "One, User"
+   message1: "1 dispatch item failed to be re-assigned"
+   message2: "User not assigned to all apps"
+   compare_file_path: /src/main/resources/TestData/TC7676.csv
+   
+TC7916:
+   username: sdesigner@bogus.com
+   password: canvas
+   user: All Users
+   app: All Apps
+   status: All Statuses
+   create_date_range_from1: "27"
+   create_month_range_from1: Jul
+   create_year_range_from1: "2017"
+   create_date_range_to1: "27"
+   create_month_range_to1: Jul
+   create_year_range_to1: "2017"
+   complete_date_range_from1: "26"
+   complete_month_range_from1: Jul
+   complete_year_range_from1: "2017"
+   complete_date_range_to1: "28"
+   complete_month_range_to1: Jul
+   complete_year_range_to1: "2017"   
+   create_select_year_from1: "2017"
+   create_select_month_from1: "7"
+   create_select_day_from1 : "July 27"
+   create_select_year_to1: "2017"
+   create_select_month_to1: "7"
+   create_select_day_to1 : "July 27"
+   complete_select_year_from1: "2017"
+   complete_select_month_from1: "7"
+   complete_select_day_from1 : "July 26"
+   complete_select_year_to1: "2017"
+   complete_select_month_to1: "7"
+   complete_select_day_to1 : "July 28"
+   create_select_year_from2: "2017"
+   create_select_month_from2: "11"
+   create_select_day_from2 : "November 12"
+   create_select_year_to2: "2017"
+   create_select_month_to2: "11"
+   create_select_day_to2: "November 13"
+   complete_select_year_from2: "2017"
+   complete_select_month_from2:  "7"
+   complete_select_day_from2: "July 19"
+   complete_select_year_to2:  "2017"
+   complete_select_month_to2:  "7"
+   complete_select_day_to2: "July 19"
+   workflow_count: "1"
+   username2: admin2@prodepts.com
+   department: Second Department
+   user2: All Users
+   app2: All Apps
+   status2: Rejected
+   create_date_range_from2: "12"
+   create_month_range_from2: Nov
+   create_year_range_from2: "2017"
+   create_date_range_to2: "13"
+   create_month_range_to2: Nov
+   create_year_range_to2: "2017"
+   user3: All Users
+   app3: Workflow
+   status3: All Statuses
+   complete_date_range_from3: "19"
+   complete_month_range_from3: Jul
+   complete_year_range_from3: "2017"
+   complete_date_range_to3: "19"
+   complete_month_range_to3: Jul
+   complete_year_range_to3: "2017"
+   id: 6c024f1f7f5a2bb1-1500488062138
+   detail1: "Submitted by User Two at 07/19/2017 18:16 UTC, Captured at 07/19/2017 18:15 UTC"
+   detail2: "Submission ID: 6c024f1f7f5a2bb1-1500488062138"
+   detail3: "Device ID:" 
+   detail32: "6c024f1f7f5a2bb1"
+   detail4: "No. 00004"
+   detail5: Second Department
+   screen1: New Screen 1
+   text1: "New Short Text:"
+   value1: P
+   screen2: New Screen 2
+   text2: "New Long Text:"
+   value2: L
+   screen3: New Screen 3
+   text3: "New Time:"
+   value3: "14:15"
+   
+TC7530:
+   username: 7541r@bogus.com
+   password: canvas
+   username_list: 7541u@bogus.com;reporter@prodepts.com;user@prodepts.com
+   
+TC7540:
+   username: designer@prodepts.com
+   password: canvas
+   option: Healthcare
+   app1: In-Out Inventory Form
+   username2: admin@prodepts.com
+   app2: Optical Order Builder
+   department1: Second Department
+   department2: All
+   menu: Retire
+   department_list: First Department;Second Department
+   
+TC7486:
+   username: chadio56@bogus3.com
+   password: canvas
+   
+TC7583:
+   username: chadio56@outlook.com
+   password: canvas
+   
+TC7584:
+   username: chadio56@outlook.com
+   password: canvas
+   
+TC4151:
+   username: admin
+   password: Admin89!
+   emailToManage: qa+bulk@gocanvas.com
+   column_list: Email;First Name;Last Name;Phone Number;Manually Assigned Password?;Privileges;Payment Plan;Time Zone;Group
+   app1_file_path: /src/main/resources/Downloads/
+   file_name: Bulk_upload_user_sample.csv
+   upload_file_path: /src/main/resources/TestData/TC4151+Testv2.csv
+   username2: 120617@bogus.com
+   password2: Bootsman1!
+   name1: "TestL, TestF"
+   email1: 120617@bogus.com 
+   plan1: 30 Day Free Trial
+   role1: Company Admin
+   username3: 120617@bogus2.com
+   password3: Bootsman2!
+   name2: "TestL2, TestF2"
+   email2: 120617@bogus2.com 
+   plan2: Lifetime Free Service
+   role2: Company Reporter
+   phone_number: No telephone provided.
+   
+TC9215:
+   gmail_login: amarek9215@gmail.com
+   gmail_pwd: gocanvas
+   active_step: STEP 2
+   company_name: gocanvas
+   industry: Canvas Test Apps
+   phone: "9876543210"
+   password: canvas
+   welcome_text: "Hi, Anna!"
+   error_message: "Email is already in use"
+   onboarding_message: "Yes, I have them both!"
+   username: admin
+   password: Admin89!
+
+TC7546:
+   username: 7541d@bogus.com
+   password: canvas
+   username1: admin@prodepts.com
+   password1: canvas
+   app_file_path: /src/main/resources/Downloads/
+   compare_file_path: /src/main/resources/TestData/TC7546+Step+2.csv
+   file_name1: Try_This_App_First__dispatch_items.csv
+   file_name2: Step_3_App___Second_Department__dispatch_items.csv
+   app_name1:  Try This App First
+   app_name2: Another App
+   app_name3:   Step 3 App - Second Department
+   department: Second Department
+   compare_file_path2: /src/main/resources/TestData/TC7546+Step+4.csv
+
+TC7702:
+   username: g87@yahoo.com
+   password: canvas
+   app_name : submission_link
+   username1: bj76@yahoo.com
+   password1: canvas
+   label_value: "No."
+   submisson_value: "5"
+   enter_label_value: "11111111111"
+   enter_submisson_value: "9"
+   enter_other_prefix: aaaaaa
+   enter_suffix: bbbbbb
+   error_msg: "Label is too long (maximum is 10 characters)\nNumber padding must be less than or equal to 8\nPrefix is too long (maximum is 5 characters)\nSuffix is too long (maximum is 5 characters)"
+   update_label: Red
+   update_number: "1"
+   success_msg: Submission Numbering for form 'Submission Numbering' was successfully updated.
+   reset_label: "No"
+   reset_submission: "5"
+   disable_success_msg: Submission Numbering for form 'Submission Numbering' was disabled.
+    
+TC7711: 
+   username: bj76@yahoo.com
+   password: canvas
+   username1: g87@yahoo.com
+   password1: canvas
+   tool_tip_text: Creates a copy of this app
+   app_name: Try This App First
+   app_name_dup: Try This App First - Copy
+   delete_msg: A pending version of your 'Try This App First - Copy' app has been removed.
+   app_status: New
+   app_version: version 1
+   copy_text: An app has been created from your 'Try This App First' app.
+
+TC7598: 
+   username1: angel23@gmail.com
+   password1: canvas
+   username2: angel24@yahoo.com
+   password2: canvas
+   username3: angel25@gmail.com
+   password3: canvas
+   userBeforeUpdate: "4"
+   userAfterUpdate: "5"
+   YearlyROIBeforeUpdate: "$ 2,240"
+   YearlyROIAfterUpdate: "$ 2,800"
+   YearlyROIAfterClear: "$ 0.00"
+
+TC7595: 
+   username1: dan37@yahoo.com
+   password1: canvas
+   username2: dan34@yahoo.com
+   password2: canvas
+   username3: john98@gmail.com
+   password3: canvas
+   username4: dan23@yahoo.com
+   password4: canvas
+   mcvReportText: Mobile Client Version Report
+   colName: Name;Username;Last Login Date;Last Login Device Type;Last Login GoCanvas Version
+   app_file_path: /src/main/resources/Downloads/
+   file_name: Mobile Client Version Report.csv
+   compare_file_path: /src/main/resources/TestData/Mobile Client Version Report.csv
+  
+TC7487: 
+   username: chadio56@bogus2.com
+   password: canvas
+   username1: chadio56@bogus.com
+   password1: canvas
+   toastmsg: You don't have access to this section of the site.
+   url: https://devqrt5.gocanvas.com/dashboards
+
+TC7943:
+   username: sdesigner@bogus.com
+   password: canvas
+   username1: admin2@prodepts.com
+   password1: canvas
+   app_list: All Apps;All Field Types, Loops;Workflow
+   department: Second Department
+   workflow_list_size_1: "4"
+   workflow_list_size_2: "1"
+   user_1: All Users
+   apps_1: a workflow
+   status_1: All Statuses
+   user_2: All Users
+   apps_2: Workflow
+   status_2: Handoff 1
+   user_3: Two, User
+   apps_3: Workflow
+   status_3: Handoff 1
+   search_field_1: pp
+   search_field_2: ggg
+   workflow_list_size: "1"
+   workflow_list: "33"
+   search_ message: 'Your search did not return any results, here are some tips:'
+   
+TC4006: 
+   username1: qa+cj112717a@gocanvas.com
+   password1: canvas
+   username2: qa+cj112717d@gocanvas.com
+   password2: canvas
+   username3: qa+cj112717r@gocanvas.com
+   password3: canvas
+   username4: qa+cj112717u@gocanvas.com
+   password4: canvas
+   updated_text: V
+   submisson_date: 12/06/2017 10:12 UTC
+   delete_logo_text: Delete
+   revert_to_oldtext: U
+   
+
+TC8070: 
+   username1: designer90@yahoo.com
+   password1: canvas
+   username2: 12@32.com
+   password2: Canvas!1
+   app_Name: Test App
+   version: "1"
+   submissionid: 5FA5762E-4F8C-42C2-A0E0-018F7EA08528
+   deletedon: 08/01/2018 03:54 UTC
+   colName: Test App;1;5FA5762E-4F8C-42C2-A0E0-018F7EA08528
+
+
+TC7594: 
+   username1: john98@gmail.com
+   password1: canvas
+   username2: dan37@yahoo.com
+   password2: canvas
+   username3: danny3@gmail.com
+   password3: canvas
+   create_select_year_from1: "2017"
+   create_select_month_from1: "9"
+   create_select_day_from1 : "September 1"
+   create_select_year_to1: "2017"
+   create_select_month_to1: "9"
+   create_select_day_to1 : "September 30"
+   create_select_year_to2: "2017"
+   create_select_month_to2: "10"
+   create_select_day_to2 : "October 30"
+   beginDate: Sep;1;2018
+   endDate: Sep;30;2018
+   endDateUpdated: Oct;30;2018
+   daterang_msg: The date range was more than 30 days. Please select 30 days or less
+   colName: Billing Account ID;Last Name;First Name;Email;Last Synced At
+   app_file_path: /src/main/resources/Downloads/
+   file_name: Inactive User Report.csv
+   compare_file_path: /src/main/resources/TestData/Inactive User Report.csv
+   
+TC7599:
+   username: dr@gmail.com
+   password: canvas
+   username2: ds@yahoo.com
+   reportbylist: Users and Apps;Groups and Apps;Users and Groups
+   email_list: de@gmail.com;dh@yahoo.com;dr@gmail.com;ds@yahoo.com
+   apps_list: ;Try This App First;Try This App First;Try This App First,Detailed Weekly Timesheet
+   group_list: ;Test Group;Test Group;Test Group
+   group_name: Test Group
+   group_desc: Testing 1 2 3
+   assigned_app: Try This App First
+   
+TC8071:
+   username: admin
+   password: Admin89!
+   user1: nb@yahoo.com
+   message: "Are you sure you want to disable all users of the account?"
+   message2: "No User found"
+   user_list: nb@yahoo.com(disabled);x72@yahoo.com(disabled);fd43434343@yahoo.com(disabled) 
+   email_list: nb@yahoo.com;x72@yahoo.com;fd43434343@yahoo.com 
+   user2: x72@yahoo.com
+   password2: canvas
+   message3: "Your account has been disabled, please contact support."
+   
+TC11044:
+   username: beta.newuser01@yopmail.com
+   password: canvas
+   firstname: Beta
+   lastname: Test User
+   text1: Sign Up For Your;Free;GoCanvas Account
+   text2: "No credit card required! 30 day trial of all features. "
+   text3: "Join thousands of organizations and say goodbye to paperwork!"
+   labelidlist: user_first_name;user_last_name;user_email
+   labellist: First Name;Last Name;Your Work Email
+   inputlist: Beta;Test User;beta.newuser01@yopmail.com
+   errorlist: First Name is required;Last Name is required;Email is required
+   text4: Thanks!;Tell us a little more about yourself.
+   buttonlist: Continue with Email;Continue with Google;Sign Up with LinkedIn
+   labelidlist2: company_name;industry;user_phone;password_input
+   labellist2: Company Name;Industry;Phone;Password
+   button2: Try It Free
+   error2: Password is required
+   step1: STEP 1
+   step2: STEP 2
+   text5: "Hi, Beta!"
+   text6: "Welcome to GoCanvas."
+   text7: "We'll help you get started. Ready?"
+   button3: Get Started
+   button4: Let me explore on my own
+   admin: admin
+   adminPwd: Admin89!
+   
+TC7579: 
+   username: ds22@gmail.com
+   password: canvas
+   app: Test App
+   text: Red
+   screen: Second Screen
+   message: "Your search did not return any results, here are some tips:"
+   screen2: Submission Criteria
+   submitter2: "ab, ab"
+   create_select_year_from1: "2017"
+   create_select_month_from1: "11"
+   create_select_day_from1 : "November 30"
+   create_select_year_to1: "2017"
+   create_select_month_to1: "11"
+   create_select_day_to1 : "November 30" 
+   date_range_from_no: "30"
+   month_range_from_no: Nov
+   year_range_from_no: "2017"
+   date_range_to_no: "30"
+   month_range_to_no: Nov
+   year_range_to_no: "2017"
+   submission_id: "1CB9B81B-71CC-4EDA-81FD-1C52BFD0398C"
+   submission_number: "00001"
+   Submission_Date: "11/30/2017 21:04 UTC"        
+   Submitter: "ab ab"
+   Number: "00001"
+   Submission_ID: "1CB9B81B-71CC-4EDA-81FD-1C52BFD0398C"
+   App_Name: "Test App"
+   App_Version: "(version 1)"
+   
+TC7600: 
+   username: 12@4321.cc
+   password: canvas
+   message1: "An email was sent to 12@4321.cc. On your mobile device, open the email and follow the link to install the app."
+   username2: admin
+   password2: Admin89!
+   email: qa+54@gocanvas.com
+   Email_Type: Installation Information
+   
+TC4169: 
+   username: username90@yahoo.com
+   password: canvas
+   name: "Jr, danny"
+   username2: lewish86@outlook.com
+   name2: "Lewis, L"
+   message: "Your profile has been updated."
+   first_name: danny
+   new_name: Test
+   
+TC4165: 
+   username: admin
+   password: Admin89!
+   label_list: Email;First Name;Last Name;Company Name;Role;Tier;User Account ID;Billing Contact First Name;Billing Contact Last Name;Billing Contact Email;Billing Company Account ID;GoCanvas Company ID
+   email: danny98@gocanvas.com
+   field_list1: Name;Email;Created;Last Log in
+   field_list2: Account Info;Quick Links
+   role: Sales User
+   email2: qa+sutc4004@gocanvas.com
+   row_index: "2"
+   company_name: Redskins
+   email3: db678@gmail.com
+   created: "28/11/2017 16:47 UTC"
+   first_name: buttar
+   name: "dannybuttar, dannybuttar"
+   account_info: reds company
+   email_info: "devinderbuttar274++++-----@..."
+   created_info: "23/06/2017 16:54 UTC"
+   last_login: "23/06/2017 16:54 UTC"  
+   
+TC4168: 
+   username: buttar222@outlook.com
+   password: canvas
+   filter_list: Active;Inactive;Open;Filled
+   user: devinderbuttar274++++--@gmail.com
+   email: "devinderbuttar274++++--@gma..."
+   status: "(disabled)"
+   open_user: "Open User #"
+   active_user: "BALDWIN!!!!, JOE"
+   active_email: "buttar222@outlook.com"
+   row_index: "1"
+   filled_list: buttar222@outlook.com;buttar222++@outlook.com;devinderbuttar274++++++----...;devinderbuttar274+++++---@g...;qatestdan@gocanvas.com;g7hs@yahoo.com;devinderbuttar274++++--@gma...;d87@gmail.com
+   
+TC7699: 
+   username: b887@yahoo.com
+   password: canvas
+   username1: bg727@yahoo.com
+   username2: dispatch13@yahoo.com
+   message1: "Table Of Contents has been successfully enabled"
+   message2: "Table Of Contents has been successfully disabled"
+   
+TC4177: 
+   username: admin
+   password: Admin89!
+   email: username90@yahoo.com
+   more_options: Disable;Set Lifetime Free Trial;Set Unlimited Lifetime Free Trial;Enable Unlimited Lifetime Free For Entire Company;Allow Admin Login; Features; Logs ; Sales Associate 
+   option_list: Enable custom library content;Disable Dispatch;Disable Dispatch Scheduling;Disable Dispatch Calendar;Enable Prepaid Submissions;Disable Table Of Contents;Disable Grid;Disable Mobile Editing;Enable Custom Attachments;Disable Workflow;Disable Webservices;Disable Phone Support;Disable Advanced Password Management;Disable HIPAA Compliance Override;Enable Business Insights;Enable LDAP;Enable SSO;Enable Departments;Enable Transfer Functionality;Enable Team Licenses
+   option2: " Logs "
+   logs_list: View Submission Logs;Send Logs;Enable API Logging
+   option3: " Sales Associate"
+   sales_list: Convert To Sales Associate;Convert To Free Sales Associate;Convert To Free Sales Associate(Account);Update Sales Associate
+   option4: "Enable Custom Attachments"
+   message: "Custom Attachments has been enabled for 'Companys First Name'"
+   option5: "Disable Custom Attachments"
+   
+TC7682: 
+   username: admin@prodepts.com
+   password: canvas
+   department1: All
+   list1: Submissions;Account;Profile
+   list2: Users;Departments;Billing Info;Reports;Account Settings
+   list3: Active User Report;Inactive User Report;Mobile Client Version Report;Reference Data Report;Return On Investment;Users, Groups, and Apps Report
+   department2: First Department
+   list4: Dashboard;Apps;Submissions;Workflow & Dispatch;Reference Data & Images;Department;Profile
+   list5: Users;Groups;Reports 
+   username2: reporter@prodepts.com
+   list6: Submissions;Reports;Profile
+   list7: Active User Report;Mobile Client Version Report
+   
+TC7683: 
+   username: t7683@bogus.com
+   password: canvas
+   department1: Admin
+   department2: Reporter
+   department3: Designer
+   department4: First Department
+   list1: Dashboard;Apps;Submissions;Workflow & Dispatch;Reference Data & Images;Department
+   list2: Users;Groups;Reports
+   list3: Active User Report;Inactive User Report;Mobile Client Version Report;Reference Data Report;Return On Investment;Users, Groups, and Apps Report
+   list4: Submissions;Reference Data & Images;Reports;Profile
+   list5: Active User Report;Mobile Client Version Report
+   list6: Dashboard;Apps;Submissions;Workflow & Dispatch;Reference Data & Images;Reports;Profile
+   list7: Submissions;Profile
+  
+TC8069: 
+   username1: 12@32.com
+   password1: Canvas!1
+   appName: Test App
+
+  
+TC11505:
+  username: kailashandrew@yopmail.com
+  password: canvas123
+  app_name: App Desc
+  app_desc: Enter App description
+  app_desc_new: This is updated description
+
+TC3891: 
+   username1: pending20@yahoo.com
+   password1: canvas
+   username2: pending21@yahoo.com
+   password2: canvas
+   appName1: New App
+   appName2: New App 2
+   app_version: version 2
+   app_version_updated: version 1
+   first_screen_place_holder: New Screen 1
+   first_screen_name: First Screen App fields
+   first_screen_labels: First name;Description
+   first_screen_fields: Short Text;Long Text
+   app_status: Pending
+   app_status_updated: Published
+   delete_msg: Delete version 2 of this app?
+   
+TC7688:
+   username: b76@outlook.com
+   password: canvas
+   user_list: b76@outlook.com;b87@yahoo.com;v87@yahoo.com;bh7@yahoo.com
+   username2: bh7@yahoo.com
+   menu: Account
+   username3: b76@outlook.com
+   user_list2: b76@outlook.com;b87@yahoo.com;v87@yahoo.com;bh7@yahoo.com
+   plan_list2: Professional Monthly;Professional Annual;Professional Annual;Professional Annual
+   nextbill_list2: 01/26/2028;01/26/2028;01/26/2028;01/26/2028
+   admin: admin
+   adminpwd: Admin89!
+   company_plan: Professional 
+   balance:  $
+   billing_cycle: "12/27/2027 - 01/26/2028"
+   
+TC4164:
+   username: admin
+   password: Admin89!
+   email: red@redskins.org
+   message: You are now managing ;red@redskins.org;of the My Company account.;Resume your own session
+   menu: GoCanvas Only
+   options_list: Admin Settings;App Logo Image;Billing Options;Bulk Upload Users;Custom Queries;Custom Sync Responses;Delivery Status;Destroyed Apps;Disable All Users;Gaming Mitigation
+   option: Billing Options
+   message2: Companies Default Annual rates updated'.
+   rate: Annual $185
+   original_rate: Form Submission
+   
+TC4150:
+   username: user232@yahoo.com
+   password: canvas
+   menu: Account
+   username2: invoice27@gmail.com  
+   menu2: Account Settings
+   options_list: Custom Sender Email Address;Custom Account Logo;HIPAA Compliant;Password Policy;Notifications;PDF Header;PDF Auto Email Content;Account Date Format; Client Timeout Window;Account Time Zone;Submission Numbering;Testing Apps;Department Functionality
+   label1: HIPAA Compliant
+   label2: Notifications
+   label3: Account Date Format
+   label4: Testing Apps
+   label5: Department Functionality
+   label6: Custom Sender Email Address
+   date_format: MM/DD/YYYY
+   department: All
+   email: donotreply@gocanvas.com
+   
+TC10635:
+   username: appcreateanddelete@yopmail.com
+   password: canvas
+   first_screen_name: First Screen App fields
+   first_screen_place_holder: New Screen 1
+   first_screen_fields: Short Text;Long Text;Static Text;Number;Calculation;Drop Down;Multi Choice;Checkbox;Date;Time;Photo;Signature;Barcode;GPS;Drawing;Web Link;Payment
+   first_screen_labels: First name;Description;I Accept;Salary;Total Salary;City;MultiChoice;I Accept it;Date of Birth;Time of Birth;Image;Sign;Bar-code in Product;Location;Draw something;My URL;Payment mode
+   second_screen_name: Second Screen App fields
+   second_screen_fields: Short Text;Short Text;Short Text;Photo;Date;GPS;Drawing;Drop Down;Barcode;Summary;Calculation
+   second_screen_labels: First Name;Middle Name;Last Name;My Updated Photo;DOB;Company Location;My New Drawing;Country;Bar-code of item;Total Summary;Total Calculation of Order
+   second_screen_place_holder: New Screen 2
+   save_message: Save successful
+   name: Delete, Screen,Field
+   app_status: Published
+   field_delete1: First Name
+   field_delete2: My New Drawing
+   
+TC10634:
+   username: appwithgrid@yopmail.com
+   password: canvas
+   first_screen_name: Screen with Grid
+   first_screen_place_holder: New Screen 1
+   first_screen_fields: Short Text;Long Text;Static Text;Number;Calculation;Drop Down;Multi Choice;Checkbox;Date;Time;Photo;Signature;Barcode;GPS;Drawing;Web Link;Payment
+   first_screen_labels: First name;Description;I Accept;Age;Total Salary;City;MultiChoice;I Accept it;Date of Birth;Time of Birth;Image;Sign;Bar-code in Product;Location;Draw something;My URL;Payment mode
+   loop_field: Age
+   style: Grid
+   message: Grid Enabled
+   name: Grid, App
+   app_status: Published
+   final_first_screen_fields: Short Text;Long Text;Static Text;Calculation;Drop Down;Multiple Choice;Checkbox;Date;Time;Photo;Signature;Barcode;GPS;Drawing;Web Link;Payment
+   final_first_screen_labels: First name;Description;I Accept;Total Salary;City;MultiChoice;I Accept it;Date of Birth;Time of Birth;Image;Sign;Bar-code in Product;Location;Draw something;My URL;Payment mode  
+   
+TC7531:
+   username: 7541a@bogus.com
+   password: canvas 
+   option: Construction, Repair & Improvement
+   sortby_list: Most Popular;Newest;Name;Featured 
+   sort_option: Name
+   app_list: Additional Work Authorizations;Appliance Service 
+   page_list: 2;3;4;Previous;1;Next
+   category: Building Construction
+   app_count: "6"
+   country: Canada
+   app: "General Building Contractors Material & Labour Records (Canada) - Deluxe 230"
+   username2: 7541d@bogus.com
+   option2: Field Services
+   search: HVAC Service Order
+   app2: "HVAC Service Order w/ Checklist - Deluxe 6501"  
+   
+TC7791:
+  email: newemail12@email.fake
+  cname: My Company
+  phone: "3194802414"
+  password: canvas
+  activationHeader: To continue, please activate your account
+  devicesHeader: Get your computer and mobile device
+  admin_username: admin
+  admin_password: Admin89!
+  labelidlist: user_first_name;user_last_name;user_email
+  inputlist: Beta;Test User;beta.newuser01@yopmail.com
+  text5: "Hi, Beta!"
+  text6: "Welcome to GoCanvas."
+  text7: "We'll help you get started. Ready?"
+  button3: Get Started
+  button4: Let me explore on my own
+  messagestarted: "Yes, I have them both!"
+  skipmessage: "Skip"
+  resendbutton: "Resend Email"
+
+TC7846:
+  username1: m232@yahoo.com
+  password1: canvas
+  appName: Test App
+  submissiondate: 11/30/2017
+  submissiondatetime: 11/30/2017 21:36 UTC
+  oldshort_text: Tom
+  updatedshort_text: Cook
+  authorName: m232@yahoo.com
+  
+TC7576:
+  username: reporter27@yahoo.com
+  password: canvas
+  app1: Phone Follow Up Lead Capture
+  create_select_year_from1: "2017"
+  create_select_month_from1: "10"
+  create_select_day_from1 : "October 19"
+  create_select_year_to1: "2017"
+  create_select_month_to1: "10"
+  create_select_day_to1 : "October 19"
+  date_range_from: "19"
+  month_range_from: Oct
+  year_range_from: "2017"
+  date_range_to: "19"
+  month_range_to: Oct
+  year_range_to: "2017"
+  user: user276@yahoo.com
+  count: "1"
+  date: "19 Oct 17"
+  username2: db277@gmail.com
+  app_list: Active User Report App;Phone Follow Up Lead Capture;Try This App First 
+  app2: Active User Report App
+  app_file_path: /src/main/resources/Downloads/
+  file_name: "Active User Report.csv"
+  compare_file_path: "/src/main/resources/TestData/Active User Report.csv"
+  
+TC10636:
+   username: appcopiedscreenfields@yopmail.com
+   password: canvas
+   first_screen_name: Copy screen and field name
+   first_screen_place_holder: New Screen 1
+   first_screen_fields: Short Text;Long Text;Static Text;Number;Calculation;Drop Down;Multi Choice;Checkbox;Date;Time;Photo;Signature;Barcode;GPS;Drawing;Web Link;Payment
+   first_screen_labels: Hospital Name;Description;I Accept;Age;Total Salary;City;MultiChoice;I Accept it;Date of Birth;Time of Birth;Image;Sign;Bar-code in Product;Location;Draw something;My URL;Payment mode
+   save_message: Save successful
+   name: Fields,Screen, Copied
+   app_status: Published
+   copy_field: Hospital Name
+   
+US7606:
+   username: admin
+   password: Admin89!
+   labelidlist: user_first_name;user_last_name;user_email
+   labelidlist2: user_phone;password_input
+   inputlist: Beta;Test User;beta.newuser01@yopmail.com
+   passwordid: password_input
+   userpassword: canvas
+   username2: chadio27@outlook.com
+   password2: canvas
+   
+TC10642:
+   username: fieldandscreensetting@yopmail.com
+   password: canvas
+   first_screen_name: Field Setting
+   first_screen_place_holder: New Screen 1
+   first_screen_fields: Short Text;Number
+   first_screen_labels: First Name;No of employee
+   
+TC7788:   
+   labelidlist: user_first_name;user_last_name;user_email
+   inputlist: Beta;Test User;beta.newuser001@yopmail.com
+   labelidlist2: password_input
+   labellist2: Password
+   password: canvas
+   text6: "Welcome to GoCanvas."
+   admin: admin
+   adminPwd: Admin89!
+   devicesHeader: Get your computer and mobile device
+   skipmessage: "Skip"
+   activationHeader: To continue, please activate your account
+   
+TC7782:
+   username: admin
+   password: Admin89!
+   gocanvasmenu: Company Stagings
+   menu: Enter License Order
+   email: betaqrtautomation@yopmail.com
+   vendor: Globe
+   sku: LEGACY_MONTHLY
+   license: "12"
+   url: "http://www.yopmail.com"
+   sprintlogo: sprint_logo.png
+   globelogo: GlobeEmailImage.png
+   firstName: test
+   lastName: testuser
+   phone: "9876543210"
+   password2: canvas
+   message: "Welcome to GoCanvas."
+   text: Company Plan;Globe;"1";out of;"12";licenses used
+   vendor2: Sprint
+   license2: "4"
+   license3: "6"
+   toastmessage: 
+   vendorstatus: "Yes"
+   vendor3: "Sprint (BAM)"
+   companyname: Staging
+   
+TC7589:
+   username: betadesigner2017@outlook.com
+   password: canvas
+   app_dropdown_list: A-Painting Work Order Invoice;Beta App;pests and plants inspection form;Z Work Order
+   app_name: Beta App
+   assign_item_to_list: Beta Designer;Beta Tester2017
+   screen: LA
+   label_list: New Short Text;New Long Text;Integer;Decimal;Drop Down;Radio Button;New Checkbox;New Date;New Time;New Barcode;Button msn.com
+   label_list2: New Drop Down A B C or D;Integer
+   toast_message: Your dispatch was successfully created.
+   field_id: dispatch_entry0;dispatch_entry1;dispatch_entry3;dispatch_entry4;dispatch_entry10;dispatch_entry11;dispatch_entry13
+   field_value: text;long text;12;1234;barcode;www.test.com;14
+   
+TC11508:
+   username: buttar222@outlook.com
+   password: canvas
+   userlist: buttar222@outlook.com;buttar222++@outlook.com;qatestdan@gocanvas.com;d87@gmail.com
+   submission: TC7675
+   searchtext_list: 9e25070ed54711c1-1508860146009;00032;24;1508860146009
+   searchtext: "2017"
+   date1: "10/24/2017 05:50 HST" 
+   date2: "10/24/2017 15:50 UTC"
+   countlist: 2;2;2;1
+   app_version: "1"
+   exportformat1: CSV
+   exportformat2: XML
+   csv_file: TC7675.csv
+   xml_file: TC7675.xml
+   submitter: dann nbg
+   file_path: /src/main/resources/Downloads/
+   screen: Submission Criteria
+   date_range_from1: "1"
+   month_range_from1: Aug
+   year_range_from1: "2017"
+   user: "nbg, dann"
+   submission_id: 9e25070ed54711c1-1503517262277
+   new_text: 8s63nks8bxy8743s
+   old_text: nininibnububub
+   edit_icon: "New Short Text:"
+   group: "Group Fix!!!"
+   folder: test
+   app: "All Field Types, Loops"
+   department: First Department
+   folder_user: admin2@prodepts.com
+   
+US7052:
+  google_analytics6: "var dlRemoved = window.location.href;"
+  google_analytics7: "dlRemoved = decodeURIComponent(dlRemoved);"
+  google_analytics8: "dlRemoved = dlRemoved.replace(emailRegEx, 'REMOVED');"
+  google_analytics9: "ga('set', 'location', dlRemoved);"
+  google_analytics10: "ga('send', 'pageview');//]]>"
+  kiss_metrics: "var _kmq = _kmq || [];
+    var _kmk = _kmk || 'c36b19d1329ae6ec9590303f02fadeeb57d38d84';
+    function _kms(u){
+      setTimeout(function(){
+        var d = document, f = d.getElementsByTagName('script')[0],
+        s = d.createElement('script');
+        s.type = 'text/javascript'; s.async = true; s.src = u;
+        f.parentNode.insertBefore(s, f);
+      }, 1);
+    }
+    _kms('//i.kissmetrics.com/i.js');
+    _kms('//scripts.kissmetrics.com/' + _kmk + '.2.js');"
+  google_tag_manager: "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-N44247');"
+  
+TC9565:
+   linkedin_login: qaus5502@gmail.com
+   linkedin_pwd: Admin89!
+   message: "GoCanvas would like to"
+   message2: "Sign-In Verification"
+
+QA-52:
+   username: appreferencedata@yopmail.com
+   password: canvas
+   app_name: App With Reference Data in Same and Across the Screen
+   first_screen_name: Screen 1
+   first_screen_fields: Drop Down;Static Text
+   first_screen_labels: City;Data on the basis of the Selection of city
+   second_screen_name: Screen 2
+   name: Data, Reference
+   save_message: Save successful
+   app_status: Published
+   second_screen_fields: Static Text
+   second_screen_labels: Data on the basis of the Selection of city in Screen 1
+   reference_data_field: City
+   reference_data_name: My Ref data 
+   reference_data_description: My Ref data
+   reference_file_path: /src/main/resources/Ref-01.csv
+   first_screen_place_holder: New Screen 1
+   second_screen_place_holder: New Screen 2
+   reference_field2: Data on the basis of the Selection of city
+   second_reference_data_field: Data on the basis of the Selection of city in Screen 1
+   reference_value1: ID
+   reference_value2: Name
+   reference_value3: Age
+   screen_value1: None
+   reference_screen: string:Screen 1
+   cityValueList: 1;2;3;4;5;6
+   populatedValue: Tom;John;Kim;Kailash;Andrew;Larry
+   toast_message: Your dispatch was successfully created.
+   
+US7735:   
+   appName: "Electrical Work Order w/Checklist - Deluxe 6520"
+   labelidlist: first_name_header;last_name_header;user_email_header
+   inputlist: Beta;Test User;beta.newuser001@yopmail.com
+   labelidlist2: password_input
+   labellist2: Password
+   password: canvas
+   welcometext: "Welcome to GoCanvas."
+   
+TC11639:
+   username: chadio27@outlook.com
+   password: canvas
+   app_name: Dispatch and Workflow
+
+QA-77:
+   username: allowduplicaterefdata@yopmail.com
+   password: canvas
+   app_name: Allow duplicate Entries with Reference Data
+   first_screen_name: Screen 1
+   first_screen_fields: Drop Down;Static Text
+   first_screen_labels: City;Data on the basis of the Selection of city
+   second_screen_name: Screen 2
+   name:  Data, Reference 
+   save_message: Save successful
+   app_status: Published
+   second_screen_fields: Static Text
+   second_screen_labels: Data on the basis of the Selection of city in Screen 1
+   reference_data_field: City
+   reference_data_name: My Ref data 
+   reference_data_description: My Ref data
+   reference_file_path: /src/main/resources/Ref-01.csv
+   first_screen_place_holder: New Screen 1
+   second_screen_place_holder: New Screen 2
+   reference_field2: Data on the basis of the Selection of city
+   second_reference_data_field: Data on the basis of the Selection of city in Screen 1
+   reference_value1: ID
+   reference_value2: Name
+   reference_value3: Age
+   screen_value1: None
+   reference_screen: string:Screen 1
+   cityValueList: 1;1;1;1
+   populatedValue: Tom;Tom;Tom;Tom
+   toast_message: Your dispatch was successfully created.
+   
+QA-78:
+   username: editablevalueswithrefdata@yopmail.com
+   password: canvas
+   app_name: Ediable value with Reference data
+   first_screen_name: Screen 1
+   first_screen_fields: Drop Down;Short Text
+   first_screen_labels: City;Data on the basis of the Selection of city
+   second_screen_name: Screen 2
+   name:  Data, Reference 
+   save_message: Save successful
+   app_status: Published
+   second_screen_fields: Static Text
+   second_screen_labels: Data on the basis of the Selection of city in Screen 1
+   reference_data_field: City
+   reference_data_name: My Ref data 
+   reference_data_description: My Ref data
+   reference_file_path: /src/main/resources/Ref-01.csv
+   first_screen_place_holder: New Screen 1
+   second_screen_place_holder: New Screen 2
+   reference_field2: Data on the basis of the Selection of city
+   second_reference_data_field: Data on the basis of the Selection of city in Screen 1
+   reference_value1: ID
+   reference_value2: Name
+   reference_value3: Age
+   screen_value1: None
+   reference_screen: string:Screen 1
+   cityValueList: 1;1;1;1
+   populatedValue: Tom;Tom;Tom;Tom
+   toast_message: Your dispatch was successfully created.  
+   style: Editable  
+   city : 11911 Freedom Dr 850
+   populatedValue : Reston, VA 20190, USA
+
+QA-98:
+   username: calcwithfieldandoperator@yopmail.com
+   password: canvas
+   app_name: Create App with Normal Screen with calculation
+   first_screen_name: App with calculation and constant
+   number1: N1
+   number2: N2
+   calculation: Total Sum
+   first_screen_fields: Number;Number;Calculation
+   first_screen_labels: N1;N2;Total Sum;
+   calpopuptext: Calculation
+   operatordropdown: N1;N2
+   numberdropdown: N1;N2
+   numberDecimal: "0.78"
+   Operator 1 : N1
+   Operator 2: N2
+   Operator 3: N1
+   Operator 4: "0.78"
+   name: Cal, App
+   save_message: Save successful
+   app_published_message: Version 1 of the Create App with multiple screens app has been published
+   app_status: Published
+   first_screen_place_holder: New Screen 1
+   second_screen_place_holder: New Screen 2
+
+QA-276:
+   username: noneditfieldwithrefdata@yopmail.com
+   password: canvas
+   app_name: Ediable value with Reference data
+   first_screen_name: Screen 1
+   first_screen_fields: Drop Down;Short Text
+   first_screen_labels: City;Data on the basis of the Selection of city
+   second_screen_name: Screen 2
+   name:  Data, Reference 
+   save_message: Save successful
+   app_status: Published
+   second_screen_fields: Static Text
+   second_screen_labels: Data on the basis of the Selection of city in Screen 1
+   reference_data_field: City
+   reference_data_name: My Ref data 
+   reference_data_description: My Ref data
+   reference_file_path: /src/main/resources/Ref-01.csv
+   first_screen_place_holder: New Screen 1
+   second_screen_place_holder: New Screen 2
+   reference_field2: Data on the basis of the Selection of city
+   second_reference_data_field: Data on the basis of the Selection of city in Screen 1
+   reference_value1: ID
+   reference_value2: Name
+   reference_value3: Age
+   screen_value1: None
+   reference_screen: string:Screen 1
+   noneditablevalue: Enter data in noneditable field
+   toast_message: Your dispatch was successfully created.  
+   noneditablemessage: No Record Found.  
+   enterdatasecondfield : Reston, VA 20190, USA
+
+QA-154:
+   username: gocanvasdemo3@yopmail.com
+   password: canvas
+   submitter: Sdet QA
+   url: "http://www.yopmail.com"
+   pdf_app_name: Beer Stock Requisition
+   pdf_screen_title1: STOCK REQUISITION
+   pdf_screen_title2: REQUEST INFO 
+
+QA-101:
+   username: applyoperatoronfield@yopmail.com
+   password: canvas
+   app_name: Create App with Normal Screen with applying operators on fields
+   first_screen_name: App with calculation and constant
+   number1: N1
+   number2: N2
+   calculation: Total Sum
+   first_screen_fields: Number;Number;Calculation
+   first_screen_labels: N1;N2;Total Sum;
+   calpopuptext: Calculation
+   operatordropdownvalues: N1;N2;N1
+   operatordropdownselectedvalues: N1;N2;N1;N2
+   numberdropdown: N1;N2
+   numberDecimal: "0.71"
+   Operator 1 : N1
+   Operator 2: N2
+   Operator 3: N1
+   Operator 4: N2
+   Operator 5: N1
+   Operator 6: N2
+   Symbol1 : "+"
+   Symbol2: "−"
+   Symbol3: "÷"
+   Symbol4: "×"
+   Symbol5 : "+"
+   Symbol6 : "+"
+   name: Cal, App
+   save_message: Save successful
+   app_published_message: Version 1 of the Create App with multiple screens app has been published
+   app_status: Published
+   first_screen_place_holder: New Screen 1
+   second_screen_place_holder: New Screen 2
+
+QA-355:   
+   labelidlist: user_first_name;user_last_name;user_email
+   inputlist: Beta;Test User;beta.newuser001@yopmail.com
+   password: canvas
+   msg_1: Just one more step to start your free account
+   msg_2: Let's do this! Time to pick a plan.
+   msg_3: Checkout
+   msg_4: "Welcome to GoCanvas."
+   labelidlist2: password_input;user_phone
+   inputlist2: canvas;6788909878
+   admin: admin
+   adminPwd: Admin89!
+   text_1: Release from Onboarding
+   text_2: Activate User
+   devicesHeader: Get your computer and mobile device
+   skipmessage: "Skip"
+   activationHeader: To continue, please activate your account
+   text1: Annual
+   text2: Monthly
+   fn_error_message: First Name is required
+   ln_error_message: Last Name is required
+   email_error_message: Email is required
+   phone_error_message: Phone Number is required
+   address_error_message: Address is required
+   city_error_message: City is required
+   zip__error_message: Zip code is required
+   fieldlabelist: billing_contact_first_name;billing_contact_last_name;billing_contact_email;billing_contact_international_phone;billing_contact_address_1;billing_contact_address_2;billing_contact_city;billing_contact_zipcode
+   filedinputlist: Tim;Cook;test@yopmail.com;6999990918;B-29 Noida;Sec 62;West Jefferson;35130
+   confirm_plan: Business
+   confirm_billing_freq: Annual
+   fieldxpath: font-bold selected-plan-type;font-bold billing-cycle
+   fieldlabelSummary: selected-plan-type;billing-cycle
+   data: Business;Annual
+   fieldlabel: Plan;Billing Frequency
+   headertext: Users & Seats
+   nameoncard_error_message: Name is required
+   ccnumber_error_message: Credit Card Number is required
+   expdate_error_message: Expiration Date is required
+   cvv_error_message: CVV is required
+   ccfieldnamelabel: error-creditCardHolderName
+   ccfieldnumberlabel: error-creditCardNumber
+   ccfielexpdatelabel: error-creditCardExpirationMonth
+   ccfieldCvvLabel: error-cardSecurityCode
+   ccfieldlabelist: input-creditCardHolderName;input-creditCardNumber;input-cardSecurityCode
+   ccfiledinputlist: Peter Liu Larson;6011000990139424;230
+   ccMonthxpath: input-creditCardExpirationMonth
+   ccYearxpath: input-creditCardExpirationYear
+   ccMonth: "02"
+   ccYear: "2038"
+   ccMonthxpath: input-creditCardExpirationMonth
+   ccYearxpath: input-creditCardExpirationYear
+   invalidccMonth: "01"
+   invalidccYear: "2019"
+   confpurButtontxt: Confirm Purchase
+   planType: Annual  
+   plan:  Business
+   planmonthly: Monthly
+   cvv_error_messagecard: The card values are invalid! Please check your values and try again.
+   ccfiledinputlistinvaildcard: Andrew Key;9999990990139424;542
+   card_error_message: Invalid Card Number
+   
+QA-394:   
+   labelidlist: user_first_name;user_last_name;user_email
+   inputlist: Beta;Test User;beta.newuser001@yopmail.com
+   password: canvas
+   msg_1: Just one more step to start your free account
+   msg_2: Let's do this! Time to pick a plan.
+   msg_3: Checkout
+   msg_4: Welcome to GoCanvas.
+   labelidlist2: password_input;user_phone
+   inputlist2: canvas;9988909878
+   admin: admin
+   adminPwd: Admin89!
+   text_1: Release from Onboarding
+   text_2: Activate User
+   devicesHeader: Get your computer and mobile device
+   skipmessage: "Skip"
+   activationHeader: To continue, please activate your account
+   text1: Annual
+   text2: Monthly
+   fn_error_message: First Name is required
+   ln_error_message: Last Name is required
+   email_error_message: Email is required
+   phone_error_message: Phone Number is required
+   address_error_message: Address is required
+   city_error_message: City is required
+   zip__error_message: Zip code is required
+   fieldlabelist: billing_contact_first_name;billing_contact_last_name;billing_contact_email;billing_contact_international_phone;billing_contact_address_1;billing_contact_address_2;billing_contact_city;billing_contact_zipcode
+   filedinputlist: Tim;Cook;test@yopmail.com;9998909879;B-29 Noida;Sec 62;West Jefferson;35130
+   confirm_plan: Business
+   confirm_billing_freq: Annual
+   fieldxpath: font-bold selected-plan-type;font-bold billing-cycle
+   fieldlabelSummary: selected-plan-type;billing-cycle
+   data: Business;Monthly
+   fieldlabel: Plan;Licenses;Billing Frequency
+   headertext: Users & Seats
+   nameoncard_error_message: Name is required
+   ccnumber_error_message: Credit Card Number is required
+   expdate_error_message: Expiration Date is required
+   cvv_error_message: CVV is required
+   ccfieldnamelabel: error-creditCardHolderName
+   ccfieldnumberlabel: error-creditCardNumber
+   ccfielexpdatelabel: error-creditCardExpirationMonth
+   ccfieldCvvLabel: error-cardSecurityCode
+   ccfieldlabelist: input-creditCardHolderName;input-creditCardNumber;input-cardSecurityCode
+   ccfiledinputlist: John Marsh;371449635398431;451
+   ccMonthxpath: input-creditCardExpirationMonth
+   ccYearxpath: input-creditCardExpirationYear
+   ccMonth: "04"
+   ccYear: "2037"
+   confpurButtontxt: Confirm Purchase 
+   planType: Monthly
+   plan:  Business
+     
+QA-393:   
+   labelidlist: user_first_name;user_last_name;user_email
+   inputlist: Beta;Test User;beta.newuser001@yopmail.com
+   password: canvas
+   msg_1: Just one more step to start your free account
+   msg_2: Let's do this! Time to pick a plan.
+   msg_3: Checkout
+   msg_4: "Welcome to GoCanvas."
+   labelidlist2: password_input;user_phone
+   inputlist2: canvas;9966601240
+   admin: admin
+   adminPwd: Admin89!
+   text_1: Release from Onboarding
+   text_2: Activate User
+   devicesHeader: Get your computer and mobile device
+   skipmessage: "Skip"
+   activationHeader: To continue, please activate your account
+   text1: Annual
+   text2: Monthly
+   fn_error_message: First Name is required
+   ln_error_message: Last Name is required
+   email_error_message: Email is required
+   phone_error_message: Phone Number is required
+   address_error_message: Address is required
+   city_error_message: City is required
+   zip__error_message: Zip code is required
+   fieldlabelist: billing_contact_first_name;billing_contact_last_name;billing_contact_email;billing_contact_international_phone;billing_contact_address_1;billing_contact_address_2;billing_contact_city;billing_contact_zipcode
+   filedinputlist: James;Bond;kattypary@kp.com;9998909879;B-29 Noida;Sec 62;West Jefferson;35130
+   confirm_plan: Professional
+   confirm_billing_freq: Annual
+   fieldxpath: font-bold selected-plan-type;font-bold billing-cycle
+   fieldlabelSummary: selected-plan-type;billing-cycle
+   data: Professional;Annual
+   fieldlabel: Plan;Billing Frequency
+   headertext: Users & Seats
+   nameoncard_error_message: Name is required
+   ccnumber_error_message: Credit Card Number is required
+   expdate_error_message: Expiration Date is required
+   cvv_error_message: CVV is required
+   ccfieldnamelabel: error-creditCardHolderName
+   ccfieldnumberlabel: error-creditCardNumber
+   ccfielexpdatelabel: error-creditCardExpirationMonth
+   ccfieldCvvLabel: error-cardSecurityCode
+   ccfieldlabelist: input-creditCardHolderName;input-creditCardNumber;input-cardSecurityCode
+   ccfiledinputlist: Mark Rick;3566002020360505;509
+   ccMonthxpath: input-creditCardExpirationMonth
+   ccYearxpath: input-creditCardExpirationYear
+   ccMonth: "07"
+   ccYear: "2033"
+   confpurButtontxt: Confirm Purchase
+   planType: Annual  
+   plan:  Professional
+   
+QA-395:   
+   labelidlist: user_first_name;user_last_name;user_email
+   inputlist: Beta;Test User;beta.newuser001@yopmail.com
+   password: canvas
+   msg_1: Just one more step to start your free account
+   msg_2: Let's do this! Time to pick a plan.
+   msg_3: Checkout
+   msg_4: Welcome to GoCanvas.
+   labelidlist2: password_input;user_phone
+   inputlist2: canvas;9988909878
+   admin: admin
+   adminPwd: Admin89!
+   text_1: Release from Onboarding
+   text_2: Activate User
+   devicesHeader: Get your computer and mobile device
+   skipmessage: "Skip"
+   activationHeader: To continue, please activate your account
+   text1: Annual
+   text2: Monthly
+   fn_error_message: First Name is required
+   ln_error_message: Last Name is required
+   email_error_message: Email is required
+   phone_error_message: Phone Number is required
+   address_error_message: Address is required
+   city_error_message: City is required
+   zip__error_message: Zip code is required
+   fieldlabelist: billing_contact_first_name;billing_contact_last_name;billing_contact_email;billing_contact_international_phone;billing_contact_address_1;billing_contact_address_2;billing_contact_city;billing_contact_zipcode
+   filedinputlist: Tim;Cook;test@yopmail.com;9998909879;B-29 Noida;Sec 62;West Jefferson;35130
+   confirm_plan: Business
+   confirm_billing_freq: Annual
+   fieldxpath: font-bold selected-plan-type;font-bold billing-cycle
+   data: Professional;Monthly
+   fieldlabel: Plan;Billing Frequency
+   fieldlabelSummary: selected-plan-type;billing-cycle
+   headertext: Users & Seats
+   nameoncard_error_message: Name is required
+   ccnumber_error_message: Credit Card Number is required
+   expdate_error_message: Expiration Date is required
+   cvv_error_message: CVV is required
+   ccfieldnamelabel: error-creditCardHolderName
+   ccfieldnumberlabel: error-creditCardNumber
+   ccfielexpdatelabel: error-creditCardExpirationMonth
+   ccfieldCvvLabel: error-cardSecurityCode
+   ccfieldlabelist: input-creditCardHolderName;input-creditCardNumber;input-cardSecurityCode
+   ccfiledinputlist: John Larson;6011000990139424;770
+   ccMonthxpath: input-creditCardExpirationMonth
+   ccYearxpath: input-creditCardExpirationYear
+   ccMonth: "08"
+   ccYear: "2035"
+   confpurButtontxt: Confirm Purchase 
+   planType: Monthly
+   plan: Professional
+   
+# testing on demo only - 5/13
+QA-396:
+   username: staticphotootherscenario@yopmail.com
+   password: canvas
+   app_name: App With Static Image Field Non Supported File
+   first_screen_name: Screen 1
+   first_screen_field1: Short Text
+   first_screen_field2: Static Image
+   first_screen_field3: Static Image
+   second_screen_name: Screen 2
+   second_screen_field: Short Text
+   second_screen_labels: Last Name
+   name: Photo,Static
+   save_message: Save successful
+   app_status: Published
+   staticImage_file_path: /src/main/resources/Test.NPG
+   staticImage_file_path_PDF: /src/main/resources/NonPNG.PDF
+   first_screen_place_holder: New Screen 1
+   second_screen_place_holder: New Screen 2
+   first_screen_labels1: First Name
+   first_screen_labels2: My Static Image
+   second_screen_labels1: Last Name
+   second_screen_labels2: Select Existing Ref-Image
+   conditional_field: First Name
+   condition_equal: = (Equal)
+   condition_value: Test
+   errorMessage: Invalid image format. Please select either a JPEG or a PNG.
+   cond_screen_place_holder: New Screen 2
+   
+# testing on demo 
+QA-307:
+   username: uploadstaticphoto@yopmail.com
+   password: canvas
+   app_name: App With Static Image Field
+   first_screen_name: Screen 1
+   first_screen_field1: Short Text
+   first_screen_field2: Static Image
+   first_screen_field3: Static Image
+   second_screen_name: Screen 2
+   second_screen_field: Short Text
+   second_screen_labels: Last Name
+   name: Photo,Static
+   save_message: Save successful
+   app_status: Published
+   staticImage_file_path: /src/main/resources/Test.JPG
+   first_screen_place_holder: New Screen 1
+   second_screen_place_holder: New Screen 2
+   first_screen_labels1: First Name
+   first_screen_labels2: Upload Image From System
+   second_screen_labels1: Last Name
+   second_screen_labels2: Select Existing Ref-Imge
+
+QA-414:
+   username: calvalidation@yopmail.com
+   password: canvas
+   app_name: Calculation Validations Message
+   first_screen_name: Screen 1
+   first_screen_field: Number
+   first_screen_label: N1
+   second_screen_name: Screen 2
+   second_screen_field: Number
+   second_screen_label: N2
+   third_screen_name: Screen 3
+   third_screen_field: Calculation
+   third_screen_label: Total
+   save_message: Save successful
+   first_screen_place_holder: New Screen 1
+   second_screen_place_holder: New Screen 2
+   third_screen_place_holder: New Screen 3
+   number1: N1
+   number2: N2
+   number3: Total
+   Operator_1: Operator 1
+   Operator_2: Operator 2
+   error_message: To use a Calculation field on this screen, first add a Number, Date, Time, or Summary field to your app.
+
+QA-427:
+   username: summaryfield@yopmail.com
+   password: canvas
+   app_name: Summary field validation 
+   first_screen_name: Screen 1
+   first_screen_fields: Number;Number;Calculation
+   first_screen_lables: N1;N2;Total
+   second_screen_name: Screen 2
+   second_screen_fields: Summary;Payment
+   second_screen_labels: Total Summary;Total Calculation of Order
+   screen_condition: Screen 1
+   screen_fields_label: Total Summary
+   numerb1: N1
+   number2: N2
+   calculation: Total
+   summary: Total Summary
+   payment: Total Calculation of Order
+   page_name : Apps
+   first_screen_place_holder: New Screen 1
+   second_screen_place_holder: New Screen 2
+   
+QA-415:   
+   labelidlist: user_first_name;user_last_name;user_email
+   inputlist: Beta;Test User;beta.newuser001@yopmail.com
+   password: canvas
+   msg_1: Just one more step to start your free account
+   msg_2: Let's do this! Time to pick a plan.
+   msg_3: Checkout
+   msg_4: Welcome to GoCanvas.
+   labelidlist2: password_input;user_phone
+   inputlist2: canvas;9988909878
+   buttontext: Purchase Seats
+   admin: admin
+   adminPwd: Admin89!
+   text_1: Release from Onboarding
+   text_2: Activate User
+   devicesHeader: Get your computer and mobile device
+   skipmessage: "Skip"
+   activationHeader: To continue, please activate your account
+   text1: Annual
+   text2: Monthly
+   fn_error_message: First Name is required
+   ln_error_message: Last Name is required
+   email_error_message: Email is required
+   phone_error_message: Phone Number is required
+   address_error_message: Address is required
+   city_error_message: City is required
+   zip__error_message: Zip code is required
+   fieldlabelist: billing_contact_first_name;billing_contact_last_name;billing_contact_email;billing_contact_international_phone;billing_contact_address_1;billing_contact_address_2;billing_contact_city;billing_contact_zipcode
+   filedinputlist: Tim;Cook;test@yopmail.com;9998909879;B-29 Noida;Sec 62;West Jefferson;35130
+   confirm_plan: Business
+   confirm_billing_freq: Annual
+   fieldxpath: font-bold selected-plan-type;font-bold billing-cycle
+   data: Professional;Monthly
+   fieldlabel: Plan;Licenses;Billing Frequency
+   headertext: Users & Seats
+   nameoncard_error_message: Name is required
+   ccnumber_error_message: Credit Card Number is required
+   expdate_error_message: Expiration Date is required
+   cvv_error_message: CVV is required
+   ccfieldnamelabel: error-creditCardHolderName
+   ccfieldnumberlabel: error-creditCardNumber
+   ccfielexpdatelabel: error-creditCardExpirationMonth
+   ccFieldCvvLabel: error-cardSecurityCode
+   ccfieldlabelist: input-creditCardHolderName;input-creditCardNumber;input-cardSecurityCode
+   ccfiledinputlist: Peter Liu;6011000990139424;770
+   ccMonthxpath: input-creditCardExpirationMonth
+   ccYearxpath: input-creditCardExpirationYear
+   ccMonth: "08"
+   ccYear: "2035"
+   confpurButtontxt: Confirm Purchase 
+   planType: Monthly
+   plan:  Professional
+   duplicatErrormsg: "Email is already in use"
+   duplicatemail: Test111111@qa.om
+  
+QA-416:   
+   labelidlist: user_first_name;user_last_name;user_email
+   inputlist: Beta;Test User;beta.newuser001@yopmail.com
+   password: canvas
+   msg_1: Just one more step to start your free account
+   msg_2: Let's do this! Time to pick a plan.
+   msg_3: Checkout
+   msg_4: Welcome to GoCanvas.
+   labelidlist2: password_input;user_phone
+   inputlist2: canvas;9988909878
+   buttontext: Purchase Seats
+   admin: admin
+   adminPwd: Admin89!
+   text_1: Release from Onboarding
+   text_2: Activate User
+   devicesHeader: Get your computer and mobile device
+   skipmessage: "Skip"
+   activationHeader: To continue, please activate your account
+   text1: Annual
+   text2: Monthly
+   fn_error_message: First Name is required
+   ln_error_message: Last Name is required
+   email_error_message: Email is required
+   phone_error_message: Phone Number is required
+   address_error_message: Address is required
+   city_error_message: City is required
+   zip__error_message: Zip code is required
+   fieldlabelist: billing_contact_first_name;billing_contact_last_name;billing_contact_email;billing_contact_international_phone;billing_contact_address_1;billing_contact_address_2;billing_contact_city;billing_contact_zipcode
+   filedinputlist: Andrew;Cook;test@yopmail.com;9998909879;B-29 Noida;Sec 62;West Jefferson;35130
+   confirm_plan: Business
+   confirm_billing_freq: Annual
+   fieldxpath: font-bold selected-plan-type;font-bold billing-cycle
+   data: Professional;Monthly
+   fieldlabel: Plan;Licenses;Billing Frequency
+   headertext: Users & Seats
+   nameoncard_error_message: Name is required
+   ccnumber_error_message: Credit Card Number is required
+   expdate_error_message: Expiration Date is required
+   cvv_error_message: CVV is required
+   ccfieldnamelabel: error-creditCardHolderName
+   ccfieldnumberlabel: error-creditCardNumber
+   ccfielexpdatelabel: error-creditCardExpirationMonth
+   ccFieldCvvLabel: error-cardSecurityCode
+   ccfieldlabelist: input-creditCardHolderName;input-creditCardNumber;input-cardSecurityCode
+   ccfiledinputlist: John Larson;6011000990139424;770
+   ccMonthxpath: input-creditCardExpirationMonth
+   ccYearxpath: input-creditCardExpirationYear
+   ccMonth: "08"
+   ccYear: "2035"
+   confpurButtontxt: Confirm Purchase 
+   planType: Monthly
+   plan:  Professional
+   disableUserButtonText: Purchase Seats
+   usernotfound: No User found
+   buttontextkeepseat: Add Users
+   duplicatErrormsg: "Email is already in use"
+   duplicatemail: Test111111@qa.om
+   
+QA-453:
+   username: paymentnewfeature@yopmail.com
+   password: canvas
+   app_name: Testing Payment
+   first_screen_name: Screen 1
+   first_screen_fields: Short Text;Static Text;Number;Number;Calculation;Photo;Signature;Drawing;Checkbox
+   first_screen_labels: Last Name;StaticText;N1;N2;Total;Photo;Signature;Drawing;CheckBox
+   second_screen_name: Screen 2
+   second_screen_fields: Summary;Number;Payment;Short Text;Time;Date
+   second_screen_labels: S2-Summary;S2-N1;PaymentTest;S2-ShortText;S2-Time;S2-Date
+   third_screen_name: Screen 3
+   third_screen_fields: Number;Number;Calculation;Photo;Signature;Drawing
+   third_screen_labels: S3-N1;S3-N2;S3-Cal;S3-Photo;S3-Signature;S3-Drawing
+   paymentFields: PaymentTest
+   moveToTargetField: S2-Date
+   dataPayment_labelName: Data to include with payment
+   unExceptFieldlabels: Photo;Signature;Drawing;CheckBox;S3-Photo;S3-Signature;S3-Drawing
+   first_screen_place_holder: New Screen 1
+   second_screen_place_holder: New Screen 2
+   third_screen_place_holder: New Screen 3
+
+QA-456:
+   username: designercolomtest@yopmail.com
+   password: canvas
+   app_name: PDF designer test
+   first_screen_name: Screen 1
+   first_screen_fields: Short Text;Long Text;Static Text
+   first_screen_labels: First Name;Address;PeopleID
+   first_screen_place_holder: New Screen 1
+   columnIndex1: "1"
+   fieldSet_BGC: "#1ce149"
+   fieldSet_Style: all  #all means highlight all text style
+   fieldSet_Alig: Center align
+   textColor: "#0e0fe8"
+   fieldSet_borders: all   #all means highlight all borders style
+   columnIndex2: "2"
+   column_2_BG: "#e71111"
+   column_2_BodyStyle: Dotted
+   column_2_BorderColor: "#1319e5"
+   Padding2: 23;22;23;22
+   
+QA-5185:
+   username: loopsettingdesigner@yopmail.com
+   password: canvas
+   app_name: Loop Setting Verification
+   first_screen_name: Screen 1
+   first_screen_fields: Short Text;Long Text;Static Text
+   first_screen_labels: First Name;Address;PeopleID
+   first_screen_place_holder: New Screen 1
+   first_parent_screen_name: Loop PDF
+   loopSettingText: Loop Settings for Loop PDF
+   headers_BGC: "#3eaf34"
+   headers_TextColor:  "#e90a0a"
+   headers_alignment: Right align
+   rows_BGC: "#24e0a0"
+   rows_TextColor: "#342828" 
+   rows_alignment: Center align
+   
+QA-139:
+   username: designer@prodepts.com
+   password: canvas
+   app_name: poo
+   department1: First Department
+   department2: Second Department
+   
+QA-417:   
+   labelidlist: user_first_name;user_last_name;user_email
+   inputlist: Beta;Test User;beta.newuser001@yopmail.com
+   password: canvas
+   msg_1: Just one more step to start your free account
+   msg_2: Let's do this! Time to pick a plan.
+   msg_3: Checkout
+   msg_4: Welcome to GoCanvas.
+   labelidlist2: password_input;user_phone
+   inputlist2: canvas;9988909878
+   buttontext: Purchase Seats
+   admin: admin
+   adminPwd: Admin89!
+   text_1: Release from Onboarding
+   text_2: Activate User
+   devicesHeader: Get your computer and mobile device
+   skipmessage: "Skip"
+   activationHeader: To continue, please activate your account
+   text1: Annual
+   text2: Monthly
+   fn_error_message: First Name is required
+   ln_error_message: Last Name is required
+   email_error_message: Email is required
+   phone_error_message: Phone Number is required
+   address_error_message: Address is required
+   city_error_message: City is required
+   zip__error_message: Zip code is required
+   fieldlabelist: billing_contact_first_name;billing_contact_last_name;billing_contact_email;billing_contact_international_phone;billing_contact_address_1;billing_contact_address_2;billing_contact_city;billing_contact_zipcode
+   filedinputlist: Andrew;Cook;test@yopmail.com;9998909879;B-29 Noida;Sec 62;West Jefferson;35130
+   confirm_plan: Business
+   confirm_billing_freq: Annual
+   fieldxpath: font-bold selected-plan-type;font-bold billing-cycle
+   data: Professional;Monthly
+   fieldlabel: Plan;Licenses;Billing Frequency
+   headertext: Users & Seats
+   nameoncard_error_message: Name is required
+   ccnumber_error_message: Credit Card Number is required
+   expdate_error_message: Expiration Date is required
+   cvv_error_message: CVV is required
+   ccfieldnamelabel: error-creditCardHolderName
+   ccfieldnumberlabel: error-creditCardNumber
+   ccfielexpdatelabel: error-creditCardExpirationMonth
+   ccFieldCvvLabel: error-cardSecurityCode
+   ccfieldlabelist: input-creditCardHolderName;input-creditCardNumber;input-cardSecurityCode
+   ccfiledinputlist: John Larson;6011000990139424;770
+   ccMonthxpath: input-creditCardExpirationMonth
+   ccYearxpath: input-creditCardExpirationYear
+   ccMonth: "08"
+   ccYear: "2035"
+   confpurButtontxt: Confirm Purchase 
+   planType: Annual
+   planTypemonthly: Monthly
+   plan:  Professional
+   disableUserButtonText: Purchase Seats
+   usernotfound: No User found
+   licensesAndBillingHeaderMsg: Billing 
+   licensesLabel: Billing Frequency;Renewal Date;Open Seats;Filled Seats;Seats Purchased;
+   licensesLabelminthlycombine: Billing Frequency :;Renewal Date :;Combine Monthly Licenses to Renew :;Combine Monthly Licenses Available :;
+   confirm_billing_freq_firstpur: Annual
+   confirm_billing_freq_secondpur: Monthly
+   duplicatErrormsg: Email is already in use
+   duplicatemail: Test111111@qa.om
+
+QA-425:   
+   labelidlist: user_first_name;user_last_name;user_email
+   inputlist: Beta;Test User;beta.newuser001@yopmail.com
+   password: canvas
+   msg_1: Just one more step to start your free account
+   msg_2: Let's do this! Time to pick a plan.
+   msg_3: Checkout
+   msg_4: Welcome to GoCanvas.
+   labelidlist2: password_input;user_phone
+   inputlist2: canvas;9988909878
+   buttontext: Add Licenses
+   admin: admin
+   adminPwd: Admin89!
+   text_1: Release from Onboarding
+   text_2: Activate User
+   devicesHeader: Get your computer and mobile device
+   skipmessage: "Skip"
+   activationHeader: To continue, please activate your account
+   text1: Annual
+   text2: Monthly
+   fn_error_message: First Name is required
+   ln_error_message: Last Name is required
+   email_error_message: Email is required
+   phone_error_message: Phone Number is required
+   address_error_message: Address is required
+   city_error_message: City is required
+   zip__error_message: Zip code is required
+   fieldlabelist: billing_contact_first_name;billing_contact_last_name;billing_contact_email;billing_contact_international_phone;billing_contact_address_1;billing_contact_address_2;billing_contact_city;billing_contact_zipcode
+   filedinputlist: Andrew;Cook;test@yopmail.com;9998909879;B-29 Noida;Sec 62;West Jefferson;35130
+   confirm_plan: Business
+   confirm_billing_freq: Annual
+   fieldxpath: font-bold selected-plan-type;font-bold billing-cycle
+   data: Professional;Monthly
+   fieldlabel: Plan;Licenses;Billing Frequency
+   headertext: Users & Seats
+   nameoncard_error_message: Name is required
+   ccnumber_error_message: Credit Card Number is required
+   expdate_error_message: Expiration Date is required
+   cvv_error_message: CVV is required
+   ccfieldnamelabel: error-creditCardHolderName
+   ccfieldnumberlabel: error-creditCardNumber
+   ccfielexpdatelabel: error-creditCardExpirationMonth
+   ccfieldcvvlabel: error-cardSecurityCode
+   ccfieldlabelist: input-creditCardHolderName;input-creditCardNumber;input-cardSecurityCode
+   ccfiledinputlist: John Larson;6011000990139424;770
+   ccMonthxpath: input-creditCardExpirationMonth
+   ccYearxpath: input-creditCardExpirationYear
+   ccMonth: "08"
+   ccYear: "2035"
+   confpurButtontxt: Confirm Purchase 
+   planyearly: Annual
+   planTypemonthly: Monthly
+   plan:  Professional
+   disableUserButtonText: Add Users
+   usernotfound: No User found
+   licensesAndBillingHeaderMsg: Licenses & Billing 
+   licensesLabel: Billing Frequency :;Renewal Date :;Licenses to Renew :;Licenses Available :;
+   licensesLabelminthlycombine: Billing Frequency :;Renewal Date :;Combine Monthly Licenses to Renew :;Combine Monthly Licenses Available :;
+   confirm_billing_freq_firstpur: Annual
+   confirm_billing_freq_secondpur: Monthly
+   license_renewals_msg:  Update License Renewals 
+   zerro_error_msg: The number of licenses to renew cannot be less than the number of licenses you are using.
+   nonzerro_error_msg:  The number of licenses to renew cannot be more than the number
+   licenseRenewAnnual: license_0
+   licenseRenewMonthly: license_1
+   planmonthly: Monthly
+   
+QA-428:   
+   labelidlist: user_first_name;user_last_name;user_email
+   inputlist: Beta;Test User;beta.newuser001@yopmail.com
+   password: canvas
+   msg_1: Just one more step to start your free account
+   msg_2: Let's do this! Time to pick a plan.
+   msg_3: Checkout
+   msg_4: Welcome to GoCanvas.
+   labelidlist2: password_input;user_phone
+   inputlist2: canvas;9988909878
+   buttontext: Add Licenses
+   admin: admin
+   adminPwd: Admin89!
+   text_1: Release from Onboarding
+   text_2: Activate User
+   devicesHeader: Get your computer and mobile device
+   skipmessage: "Skip"
+   activationHeader: To continue, please activate your account
+   text1: Annual
+   text2: Monthly
+   fn_error_message: First Name is required
+   ln_error_message: Last Name is required
+   email_error_message: Email is required
+   phone_error_message: Phone Number is required
+   address_error_message: Address is required
+   city_error_message: City is required
+   zip__error_message: Zip code is required
+   fieldlabelist: billing_contact_first_name;billing_contact_last_name;billing_contact_email;billing_contact_international_phone;billing_contact_address_1;billing_contact_address_2;billing_contact_city;billing_contact_zipcode
+   filedinputlist: Andrew;Cook;test@yopmail.com;9998909879;B-29 Noida;Sec 62;West Jefferson;35130
+   confirm_plan: Business
+   confirm_billing_freq: Annual
+   fieldxpath: font-bold selected-plan-type;font-bold billing-cycle
+   data: Professional;Monthly
+   fieldlabel: Plan;Licenses;Billing Frequency
+   headertext: Users
+   nameoncard_error_message: Name is required
+   ccnumber_error_message: Credit Card Number is required
+   expdate_error_message: Expiration Date is required
+   cvv_error_message: CVV is required
+   ccfieldnamelabel: error-creditCardHolderName
+   ccfieldnumberlabel: error-creditCardNumber
+   ccfielexpdatelabel: error-creditCardExpirationMonth
+   ccfieldcvvlabel: error-cardSecurityCode
+   ccfieldlabelist: input-creditCardHolderName;input-creditCardNumber;input-cardSecurityCode
+   ccfiledinputlist: John Larson;6011000990139424;770
+   ccMonthxpath: input-creditCardExpirationMonth
+   ccYearxpath: input-creditCardExpirationYear
+   ccMonth: "08"
+   ccYear: "2035"
+   confpurButtontxt: Confirm Purchase 
+   planyearly: Annual
+   planTypemonthly: Monthly
+   plan:  Professional
+   disableUserButtonText: Add Users
+   usernotfound: No User found
+   licensesAndBillingHeaderMsg: Licenses & Billing 
+   licensesLabel: Billing Frequency :;Renewal Date :;Licenses to Renew :;Licenses Available :;
+   licensesLabelminthlycombine: Billing Frequency :;Renewal Date :;Combine Monthly Licenses to Renew :;Combine Monthly Licenses Available :;
+   confirm_billing_freq_firstpur: Annual
+   confirm_billing_freq_secondpur: Monthly
+   license_renewals_msg:  Update License Renewals 
+   zerro_error_msg: The number of licenses to renew cannot be less than the number of licenses you are using.
+   nonzerro_error_msg:  The number of licenses to renew cannot be more than the number
+   licenseRenewAnnual: license_0
+   licenseRenewMonthly: license_1
+   planmonthly: Monthly
+   
+GOC-5557:
+   username: imgvailidationtest@yopmail.com
+   password: canvas
+   app_name: staticImg status codefirst_screen_labels2
+   first_screen_name: Screen 1
+   first_screen_field1: Short Text;Static Text;Number
+   first_screen_field2: Static Image
+   first_screen_field3: Static Image
+   second_screen_name: Screen 2
+   second_screen_field: Short Text 
+   second_screen_labels: Last Name
+   second_screen_field2: Static Image
+   second_screen_label2: Copy Static Image field
+   first_screen_place_holder: New Screen 1
+   second_screen_place_holder: New Screen 2
+   first_screen_labels1: First Name;Last Name;ID Number
+   first_screen_labels2: My Static Image
+   first_screen_labels3: My Static Image 2
+   second_screen_labels1: Last Name
+   second_screen_labels2: Select Existing Ref-Image
+   updateAppIcon_Path: /src/main/resources/Test.JPG;/src/main/resources/StaticImg.PNG;/src/main/resources/PDF_LOGO.JPG;/src/main/resources/JamesPic.PNG
+   scond_screen_place_holder: New Screen 2
+   
+GOC-5781:
+   username: editreferencedata@yopmail.com
+   password: canvas
+   app_name: Edits Reference data Test
+   first_screen_name: Screen 1
+   first_screen_fields: Short Text;Long Text;Number;Static Text
+   first_screen_labels: First Name;Address;ID;Country
+   first_screen_place_holder: New Screen 1
+   reference_data_field: Address
+   reference_data_description: Testing On Edit Reference Data
+   reference_data_name: Edit Reference Data 
+   reference_file_path: /src/main/resources/Ref-01.csv
+   edit_reference_file_path: /src/main/resources/Ref-02.csv
+   copy_field: Address
+ 
+QA-478:   
+   labelidlist: user_first_name;user_last_name;user_email
+   inputlist: Upgrade;To Professioanl;beta.newuser001@yopmail.com
+   password: canvas
+   msg_1: Just one more step to start your free account
+   msg_2: Let's do this! Time to pick a plan.
+   msg_3: Checkout
+   msg_4: "Welcome to GoCanvas."
+   labelidlist2: password_input;user_phone
+   inputlist2: canvas;6788909878
+   admin: admin
+   adminPwd: Admin89!
+   text_1: Release from Onboarding
+   text_2: Activate User
+   devicesHeader: Get your computer and mobile device
+   skipmessage: "Skip"
+   activationHeader: To continue, please activate your account
+   text1: Annual
+   text2: Monthly
+   fn_error_message: First Name is required
+   ln_error_message: Last Name is required
+   email_error_message: Email is required
+   phone_error_message: Phone Number is required
+   address_error_message: Address is required
+   city_error_message: City is required
+   zip__error_message: Zip code is required
+   fieldlabelist: billing_contact_first_name;billing_contact_last_name;billing_contact_email;billing_contact_international_phone;billing_contact_address_1;billing_contact_address_2;billing_contact_city;billing_contact_zipcode
+   filedinputlist: Tim;Cook;test@yopmail.com;9998909879;B-29 Noida;Sec 62;West Jefferson;35130
+   confirm_plan: Business
+   confirm_billing_freq: Annual
+   fieldxpath: font-bold selected-plan-type;font-bold billing-cycle
+   fieldlabelSummary: selected-plan-type;billing-cycle
+   data: Business;Annual
+   fieldlabel: Plan;Billing Frequency
+   headertext: Users & Seats
+   nameoncard_error_message: Name is required
+   ccnumber_error_message: Credit Card Number is required
+   expdate_error_message: Expiration Date is required
+   cvv_error_message: CVV is required
+   ccfieldnamelabel: error-creditCardHolderName
+   ccfieldnumberlabel: error-creditCardNumber
+   ccfielexpdatelabel: error-creditCardExpirationMonth
+   ccfieldcvvlabel: error-cardSecurityCode
+   ccfieldlabelist: input-creditCardHolderName;input-creditCardNumber;input-cardSecurityCode
+   ccfiledinputlist: John Larson;6011000990139424;230
+   ccMonthxpath: input-creditCardExpirationMonth
+   ccYearxpath: input-creditCardExpirationYear
+   ccMonth: "02"
+   ccYear: "2038"
+   confpurButtontxt: Confirm Purchase
+   planType: Annual  
+   plan:  Professional
+   planmonthly: Monthly
+   pop_up_msg_1: You still have time!
+   pop_up_msg_2: You are on the Individual Plan!
+   pop_up_msg_3: Dashboard
+   headertextupgrade: Upgrade to Professional Plan
+   planLabel: Current Plan;New Plan
+   planData: Business;Professional
+   ratelabel: New Rate;Number of Licenses;New Estimated Total Annual Rate
+   headertextafterupgrade: Current Professional Licenses
+   professionalplanupgrade: Professional Plan
+   
+   
+QA-477:   
+   labelidlist: user_first_name;user_last_name;user_email
+   inputlist: Upgrade;To Professioanl;beta.newuser001@yopmail.com
+   password: canvas
+   msg_1: Just one more step to start your free account
+   msg_2: Let's do this! Time to pick a plan.
+   msg_3: Checkout
+   msg_4: "Welcome to GoCanvas."
+   labelidlist2: password_input;user_phone
+   inputlist2: canvas;6788909878
+   admin: admin
+   adminPwd: Admin89!
+   text_1: Release from Onboarding
+   text_2: Activate User
+   devicesHeader: Get your computer and mobile device
+   skipmessage: "Skip"
+   activationHeader: To continue, please activate your account
+   text1: Annual
+   text2: Monthly
+   fn_error_message: First Name is required
+   ln_error_message: Last Name is required
+   email_error_message: Email is required
+   phone_error_message: Phone Number is required
+   address_error_message: Address is required
+   city_error_message: City is required
+   zip__error_message: Zip code is required
+   fieldlabelist: billing_contact_first_name;billing_contact_last_name;billing_contact_email;billing_contact_international_phone;billing_contact_address_1;billing_contact_address_2;billing_contact_city;billing_contact_zipcode
+   filedinputlist: Tim;Cook;test@yopmail.com;9998909879;B-29 Noida;Sec 62;West Jefferson;35130
+   confirm_plan: Business
+   confirm_billing_freq: Annual
+   fieldxpath: font-bold selected-plan-type;font-bold billing-cycle
+   fieldlabelSummary: selected-plan-type;billing-cycle
+   data: Business;Annual
+   fieldlabel: Plan;Billing Frequency
+   headertext: Users & Seats
+   nameoncard_error_message: Name is required
+   ccnumber_error_message: Credit Card Number is required
+   expdate_error_message: Expiration Date is required
+   cvv_error_message: CVV is required
+   ccfieldnamelabel: error-creditCardHolderName
+   ccfieldnumberlabel: error-creditCardNumber
+   ccfielexpdatelabel: error-creditCardExpirationMonth
+   ccfieldcvvlabel: error-cardSecurityCode
+   ccfieldlabelist: input-creditCardHolderName;input-creditCardNumber;input-cardSecurityCode
+   ccfiledinputlist: John Larson;6011000990139424;230
+   ccMonthxpath: input-creditCardExpirationMonth
+   ccYearxpath: input-creditCardExpirationYear
+   ccMonth: "02"
+   ccYear: "2038"
+   confpurButtontxt: Confirm Purchase
+   planType: Annual  
+   plan:  Business
+   planmonthly: Monthly
+   pop_up_msg_1: You still have time!
+   pop_up_msg_2: You are on the Individual Plan!
+   pop_up_msg_3: Dashboard
+   headertextupgrade: Downgrade to Business Plan
+   planLabel: Current Plan;New Plan
+   planData: Professional;Business
+   ratelabel: New Rate;Number of Licenses;New Estimated Total Annual Rate
+   headertextafterupgrade: Business Downgrade
+   downgradeheadertextafterupgrade: Are you sure you want to downgrade your plan?
+   businessplanupgrade: Business Plan
+
+QA-423:   
+   labelidlist: user_first_name;user_last_name;user_email
+   inputlist: Beta;Test User;beta.newuser001@yopmail.com
+   password: canvas
+   msg_1: Just one more step to start your free account
+   msg_2: Let's do this! Time to pick a plan.
+   msg_3: Checkout
+   msg_4: "Welcome to GoCanvas."
+   labelidlist2: password_input;user_phone
+   inputlist2: canvas;6788909878
+   admin: admin
+   adminPwd: Admin89!
+   text_1: Release from Onboarding
+   text_2: Activate User
+   devicesHeader: Get your computer and mobile device
+   skipmessage: "Skip"
+   activationHeader: To continue, please activate your account
+   text1: Annual
+   text2: Monthly
+   fn_error_message: First Name is required
+   ln_error_message: Last Name is required
+   email_error_message: Email is required
+   phone_error_message: Phone Number is required
+   address_error_message: Address is required
+   city_error_message: City is required
+   zip__error_message: Zip code is required
+   fieldlabelist: billing_contact_first_name;billing_contact_last_name;billing_contact_email;billing_contact_international_phone;billing_contact_address_1;billing_contact_address_2
+   filedinputlist: John;Peacock;test@yopmail.com;9998909879;B-29 Noida;Sec 62
+   fieldlabelistcountystate: billing_contact_country;billing_contact_city;select_us_state;billing_contact_zipcode
+   filedinputlistcountystate: United States;Fairfield;New Jersey;35130;United States;Fairfield;New Jersey;35130
+   confirm_plan: Business
+   confirm_billing_freq: Annual
+   fieldxpathpur: font-bold selected-plan-type;font-bold billing-cycle
+   fieldlabelSummary: selected-plan-type;billing-cycle
+   data: Business;Annual
+   fieldlabel: Plan;Billing Frequency
+   headertext: Users & Seats
+   nameoncard_error_message: Name is required
+   ccnumber_error_message: Credit Card Number is required
+   expdate_error_message: Expiration Date is required
+   cvv_error_message: CVV is required
+   ccfieldnamelabel: error-creditCardHolderName
+   ccfieldnumberlabel: error-creditCardNumber
+   ccfielexpdatelabel: error-creditCardExpirationMonth
+   ccFieldCvvLabel: error-cardSecurityCode
+   ccfieldlabelist: input-creditCardHolderName;input-creditCardNumber;input-cardSecurityCode
+   ccfiledinputlist: Kim Smith;4111111111111111;145
+   ccMonthxpath: input-creditCardExpirationMonth
+   ccYearxpath: input-creditCardExpirationYear
+   ccMonth: "02"
+   ccYear: "2038"
+   confpurButtontxt: Confirm Purchase
+   planType: Annual  
+   plan:  Business
+   Us_nontax_country1: United States
+   Us_nontax_city1: Holtsville
+   Us_nontax_state1: New York
+   Us_nontax_zip1: "00501"
+   Us_nontax_country2: United States
+   Us_nontax_city2: Brierfield
+   Us_nontax_state2: Alabama
+   Us_nontax_zip2: "35035"
+   Us_nontax_country3: India
+   Us_nontax_city3: Noida
+   Us_nontax_zip3: "201301"
+   Us_tax_country4: United States
+   Us_tax_city4: Kent
+   Us_tax_state4: Washington
+   Us_tax_zip4: "98032"
+   Us_tax_address4:  PO Box 34628, Seattle, WA
+   Us_nontax_country5: United States
+   Us_nontax_city5: Atlanta
+   Us_nontax_state5: Georgia
+   Us_nontax_zip5: "30305"
+   Us_nontax_address5: PO Box 105603, Atlanta
+   Us_nontax_country6: China
+   Us_nontax_city6: Shanghai
+   Us_nontax_zip6: "200237"
+  
+QA-5509:  
+   labelidlist: user_first_name;user_last_name;user_email
+   inputlist: Rate;Discount User;beta.newuser001@yopmail.com
+   password: canvas
+   msg_1: Just one more step to start your free account
+   msg_2: Let's do this! Time to pick a plan.
+   msg_3: Checkout
+   msg_4: "Welcome to GoCanvas."
+   labelidlist2: password_input;user_phone
+   inputlist2: canvas;6788909878
+   admin: admin
+   adminPwd: Admin89!
+   text_1: Release from Onboarding
+   text_2: Activate User
+   devicesHeader: Get your computer and mobile device
+   skipmessage: "Skip"
+   activationHeader: To continue, please activate your account
+   text1: Annual
+   text2: Monthly
+   fn_error_message: First Name is required
+   ln_error_message: Last Name is required
+   email_error_message: Email is required
+   phone_error_message: Phone Number is required
+   address_error_message: Address is required
+   city_error_message: City is required
+   zip__error_message: Zip code is required
+   fieldlabelist: billing_contact_first_name;billing_contact_last_name;billing_contact_email;billing_contact_international_phone;billing_contact_address_1;billing_contact_address_2;billing_contact_city;billing_contact_zipcode
+   filedinputlist: Tim;Cook;test@yopmail.com;6322225985;B-29 Noida;Sec 62;West Jefferson;35130
+   confirm_plan: Business
+   confirm_billing_freq: Annual
+   fieldxpath: font-bold selected-plan-type;font-bold billing-cycle
+   fieldlabelSummary: selected-plan-type;billing-cycle
+   data: Business;Annual
+   fieldlabel: Plan;Billing Frequency
+   headertext: Users & Seats
+   nameoncard_error_message: Name is required
+   ccnumber_error_message: Credit Card Number is required
+   expdate_error_message: Expiration Date is required
+   cvv_error_message: CVV is required
+   ccfieldnamelabel: error-creditCardHolderName
+   ccfieldnumberlabel: error-creditCardNumber
+   ccfielexpdatelabel: error-creditCardExpirationMonth
+   ccfieldcvvlabel: error-cardSecurityCode
+   ccfieldlabelist: input-creditCardHolderName;input-creditCardNumber;input-cardSecurityCode
+   ccfiledinputlist: Peter Liu Larson;6011000990139424;230
+   ccMonthxpath: input-creditCardExpirationMonth
+   ccYearxpath: input-creditCardExpirationYear
+   ccMonth: "02"
+   ccYear: "2038"
+   ccMonthxpath: input-creditCardExpirationMonth
+   ccYearxpath: input-creditCardExpirationYear
+   invalidccMonth: "01"
+   invalidccYear: "2019"
+   confpurButtontxt: Confirm Purchase
+   planType: Annual  
+   plan:  Business
+   planprof: Professional
+   planmonthly: Monthly
+   cvv_error_message: The card values are invalid! Please check your values and try again.
+   ccfiledinputlistinvaildcard: Andrew Key;9999990990139424;542
+   card_error_message: Invalid Card Number
+   businessmonthlyrate: "23.00"
+   businessannualrate: "18.00"
+   businessmonthlydicount: "7.50"
+   businessannualdiscount: "10"
+   professionalmonthlyrate: "39.70"
+   professionalannualrate: "28.60"
+   professionalmonthlydiscount: "2.00"
+   professionalannualdiscount: "5.00"
+   val1: business-annual-rate
+   val2: business-monthly-rate
+   val3: business-annual-discount
+   val4: business-monthly-discount
+   val5: professional-annual-rate
+   val6: professional-monthly-rate
+   val7: professional-annual-discount
+   val8: professional-monthly-discount
+   licensesAndBillingHeaderMsg: Billing 
+   licensesLabel: Billing Frequency;Renewal Date;Open Seats;Filled Seats;Seats Purchased;
+   confirm_billing_freq_firstpur: Monthly
+   Us_tax_country: United States
+   Us_tax_city: Holtsville
+   Us_tax_state: New York
+   Us_tax_zip: "00501"
+
+GOC-5870:
+   username: testingdropdown@yopmail.com
+   password: canvas
+   app_name: DropDown/MultiChoice Test
+   first_screen_name: Screen 1
+   first_screen_place_holder: New Screen 1
+   first_screen_fields: Drop Down;Drop Down;Drop Down;Multi Choice;Multi Choice
+   first_screen_field_labels: DropDown Type Own;DropDown Common List;DropDown Default Choice;MultiChoice Type Own;Multi Choice Default Choice
+   dropDown_TypeOwn: DropDown Type Own
+   dropDown_type_value: A,B,C,D,E,F,G,H,I
+   dropDown_CommonList: DropDown Common List
+   dropDown_default: DropDown Default Choice
+   multiChoice_TypeOwn: MultiChoice Type Own
+   multiChoice_type_value: 1,2,3,4,5,6,7,8,9,10
+   multiChoice_default: Multi Choice Default Choice
+   
+QA-3557:
+   labelidlist: user_first_name;user_last_name;user_email
+   inputlist: Beta;Test User;beta.newuser001@yopmail.com
+   password: canvas
+   msg_1: Just one more step to start your free account
+   msg_2: Let's do this! Time to pick a plan.
+   msg_3: Checkout
+   msg_4: Welcome to GoCanvas.
+   labelidlist2: password_input;user_phone
+   inputlist2: canvas;9988909878
+   buttontext: Purchase Seats
+   admin: admin
+   adminPwd: Admin89!
+   text_1: Release from Onboarding
+   text_2: Activate User
+   devicesHeader: Get your computer and mobile device
+   skipmessage: "Skip"
+   activationHeader: To continue, please activate your account
+   text1: Annual
+   text2: Monthly
+   fn_error_message: First Name is required
+   ln_error_message: Last Name is required
+   email_error_message: Email is required
+   phone_error_message: Phone Number is required
+   address_error_message: Address is required
+   city_error_message: City is required
+   zip__error_message: Zip code is required
+   fieldlabelist: billing_contact_first_name;billing_contact_last_name;billing_contact_email;billing_contact_international_phone;billing_contact_address_1;billing_contact_address_2;billing_contact_city;billing_contact_zipcode
+   filedinputlist: Tim;Cook;test@yopmail.com;9998909879;B-29 Noida;Sec 62;West Jefferson;35130
+   confirm_plan: Business
+   confirm_billing_freq: Annual
+   fieldxpath: font-bold selected-plan-type;font-bold billing-cycle
+   data: Professional;Monthly
+   fieldlabel: Plan;Licenses;Billing Frequency
+   headertext: Users & Seats
+   nameoncard_error_message: Name is required
+   ccnumber_error_message: Credit Card Number is required
+   expdate_error_message: Expiration Date is required
+   cvv_error_message: CVV is required
+   ccfieldnamelabel: error-creditCardHolderName
+   ccfieldnumberlabel: error-creditCardNumber
+   ccfielexpdatelabel: error-creditCardExpirationMonth
+   ccFieldCvvLabel: error-cardSecurityCode
+   ccfieldlabelist: input-creditCardHolderName;input-creditCardNumber;input-cardSecurityCode
+   ccfiledinputlist: Peter Liu;6011000990139424;770
+   ccMonthxpath: input-creditCardExpirationMonth
+   ccYearxpath: input-creditCardExpirationYear
+   ccMonth: "08"
+   ccYear: "2035"
+   licensesAndBillingHeaderMsg: Billing
+   cancelYourAccountPopUpMsg: Cancel your account?
+   afterCancelPlanMsg: Log In to Your Account
+   accountdisablemsg: Your account has been disabled, please contact support.
+   confpurButtontxt: Confirm Purchase 
+   planType: Monthly
+   plan:  Professional
+   duplicatErrormsg: Email is already in use
+   duplicatemail: Test111111@qa.om
+   
+QA-5501:   
+   labelidlist: user_first_name;user_last_name;user_email
+   inputlist: Beta;Test User;beta.newuser001@yopmail.com
+   password: canvas
+   msg_1: Just one more step to start your free account
+   msg_2: Let's do this! Time to pick a plan.
+   msg_3: Checkout
+   msg_4: Welcome to GoCanvas.
+   labelidlist2: password_input;user_phone
+   inputlist2: canvas;9988909878
+   buttontext: Add Licenses
+   admin: admin
+   adminPwd: Admin89!
+   text_1: Release from Onboarding
+   text_2: Activate User
+   devicesHeader: Get your computer and mobile device
+   skipmessage: "Skip"
+   activationHeader: To continue, please activate your account
+   text1: Annual
+   text2: Monthly
+   fn_error_message: First Name is required
+   ln_error_message: Last Name is required
+   email_error_message: Email is required
+   phone_error_message: Phone Number is required
+   address_error_message: Address is required
+   city_error_message: City is required
+   zip__error_message: Zip code is required
+   fieldlabelist: billing_contact_first_name;billing_contact_last_name;billing_contact_email;billing_contact_international_phone;billing_contact_address_1;billing_contact_address_2;billing_contact_city;billing_contact_zipcode
+   filedinputlist: Tim;Cook;test@yopmail.com;6999990918;B-29 Noida;Sec 62;West Jefferson;35130
+   fieldlabelistaddress: billing_contact_first_name;billing_contact_last_name;billing_contact_email;billing_contact_international_phone;billing_contact_company_name;billing_contact_country;billing_contact_address_1;billing_contact_address_2;billing_contact_city;select_us_state;billing_contact_zipcode;billing_contact_shipping_address_1;billing_contact_shipping_address_2;billing_contact_shipping_city;billing_contact_shipping_zipcode
+   Us_tax_country: United States
+   Us_tax_city: Kent
+   Us_tax_state: Washington
+   Us_tax_zip: "98032"
+   Us_tax_address:  PO Box 34628, Seattle, WA
+   Us_tax_country_updated: United States
+   Us_tax_city_updated: Cleveland
+   Us_tax_state_updated: Ohio
+   Us_tax_zip_updated: "44101"
+   Us_tax_address_updated: 3040 Round Table Drive,Ohio
+   confirm_plan: Business
+   confirm_billing_freq: Annual
+   fieldxpath: font-bold selected-plan-type;font-bold billing-cycle
+   data: Professional;Monthly
+   fieldlabel: Plan;Licenses;Billing Frequency
+   headertext: Users & Seats
+   nameoncard_error_message: Name is required
+   ccnumber_error_message: Credit Card Number is required
+   expdate_error_message: Expiration Date is required
+   cvv_error_message: CVV is required
+   ccfieldnamelabel: error-creditCardHolderName
+   ccfieldnumberlabel: error-creditCardNumber
+   ccfielexpdatelabel: error-creditCardExpirationMonth
+   ccfieldcvvlabel: error-cardSecurityCode
+   ccfieldlabelist: input-creditCardHolderName;input-creditCardNumber;input-cardSecurityCode
+   ccfiledinputlist: John Larson;6011000990139424;770
+   ccMonthxpath: input-creditCardExpirationMonth
+   ccYearxpath: input-creditCardExpirationYear
+   licensesAndBillingHeaderMsg: Billing
+   ccMonth: "08"
+   ccYear: "2035"
+   confpurButtontxt: Confirm Purchase 
+   planType: Monthly
+   plan:  Professional
+   updatedFiledInputList: Jarry;Tim;garry1@qa.com;6524559810;174 Harrison Ave;Sec 62;Fair Hope;36532
+   additionalSeats: Purchase Additional Seats
+   downgradeupgrade: Upgrade to Professional Plan
+   updatedFiledInputListDowngrade: Andrew;key;andrewkey@qa.com;55552101410;174 Montgomery Ave;50 N Ripley St;Vincent;35178
+   Us_tax_country_updated_downgrade: United States
+   Us_tax_city_updated_downgrade: Little Rock
+   Us_tax_state_updated_downgrade: Arkansas
+   Us_tax_zip_updated_downgrade: "72201"
+   Us_tax_address_updated_downgrade: 910 Essex Street,Hopkinsville
+   company: Company

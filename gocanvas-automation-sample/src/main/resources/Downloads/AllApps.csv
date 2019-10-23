@@ -1,0 +1,5 @@
+Dispatch ID,Dispatch Name,Description,User,App Name,Status,Creation Date,Completion Date,Scheduled At,Duration,Reminder
+1146,"TC7564, step 2","QRT, TC7564, step 2 DO NOT UPDATE",betadesigner2017@outlook.com,Beta App,assigned,2017-10-04 15:48:27 UTC,"",2017-08-02 17:59:00 UTC,120.0,120,W,L
+1353,"TC7592, step 1","TC7592, step 1",betadesigner2017@outlook.com,Beta App,received,2017-10-10 10:21:07 UTC,"",2017-10-10 10:20:00 UTC,120.0,120,d
+1354,"TC7592, step 2","TC7592, step 2",betadesigner2017@outlook.com,Beta App,assigned,2017-10-04 15:54:22 UTC,"",2017-10-09 06:41:00 UTC,120.0,120,shortText,long Text,12,8.76,B,1,10/05/2017,11:44,123456,espn.com,A,1
+1355,"TC7592, step 3","TC7592, step 3",betatester@2017.com,Beta App,assigned,2017-10-04 15:42:30 UTC,"",2017-08-02 17:59:00 UTC,120.0,120,W,L
