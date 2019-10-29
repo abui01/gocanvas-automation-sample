@@ -8,10 +8,6 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.canvas.qa.pages.BasePage;
 
-/**
- * @author shalini.pathak
- *
- */
 public class EditRemRecallPage extends BasePage {
 
 	String appNameLinkXpath = "//a[text() = '%s']";

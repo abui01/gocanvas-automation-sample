@@ -32,10 +32,6 @@ import org.testng.ITestContext;
 import com.canvas.qa.test.UtilityFunctions;
 import com.gargoylesoftware.htmlunit.javascript.host.intl.DateTimeFormat;
 
-/**
- * @author kailash.pathak
- *
- */
 public class UserPage extends BasePage {
 
 	@FindBy(xpath = "//span[contains(text(),'Cancel')]")

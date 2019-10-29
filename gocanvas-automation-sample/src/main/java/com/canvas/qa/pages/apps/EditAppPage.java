@@ -20,10 +20,6 @@ import com.canvas.qa.pages.PublishAppPage;
 import com.canvas.qa.pages.profile.LoginPage;
 import com.canvas.qa.pages.submissions.SubmissionNumberingPage;
 
-/**
- * @author shalini.pathak
- *
- */
 public class EditAppPage extends BasePage {
 	@FindBy(xpath = "//a[text() = 'Apps']")
 	WebElement appsLink;

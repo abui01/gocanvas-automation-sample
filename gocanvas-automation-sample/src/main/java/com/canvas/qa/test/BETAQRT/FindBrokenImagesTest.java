@@ -20,7 +20,7 @@ import com.canvas.util.FileReaderUtil;
 
 /**
  * 
- * @author yuan.gao Test Case 'verifyImgsResponseWhenCreateAppAndPDF' Checking
+ * Test Case 'verifyImgsResponseWhenCreateAppAndPDF' Checking
  *         the image status. Fouce on static image creation and PDF submission
  */
 public class FindBrokenImagesTest extends BrowserLaunchTest {

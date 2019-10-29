@@ -11,10 +11,6 @@ import org.testng.ITestContext;
 
 import com.canvas.qa.test.UtilityFunctions;
 
-/**
- * @author kailash.pathak
- *
- */
 public class LicensesAndBilling extends BasePage {
 
 	@FindBy(xpath = "//h3[@class='billing-cycle']")

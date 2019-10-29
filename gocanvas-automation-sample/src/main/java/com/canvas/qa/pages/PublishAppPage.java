@@ -13,10 +13,6 @@ import com.canvas.qa.pages.apps.AppBuilderPage;
 import com.canvas.qa.test.UtilityFunctions;
 import com.relevantcodes.extentreports.LogStatus;
 
-/**
- * @author shalini.pathak
- *
- */
 public class PublishAppPage extends BasePage {
 
 	@FindBy(xpath = "//button[contains(.,'Cancel')]")

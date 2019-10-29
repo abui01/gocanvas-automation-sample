@@ -21,10 +21,6 @@ import org.testng.ITestContext;
 import com.canvas.qa.pages.BasePage;
 import com.canvas.qa.pages.WorkflowPage;
 
-/**
- * @author taukeer.ahmad
- *
- */
 public class EditDispatchPage extends BasePage
 
 {

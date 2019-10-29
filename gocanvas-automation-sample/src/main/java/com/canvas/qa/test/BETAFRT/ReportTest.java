@@ -22,13 +22,12 @@ import com.canvas.util.FileReaderUtil;
  * 
  * ID:TC7598 Name:Return on Investment
  * 
- * @author kailash.pathak
  *
  */
 public class ReportTest extends BrowserLaunchTest {
 
 	/**
-	 * @author kailash.pathak ID: TC7594 Name:Mobile Client Version Report
+	 * TC7594 Name:Mobile Client Version Report
 	 **/
 
 	@Test
@@ -136,7 +135,7 @@ public class ReportTest extends BrowserLaunchTest {
 	}
 
 	/**
-	 * @author kailash.pathak ID: TC7595 Name:Mobile Client Version Report
+	 * ID: TC7595 Name:Mobile Client Version Report
 	 **/
 
 	@Test

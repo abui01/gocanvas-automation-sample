@@ -7,10 +7,6 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.canvas.qa.pages.BasePage;
 
-/**
- * @author shalini.pathak
- *
- */
 public class PDFDesignerPage extends BasePage
 
 {

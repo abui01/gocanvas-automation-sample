@@ -18,10 +18,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import com.canvas.qa.pages.BasePage;
 import com.canvas.qa.pages.DashboardPage;
 
-/**
- * @author anna.marek
- *
- */
 public class AppsPage extends BasePage
 
 {

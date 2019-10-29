@@ -12,10 +12,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-/**
- * @author taukeer.ahmad
- *
- */
 public class CreateAssignDepartmentPage extends BasePage
 
 {

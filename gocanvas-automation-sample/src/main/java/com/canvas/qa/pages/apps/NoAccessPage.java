@@ -9,10 +9,6 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.canvas.qa.pages.BasePage;
 
-/**
- * @author kailash.pathak
- *
- */
 public class NoAccessPage extends BasePage
 
 {

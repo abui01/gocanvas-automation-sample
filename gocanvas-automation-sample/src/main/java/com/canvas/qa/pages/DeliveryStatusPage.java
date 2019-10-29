@@ -12,10 +12,6 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-/**
- * @author anna.marek
- *
- */
 public class DeliveryStatusPage extends BasePage
 
 {

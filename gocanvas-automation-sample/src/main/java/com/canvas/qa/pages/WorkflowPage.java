@@ -23,10 +23,6 @@ import com.canvas.qa.pages.dispatch.ExportWorkflowAndDispatchesPage;
 import com.canvas.qa.pages.dispatch.SubmissionDetailsPage;
 import com.canvas.qa.pages.profile.LoginPage;
 
-/**
- * @author anna.marek
- *
- */
 public class WorkflowPage extends BasePage
 
 {

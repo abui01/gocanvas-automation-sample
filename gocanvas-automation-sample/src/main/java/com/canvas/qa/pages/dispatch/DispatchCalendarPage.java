@@ -11,9 +11,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.canvas.qa.pages.BasePage;
 
-/**
- * @author shalini.pathak This class contains objects of dispatch calendar page
- */
 public class DispatchCalendarPage extends BasePage {
 
 	@FindBy(xpath = "//a[contains(., 'Create New Dispatch')]")

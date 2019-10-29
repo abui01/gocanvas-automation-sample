@@ -28,11 +28,6 @@ import com.canvas.qa.test.BrowserLaunchTest;
 import com.canvas.qa.test.UtilityFunctions;
 import com.relevantcodes.extentreports.LogStatus;
 
-/**
- * @author shalini.pathak
- *
- */
-
 public class AppBuilderPage extends BasePage {
 
 	@FindBy(xpath = "//span[contains(.,'Add screen')]")

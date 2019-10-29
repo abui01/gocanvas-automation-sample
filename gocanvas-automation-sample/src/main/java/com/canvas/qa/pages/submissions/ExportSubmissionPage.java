@@ -13,10 +13,6 @@ import org.openqa.selenium.support.ui.Select;
 
 import com.canvas.qa.pages.BasePage;
 
-/**
- * @author anna.marek
- *
- */
 public class ExportSubmissionPage extends BasePage
 
 {

@@ -13,10 +13,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.canvas.qa.pages.BasePage;
 
-/**
- * @author taukeer.ahmad
- *
- */
 public class UploadDispatcFilePage extends BasePage
 
 {

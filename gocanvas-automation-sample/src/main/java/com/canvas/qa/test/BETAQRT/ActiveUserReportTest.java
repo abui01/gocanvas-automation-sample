@@ -13,10 +13,6 @@ import com.canvas.qa.test.BrowserLaunchTest;
 import com.canvas.util.FileReaderUtil;
 import com.relevantcodes.extentreports.LogStatus;
 
-/**
- * @author anna.marek
- *
- */
 @Test
 public class ActiveUserReportTest extends BrowserLaunchTest {
 	@Parameters({ "step" })

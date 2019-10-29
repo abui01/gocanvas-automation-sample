@@ -15,10 +15,6 @@ import com.canvas.qa.test.BrowserLaunchTest;
 import com.canvas.util.FileReaderUtil;
 import com.relevantcodes.extentreports.LogStatus;
 
-/**
- *
- *
- */
 @Test
 public class EditDispatch extends BrowserLaunchTest
 

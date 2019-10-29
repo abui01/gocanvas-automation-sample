@@ -20,7 +20,7 @@ import com.canvas.qa.test.BrowserLaunchTest;
 import com.canvas.util.FileReaderUtil;
 
 /**
- * @author shalini.pathak Class contains test cases related to dispatch calendar
+ * Class contains test cases related to dispatch calendar
  */
 
 public class CreateDispatchCalendarTest extends BrowserLaunchTest {

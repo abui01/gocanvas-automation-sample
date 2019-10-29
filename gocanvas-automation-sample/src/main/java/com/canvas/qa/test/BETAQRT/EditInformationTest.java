@@ -16,10 +16,6 @@ import com.canvas.qa.test.BrowserLaunchTest;
 import com.canvas.util.FileReaderUtil;
 import com.relevantcodes.extentreports.LogStatus;
 
-/**
- * @author taukeer.ahmad
- *
- */
 @Test
 public class EditInformationTest extends BrowserLaunchTest {
 	@Parameters({ "step", "testdescription" })

@@ -21,11 +21,6 @@ import com.canvas.qa.pages.profile.UsersPage;
 import com.canvas.qa.pages.submissions.SubmissionAppsPage;
 import com.canvas.qa.test.BrowserLaunchTest;
 
-/**
- * @author shalini.pathak
- *
- */
-
 public class AdminBillingPage extends BasePage {
 
 	@FindBy(xpath = "//a[contains(.,'Billing Options')]")

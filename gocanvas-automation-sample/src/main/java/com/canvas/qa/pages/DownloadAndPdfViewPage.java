@@ -15,11 +15,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import com.canvas.qa.core.ReportManager;
 import com.relevantcodes.extentreports.LogStatus;
 
-/**
- * @author kailash.pathak
- *
- */
-
 public class DownloadAndPdfViewPage extends BasePage {
 	@FindBy(xpath = "//h1[contains(.,'Test App')]")
 	WebElement appDetail;

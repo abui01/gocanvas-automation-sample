@@ -19,11 +19,6 @@ import org.testng.ITestContext;
 import com.canvas.qa.core.ReportManager;
 import com.relevantcodes.extentreports.LogStatus;
 
-/**
- * @author kailash.pathak
- *
- */
-
 public class SubmissionStatusesPage extends BasePage {
 	@FindBy(xpath = "//label[contains(@for,'enabled')]")
 	WebElement addStatusButton;

@@ -10,10 +10,6 @@ import com.canvas.qa.pages.AriaPage;
 import com.canvas.qa.test.BrowserLaunchTest;
 import com.canvas.util.FileReaderUtil;
 
-/**
- * @author taukeer.ahmad
- *
- */
 @Test
 public class AriaTest extends BrowserLaunchTest
 

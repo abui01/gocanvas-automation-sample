@@ -8,10 +8,6 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.canvas.qa.pages.BasePage;
 
-/**
- * @author shalini.pathak
- *
- */
 public class EditSubmissionStatusPage extends BasePage {
 
 	String appNameLinkXpath = "//a[text() = '%s']";

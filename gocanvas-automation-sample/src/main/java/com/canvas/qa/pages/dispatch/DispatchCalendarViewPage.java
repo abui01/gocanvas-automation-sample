@@ -29,7 +29,7 @@ import org.testng.Assert;
 import com.canvas.qa.pages.BasePage;
 
 /**
- * @author shalini.pathak Class contains objects of calendar view opened while
+ * Class contains objects of calendar view opened while
  *         creating dispatch
  */
 public class DispatchCalendarViewPage extends BasePage {

@@ -22,10 +22,6 @@ import com.canvas.qa.pages.CreateAppPage;
 import com.canvas.qa.test.BETAQRT.PDFDesignerTest;
 import com.relevantcodes.extentreports.LogStatus;
 
-/**
- * @author shalini.pathak
- *
- */
 public class PDFDesignerLayoutPage extends BasePage
 
 {

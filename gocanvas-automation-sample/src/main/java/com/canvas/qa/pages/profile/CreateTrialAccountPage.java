@@ -13,10 +13,6 @@ import org.openqa.selenium.support.ui.Select;
 
 import com.canvas.qa.pages.BasePage;
 
-/**
- * @author annna.marek
- *
- */
 public class CreateTrialAccountPage extends BasePage
 
 {

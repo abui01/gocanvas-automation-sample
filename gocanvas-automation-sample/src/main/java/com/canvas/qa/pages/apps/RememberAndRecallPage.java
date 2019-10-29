@@ -15,10 +15,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.canvas.qa.pages.BasePage;
 
-/**
- * @author kailash.pathak
- *
- */
 public class RememberAndRecallPage extends BasePage
 
 {

@@ -26,10 +26,7 @@ import com.canvas.util.FileReaderUtil;
 import com.canvas.util.PropertyUtils;
 
 //QA-355 : Zuora - Business /Annual Plan
-/**
- * @author kailash.pathak
- *
- */
+
 public class ZuoraTest extends BrowserLaunchTest {
 
 	@Test

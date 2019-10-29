@@ -12,10 +12,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.canvas.qa.pages.BasePage;
 
-/**
- * @author anna.marek
- *
- */
 public class OnboardingPage extends BasePage {
 	String buttonXpath = "//a[contains(.,'%s')]";
 

@@ -9,10 +9,6 @@ import org.openqa.selenium.support.ui.Select;
 
 import com.canvas.qa.pages.BasePage;
 
-/**
- * @author shalini.pathak
- *
- */
 public class ShowEmailOptionsPage extends BasePage {
 
 	@FindBy(id = "form_recipient_type_2")

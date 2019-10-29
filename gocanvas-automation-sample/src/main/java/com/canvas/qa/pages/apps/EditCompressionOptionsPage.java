@@ -10,10 +10,6 @@ import org.openqa.selenium.support.ui.Select;
 import com.canvas.qa.pages.BasePage;
 import com.canvas.qa.pages.CreateAppPage;
 
-/**
- * @author shalini.pathak
- *
- */
 public class EditCompressionOptionsPage extends BasePage {
 
 	String appNameLinkXpath = "//a[text() = '%s']";

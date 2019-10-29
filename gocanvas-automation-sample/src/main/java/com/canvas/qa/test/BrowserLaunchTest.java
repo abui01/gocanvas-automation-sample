@@ -47,14 +47,6 @@ import com.google.common.base.Function;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 
-/**
- * @author taukeer.ahmad
- *
- */
-/**
- * @author shalini.pathak
- *
- */
 @Test
 public class BrowserLaunchTest extends UtilityFunctions
 

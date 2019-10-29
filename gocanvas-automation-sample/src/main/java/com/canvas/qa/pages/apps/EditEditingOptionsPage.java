@@ -8,10 +8,6 @@ import org.openqa.selenium.support.PageFactory;
 import com.canvas.qa.pages.BasePage;
 import com.canvas.qa.pages.CreateAppPage;
 
-/**
- * @author shalini.pathak
- *
- */
 public class EditEditingOptionsPage extends BasePage {
 
 	@FindBy(xpath = "//input[@id = 'd_admins']")

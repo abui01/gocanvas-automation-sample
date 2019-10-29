@@ -12,7 +12,6 @@ import com.canvas.qa.test.BrowserLaunchTest;
 import com.canvas.util.FileReaderUtil;
 import com.relevantcodes.extentreports.LogStatus;
 
-//
 public class CreateDispatchTest extends BrowserLaunchTest {
 
 	@Parameters({ "step", "testdescription" })
